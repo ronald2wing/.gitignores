@@ -1,0 +1,34 @@
+# Template from gitignores.com - Online .gitignore generator
+# CircleCI Continuous Integration Platform
+# Patterns for CircleCI configurations, artifacts, and test outputs
+
+# CircleCI Configuration
+.circleci/config.yml
+
+# CircleCI Artifacts and Cache
+.circleci/artifacts/
+.circleci/cache/
+
+# CircleCI Test Results and Reports
+.circleci/test-results/
+.circleci/coverage/
+
+# CircleCI Deployment and Build
+.circleci/deploy/
+.circleci/build/
+
+# CircleCI Reports and Scripts
+.circleci/reports/
+.circleci/scripts/
+
+# CircleCI SSH and Workspace
+.circleci/ssh/
+.circleci/workspace/
+
+# Notes:
+# CircleCI configuration (.circleci/config.yml) defines CI/CD pipelines
+# This file should typically be tracked in version control
+# Artifacts, cache, and test results contain generated files
+# SSH configurations may contain sensitive credentials
+# Workspace directories are temporary and regenerated
+

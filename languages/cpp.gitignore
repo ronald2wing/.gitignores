@@ -1,0 +1,68 @@
+# Template from gitignores.com - Online .gitignore generator
+# C++ Development
+# Compiled object files and libraries
+*.a
+*.dll
+*.dylib
+*.lib
+*.o
+*.obj
+*.so
+
+# Executable files
+*.app
+*.exe
+*.out
+
+# Precompiled headers and intermediate files
+*.gch
+*.pch
+*.ui.bak
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Build directories and artifacts
+.cache/
+.catkin_tools/
+.catkin_workspace/
+.ros/
+.rosinstall
+build/
+catkin_ws/
+cmake-build-*/
+devel/
+install/
+log/
+x64/
+x86/
+
+# CMake build system files
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+install_manifest.txt
+Makefile
+Makefile*
+
+# IDE and project files
+*.njsproj
+*.qm
+*.qm.bak
+*.qmlc
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Documentation and testing
+doxygen/
+industrial_ci/
+
+# Code coverage and profiling
+*.gcda
+*.gcno
+*.gcov
+*.profraw

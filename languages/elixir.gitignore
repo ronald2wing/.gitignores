@@ -1,0 +1,35 @@
+# Template from gitignores.com - Online .gitignore generator
+# Elixir Programming Language
+
+# Compiled artifacts
+*.beam
+_build/
+
+# Coverage reports
+cover/
+
+# Dependencies
+.fetch
+deps/
+
+# Documentation
+doc/
+
+# Static assets
+priv/static/
+
+# Temporary files
+tmp/
+
+# VM crash dumps
+erl_crash.dump
+
+# Archive artifacts
+*.ez
+mix-*.tar
+
+# Language server
+.elixir_ls/
+
+# Configuration secrets
+config/*.secret.exs

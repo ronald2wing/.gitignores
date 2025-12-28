@@ -1,0 +1,67 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# AdonisJS - A fully featured web framework for Node.js
+# https://adonisjs.com/
+
+# Node.js dependencies
+node_modules/
+
+# AdonisJS build outputs
+build/
+dist/
+
+# AdonisJS temporary files
+temp/
+tmp/
+
+# AdonisJS logs
+*.log
+logs/
+
+# AdonisJS environment files
+.env
+.env.test
+
+# AdonisJS database
+database/database.sqlite
+
+# AdonisJS storage
+storage/uploads/
+
+# AdonisJS test coverage
+.nyc_output/
+coverage/
+
+# AdonisJS debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.pid
+*.pid.lock
+*.seed
+pids
+
+# Temporary files
+*.temp
+*.tmp
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AdonisJS specific
+# Note: AdonisJS creates various build artifacts and cache files
+# that should not be committed to version control

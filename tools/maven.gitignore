@@ -1,0 +1,41 @@
+# Template from gitignores.com - Online .gitignore generator
+# Maven
+# Compiled class file
+# Log file
+# BlueJ files
+# Mobile Tools for Java (J2ME)
+# Package Files #
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# IDE
+# Maven wrapper
+# Maven build output
+# Maven next version
+# Maven release properties
+# Maven build number
+# Maven timing
+# Maven wrapper download
+*.class
+*.ctxt
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+.factorypath
+.mtj.tmp/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+buildNumber.properties
+dependency-reduced-pom.xml
+hs_err_pid*
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+target/
+target/classes/
+target/test-classes/

@@ -1,0 +1,66 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Eclipse - Integrated Development Environment
+# https://www.eclipse.org/
+
+# Eclipse workspace files
+*.log
+*.temp
+*.tmp
+.metadata/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Eclipse launch configurations
+*.launch
+
+# Eclipse JDT (Java Development Tools) specific
+org.eclipse.jdt.core.prefs
+
+# Eclipse WTP (Web Tools Platform) specific
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
+
+# Eclipse PDT (PHP Development Tools) specific
+.buildpath
+
+# Eclipse PyDev (Python) specific
+.pydevproject
+
+# Eclipse CDT (C/C++ Development Tools) specific
+.cproject
+
+# Eclipse remote systems
+.remote/
+
+# Eclipse target platform
+.target/
+
+# Eclipse p2 repository
+.recommenders/
+
+# Eclipse temporary files
+*.backup
+*.bak
+
+# Eclipse workspace metadata
+.metadata/.plugins/org.eclipse.core.resources/.history/
+.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/
+.metadata/.plugins/org.eclipse.equinox.p2.repository/
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Note: Eclipse creates many workspace-specific files
+# that should not be shared between developers
+# Each developer should have their own workspace configuration

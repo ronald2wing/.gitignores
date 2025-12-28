@@ -1,0 +1,30 @@
+# Template from gitignores.com - Online .gitignore generator
+# Parcel Web Application Bundler
+
+# Source maps
+*.map
+
+# Temporary files
+*.temp
+*.tmp
+
+# TypeScript build information
+*.tsbuildinfo
+
+# Parcel-specific directories and files
+.parcel-cache/
+.parcelrc~
+parcel-report-*.html
+parcel.config.js~
+
+# Parcel cache directories
+.cache/
+.nyc_output
+.out/
+
+# Note: Parcel is a zero-configuration web application bundler
+# For framework-specific patterns, see the respective framework templates
+# For package manager patterns, see npm.gitignore and yarn.gitignore
+# For build output patterns (build/, dist/, lib/, etc.), see framework or build tool templates
+# For dependency directories (node_modules/), see npm.gitignore or yarn.gitignore
+# For lock files (package-lock.json, yarn.lock, etc.), these should be tracked, not ignored

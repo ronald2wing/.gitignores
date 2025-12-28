@@ -1,0 +1,52 @@
+# Template from gitignores.com - Online .gitignore generator
+# Atom Text Editor
+# Atom configuration files
+.atom.cson
+.atom.cson.backup
+.atom.cson.swo
+.atom.cson.swp
+.atom.cson.tmp
+.atom.cson~
+config.cson
+config.cson~
+init.coffee
+init.coffee~
+init.js
+init.js~
+keymap.cson
+keymap.cson~
+snippets.cson
+snippets.cson~
+styles.less
+styles.less~
+
+# Atom project files
+.project.atom
+.project.atom~
+
+# Atom directories
+.atom/
+.atom/.log
+.atom/dev/packages/
+.atom/packages/
+.atom/storage/
+.compile-cache/
+storage/
+
+# Backup and temporary files
+*.atom-backup
+*.atom-backup~
+*.atom-temp
+*.atom-tmp
+
+# Log files
+*.log
+
+# Operating system files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

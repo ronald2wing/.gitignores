@@ -1,0 +1,134 @@
+# Template from gitignores.com - Online .gitignore generator
+# CMake Build System
+
+# CMake build directories
+build/
+cmake-build-*/
+
+# CMake cache files
+.cache/cmake/
+CMakeCache.txt
+
+# CMake temporary files
+*.temp
+*.tmp
+.timestamp
+.timestamps
+
+# CMake logs
+cmake.log
+
+# CMake configuration backups
+*.cmake.bak
+CMakeLists.txt.bak
+
+# CMake generated files
+*.cmake
+*.cmake.configure
+*.cmake.in
+*.in
+cmake_install.cmake
+compile_commands.json
+CPackConfig.cmake
+CPackSourceConfig.cmake
+install_manifest.txt
+
+# CMake test results
+CTestCostData.txt
+CTestTestfile.cmake
+Testing/
+
+# CMake coverage reports
+.gcov/
+coverage/
+
+# CMake install directories
+install/
+installed/
+
+# CMake package directories
+CPack/
+packages/
+
+# CMake dependency files
+.dependencies/
+.deps/
+
+# CMake cache directories
+.cmake/
+
+# CMake environment files
+.bash
+.env
+.env.build
+.env.cmake
+.fish
+.sh
+.zsh
+
+# CMake deployment files
+.deploy/
+.deployment/
+
+# CMake backup files
+.backup/
+.bak/
+
+# CMake lock files
+.lock
+.lockfile
+
+# CMake state files
+.state
+.status
+
+# CMake hash files
+.hash
+.hashes
+.md5
+.sha1
+.sha256
+.sha512
+
+# CMake signature files
+.sig
+.signature
+
+# CMake checksum files
+.checksum
+
+# CMake archive files
+.7z
+.rar
+.tar
+.tar.gz
+.tgz
+.zip
+
+# CMake patch files
+.diff
+.patch
+
+# CMake documentation
+doc/
+docs/
+man/
+manual/
+
+# CMake examples
+demo/
+demos/
+example/
+examples/
+
+# CMake templates
+templates/
+
+# CMake modules
+modules/
+
+# CMake toolchains
+toolchains/
+
+# CMake files and directories
+CMakeFiles/

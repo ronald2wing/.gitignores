@@ -1,0 +1,23 @@
+# Template from gitignores.com - Online .gitignore generator
+# Visual Studio Code Editor
+# Workspace and project configuration files
+*.code-workspace
+.vscode/*
+.vscodeignore
+
+# Extension development and distribution files
+*.vsix
+
+# User and workspace settings (negated patterns to allow specific files)
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Local history and cache directories
+.history/
+.vscode-cpptools/
+.vscode-insiders/
+.vscode-profile/
+.vscode-test/

@@ -1,0 +1,41 @@
+# Template from gitignores.com - Online .gitignore generator
+# Go Language
+
+# Compiled binaries and libraries
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.out
+*.so
+*.test
+
+# Go build and test artifacts
+.cache/
+.testcache/
+go-build/
+GoBuild/
+
+# Go package and binary directories
+bin/
+pkg/
+
+# Go vendor directory (if using vendored dependencies)
+vendor/
+
+# Go module files (should be tracked for reproducible builds)
+# Note: go.mod, go.sum, go.work, and go.work.sum should be committed
+# to ensure reproducible builds and dependency management
+
+# Go test coverage and profiling
+*.coverprofile
+coverage.html
+coverage.txt
+profile.out
+
+# Go development tools and IDE files
+.idea/
+.vscode/
+
+# Go dependency cache
+go/pkg/mod/cache/

@@ -1,0 +1,70 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Phoenix - Elixir Web Framework
+# https://www.phoenixframework.org/
+
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage data ends up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Where third-party dependencies like ExDoc output generated docs.
+/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+phoenix-*.tar
+
+# Temporary files, for example, from tests.
+/tmp/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Node.js dependencies
+assets/node_modules/
+node_modules/
+
+# Phoenix static build
+priv/static/
+
+# Phoenix logs
+*.log
+
+# Phoenix database
+/dev
+
+# Phoenix secrets
+/config/*.secret.exs
+
+# Phoenix test coverage
+.coverage
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

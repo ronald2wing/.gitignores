@@ -1,0 +1,59 @@
+# Template from gitignores.com - Online .gitignore generator
+# NestJS Framework
+
+# Log files
+*.lcov
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+lerna-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache directories
+.cache/
+.eslintcache
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+.nyc_output
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.storybook-out
+.yarn-integrity
+
+# Framework build outputs
+.next/
+.nuxt/
+.out/
+
+# Environment configuration files
+.env
+.env.production
+.env.test
+
+# Dependency directories
+bower_components
+jspm_packages/
+node_modules/
+
+# Build and distribution directories
+build/
+build/Release/
+dist/
+storybook-static/
+
+# Test coverage and reports
+coverage/
+
+# Temporary files and directories
+pids/
+temp/
+tmp/

@@ -1,0 +1,83 @@
+# Template from gitignores.com - Online .gitignore generator
+# Django Python Framework
+# Based on official Django .gitignore: https://github.com/django/django
+
+# Byte-compiled and optimized files
+*.egg-info
+*.pot
+*.py[co]
+
+# Cache directories
+__pycache__/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Build and distribution directories
+dist/
+build/
+docs/_build/
+docs/locale/
+
+# Dependency directories
+node_modules/
+
+# Test coverage and reports
+.coverage*
+tests/coverage_html/
+tests/.coverage*
+tests/report/
+tests/screenshots/
+
+# Django-specific patterns
+tests/coverage_html/
+tests/.coverage*
+tests/report/
+tests/screenshots/
+
+# Additional Django patterns
+MANIFEST
+tests/coverage_html/
+tests/.coverage*
+tests/report/
+tests/screenshots/
+
+# Additional common patterns for Django projects
+# Environment files
+.env
+.env.local
+.env.production
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files
+db.sqlite3
+db.sqlite3-journal
+
+# IDE files
+.idea/
+.vscode/
+
+# Log files
+*.log
+*.pid
+
+# Static files (if collected)
+staticfiles/
+
+# Media files (user uploads)
+media/
+
+# Additional common patterns (available in common/ directory):
+# - Python cache: *.pyc, *.pyo, *.pyd, *$py.class
+# - Distribution: *.egg, *.manifest, *.spec, .eggs/, parts/, pip-*
+# - Testing: .coverage, .coverage.*, .coverage.xml, cover/, htmlcov/, nosetests.xml
+# - Cache: .dmypy.json, .hypothesis/, .ipynb_checkpoints, .pyre/, .pytype/, .scrapy
+# - Build: .nox/, .pdm.toml, .pybuilder/, .Python, develop-eggs/, downloads/, eggs/, lib/, lib64/, site/, target/

@@ -1,0 +1,64 @@
+# Template from gitignores.com - Online .gitignore generator
+# Swift Programming Language
+# Patterns for Swift projects, iOS/macOS development, and Xcode integration
+
+# Xcode Generated Files and Build Artifacts
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+*.dSYM
+*.dSYM.zip
+*.hmap
+*.ipa
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+
+# Build Outputs and Dependency Directories
+.accio/
+.build/
+build/
+Dependencies/
+DerivedData/
+iOSInjectionProject/
+project.xcworkspace/
+xcshareddata/
+xcuserdata/
+
+# Package Management and Dependency Files
+.package.resolved
+Package.resolved
+
+# Code Quality and Linting Configuration
+.swiftlint.yml
+
+# Fastlane Build and Deployment Files
+fastlane/Preview.html
+fastlane/report.xml
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Playground and Timeline Files
+playground.xcworkspace
+timeline.xctimeline
+
+# Swift Package Manager Build Artifacts
+.swiftpm/
+.build/
+
+# Test Results and Coverage Reports
+*.xctestplan
+*.xctresult
+TestResults/
+
+# Development Cache and Temporary Files
+*.swp
+*.swo
+*~
+.DS_Store

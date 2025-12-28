@@ -1,0 +1,128 @@
+# Template from gitignores.com - Online .gitignore generator
+# Android Development Platform
+# Patterns for Android application development, including build artifacts, configuration, and distribution files
+
+# Build Outputs and Distribution Artifacts
+*.aab
+*.aar
+*.ap_
+*.apk
+*.obb
+build/
+obj/
+
+# Generated Development Files
+*.avd
+*.iml
+*.qcow2
+
+# Security and Signing Files
+*.jks
+*.keystore
+
+# Logs and Diagnostic Output
+logs/
+
+# Temporary Files and Cache
+*.temp
+*.tmp
+.cache/
+
+# Configuration Backup Files
+build.gradle.bak
+build.gradle.kts.bak
+gradle.properties.bak
+local.properties.bak
+
+# Build System Files (Gradle)
+.gradle/
+gradle/wrapper/gradle-wrapper.properties
+
+# Native Development Kit (NDK)
+.ndk/
+
+# Code Quality and Lint Reports
+lint-report.html
+lint-results/
+lint/
+
+# Test Results and Coverage
+androidTest-results/
+test-results/
+.nyc_output/
+coverage/
+
+# Emulator and Device Files
+.avd/
+.device/
+.devices/
+
+# Backup and Deployment Files
+.backup/
+.bak/
+.deploy/
+.deployment/
+
+# Environment Configuration
+.env
+.env.android
+.env.debug
+.env.release
+
+# Code Signing and Security
+.signing/
+signing/
+
+# Application Bundles and Assets
+.bundle/
+bundle/
+.assetpacks/
+assetpacks/
+
+# Dynamic Feature Modules
+.dynamicfeatures/
+dynamicfeatures/
+
+# Instant Apps and App Links
+.instantapps/
+instantapps/
+.applinks/
+applinks/
+
+# Deep Linking and Universal Links
+.deeplinks/
+deeplinks/
+.universallinks/
+universallinks/
+
+# Cloud Services and Distribution
+.firebase/
+firebase/
+.googleplay/
+googleplay/
+
+# App Store Distribution
+.appstore/
+appstore/
+.appgallery/
+appgallery/
+.getapps/
+getapps/
+.galaxystore/
+galaxystore/
+.amazonappstore/
+amazonappstore/
+
+# Library Dependencies
+.libs/
+
+# Local Development Configuration
+local.properties
+
+# Note on Gradle Wrapper:
+# The gradle-wrapper.jar file should typically be tracked in version control
+# to ensure consistent build environments across development machines.
+
+# Note on Android Studio:
+# For Android Studio IDE files, see the jetbrains.gitignore template
+# in the editors/ directory.

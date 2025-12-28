@@ -1,0 +1,71 @@
+# Template from gitignores.com - Online .gitignore generator
+# Svelte Framework
+
+# Log files
+*.lcov
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache directories
+.cache/
+.dynamodb/
+.eslintcache
+.fusebox/
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+.nuxt
+.nyc_output/
+.parcel-cache/
+.pnp.*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.svelte-kit/
+.tern-port
+.vite/
+.vscode-test
+.vuepress/dist
+.yarn-integrity
+.yarn/build-state.yml
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/unplugged/
+
+# Framework build outputs
+.next
+
+# Environment configuration files
+.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+
+# Dependency directories
+bower_components
+jspm_packages/
+node_modules/
+
+# Build and distribution directories
+build/
+build/Release
+dist/
+package/
+
+# Test coverage and reports
+coverage/
+
+# Runtime data and logs
+pids/

@@ -1,0 +1,38 @@
+# Template from gitignores.com - Online .gitignore generator
+# Google Cloud Build CI/CD Service
+# Patterns for Google Cloud Build configurations, artifacts, and logs
+
+# Google Cloud Build Configuration
+cloudbuild.yaml
+cloudbuild.yml
+cloudbuild-*.yaml
+cloudbuild-*.yml
+
+# Google Cloud Build Directories
+.cloudbuild/
+cloudbuild/
+gcp-cloudbuild/
+
+# Google Cloud Build Cache and Artifacts
+.cloudbuild-cache/
+.cloudbuild-artifacts/
+
+# Google Cloud Build Logs and Reports
+.cloudbuild-logs/
+.cloudbuild-reports/
+
+# Google Cloud Build Testing and Coverage
+.cloudbuild-test/
+.cloudbuild-coverage/
+
+# Google Cloud Build Deployment and Release
+.cloudbuild-deploy/
+.cloudbuild-release/
+
+# Notes:
+# Google Cloud Build configuration (cloudbuild.yaml/yml) defines build specifications
+# These files should typically be tracked in version control
+# Cache, artifacts, and logs contain generated files
+# Test results and coverage reports are generated during builds
+# Deployment artifacts are output from build processes
+

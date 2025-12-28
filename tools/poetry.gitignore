@@ -1,0 +1,51 @@
+# Template from gitignores.com - Online .gitignore generator
+# Poetry - Python Dependency Management and Packaging
+# Patterns for Poetry-based Python projects (https://python-poetry.org/)
+
+# Poetry Virtual Environments and Cache
+.poetry/
+.pypoetry/
+.venv/
+env.bak/
+env/
+ENV/
+venv.bak/
+venv/
+
+# Poetry Build Outputs and Distribution Artifacts
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Python Bytecode and Compiled Files
+*$py.class
+*.py[cod]
+__pycache__/
+
+# Python Test Coverage and Quality Reports
+*.cover
+.coverage
+.coverage.*
+.coverage.xml
+.hypothesis/
+.nosetests.xml
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Python Environment Configuration
+.python-version
+
+# Environment Configuration Files
+.env
+
+# Note on Lock Files:
+# The following files should typically be tracked in version control:
+# - poetry.lock (Poetry lock file for reproducible builds)
+# - Pipfile.lock (Pipenv lock file, if using Pipenv alongside Poetry)
+
+# Note on Package Management:
+# This template includes patterns for Poetry-specific files. For general Python
+# development patterns, see the python.gitignore template in the languages/ directory.

@@ -1,0 +1,29 @@
+# Template from gitignores.com - Online .gitignore generator
+# NetBeans IDE
+# Patterns for NetBeans IDE configuration files and project metadata
+
+# NetBeans Project Configuration
+nbproject/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+.nbattrs
+
+# NetBeans Build and Cache
+build/
+dist/
+.nb-gradle-projects/
+.nb-gradle-cache/
+
+# NetBeans User Configuration
+.nbuser/
+
+# NetBeans IDE Settings
+.nb-settings/
+
+# Notes:
+# NetBeans project configuration files contain IDE-specific settings
+# These files are personal to each developer and should not be shared
+# Build and dist directories contain generated artifacts
+# User configuration files contain personal preferences and workspace settings
+

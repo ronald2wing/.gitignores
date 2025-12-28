@@ -1,0 +1,114 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Emacs backup files
+*_archive
+*~
+.#*
+.\#*
+\#*\#
+
+# Emacs auto-save files
+auto-save-list
+
+# Emacs compiled files
+*.elc
+
+# Emacs directory local variables
+.dir-locals.el
+
+# Emacs network security
+network-security.data
+
+# Emacs custom elisp files
+custom.el
+
+# Emacs projectile
+.projectile
+projectile/
+
+# Emacs org-mode
+org-id-locations
+
+# Emacs flycheck
+flycheck/
+flycheck_*
+
+# Emacs flymake
+flymake/
+
+# Emacs LSP
+.lsp/
+eglot/
+lsp-mode/
+
+# Emacs Eask
+Eask
+Eask-file
+
+# Emacs Cask
+.cask/
+Cask
+
+# Emacs Straight.el
+straight/
+
+# Emacs Doom Emacs
+.doom-emacs/
+.doom.d/
+
+# Emacs Spacemacs
+.spacemacs
+.spacemacs.env
+
+# Emacs Elpa packages
+elpa/
+
+# Emacs El-get
+el-get/
+
+# Emacs Quelpa
+quelpa/
+
+# Emacs Use-package
+use-package/
+
+# Emacs Evil
+evil/
+
+# Emacs Magit
+magit/
+
+# Emacs Company
+company/
+
+# Emacs Yasnippet
+yasnippet/
+
+# Emacs Auto-complete
+auto-complete/
+
+# Emacs Helm
+helm/
+
+# Emacs Ivy/Counsel/Swiper
+counsel/
+ivy/
+swiper/
+
+# Emacs Which-key
+which-key/
+
+# Emacs Treemacs
+treemacs/
+
+# Emacs Tramp
+tramp
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

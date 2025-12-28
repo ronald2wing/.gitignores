@@ -1,0 +1,89 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Magento eCommerce Platform - Comprehensive .gitignore template
+
+# Magento-specific directories and files
+app/etc/config.php
+app/etc/env.php
+generated/
+pub/media/
+pub/static/
+var/
+
+# Magento cache and session directories
+var/cache/
+var/page_cache/
+var/session/
+var/view_preprocessed/
+
+# Magento log files
+*.log
+var/log/
+var/report/
+
+# Magento media and uploads
+pub/media/catalog/
+pub/media/customer/
+pub/media/downloadable/
+pub/media/import/
+pub/media/theme_customization/
+pub/media/wysiwyg/
+
+# Magento generated code
+generated/code/
+generated/metadata/
+
+# Magento backup files
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+var/backups/
+
+# Magento development artifacts
+*.code-workspace
+*.sublime-*
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Magento temporary files
+*.temp
+*.tmp
+.tmp/
+temp/
+
+# PHP-specific patterns (since Magento is PHP-based)
+.cache/
+.env
+.env.*.local
+.env.local
+.env.production
+.pdepend/
+.php-built-in-web-server.pid
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+behat.yml
+composer.phar
+coverage/
+docs/
+php_errors.log
+phpdoc/
+sess_*
+uploads/
+vendor/
+xdebug.log

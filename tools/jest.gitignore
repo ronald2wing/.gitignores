@@ -1,0 +1,54 @@
+# Template from gitignores.com - Online .gitignore generator
+# Jest Testing Framework
+
+# Jest snapshot files
+*.snap
+
+# Temporary files
+*.temp
+*.tmp
+
+# Jest-specific directories and files
+.jest-cache/
+.jest/
+jest-debug.log
+jest.config.js.bak
+jest.config.json.bak
+jest.config.ts.bak
+jest.log
+jest.setup.js.bak
+jest.setup.ts.bak
+
+# Test coverage directories
+.nyc_output/
+coverage/
+test-results/
+
+# Test environment files
+__tests__/.env
+__tests__/.env.test
+__tests__/.env.testing
+
+# Test artifacts and outputs
+__tests__/__mocks__/__generated__/
+__tests__/__output__/
+__tests__/__snapshots__/
+__tests__/__types__/
+__tests__/artifacts/
+__tests__/benchmarks/
+__tests__/fixtures/__generated__/
+__tests__/fixtures/__output__/
+__tests__/fixtures/output/
+__tests__/mocks/__generated__/
+__tests__/parallel/
+__tests__/performance/
+__tests__/reporters/
+__tests__/reports/
+__tests__/screenshots/
+__tests__/types/
+__tests__/visual/
+__tests__/workers/
+
+# Note: Jest is a JavaScript testing framework
+# For framework-specific patterns, see the respective framework templates
+# For package manager patterns, see npm.gitignore and yarn.gitignore

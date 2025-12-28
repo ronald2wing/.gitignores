@@ -1,0 +1,30 @@
+# Template from gitignores.com - Online .gitignore generator
+# PowerShell Development
+
+# Compiled and temporary files
+*.coverage
+*.etl
+*.nupkg
+*.ps1
+*.ps1xml
+*.psd1
+*.psm1
+*.temp
+*.tmp
+*.trx
+*~
+.coverage
+
+# Build and distribution directories
+build/
+dist/
+out/
+Release/
+
+# Package and module directories
+Gallery/
+packages/
+PSGallery/
+
+# Test output
+TestResults/

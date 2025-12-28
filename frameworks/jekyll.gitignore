@@ -1,0 +1,64 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Jekyll build output
+_site/
+
+# Jekyll cache and temporary files
+*.gem
+*.temp
+*.tmp
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Jekyll logs
+jekyll.log
+
+# Jekyll configuration backups
+.backup/
+.bak/
+_config.json.bak
+_config.toml.bak
+_config.yaml.bak
+_config.yml.bak
+
+# Jekyll generated files
+_data/__generated__/
+_includes/__generated__/
+_layouts/__generated__/
+_plugins/__generated__/
+assets/__generated__/
+assets/css/__generated__/
+assets/images/__generated__/
+assets/js/__generated__/
+
+# Jekyll drafts and unpublished posts
+_drafts/
+_posts/draft/
+_posts/unpublished/
+
+# Jekyll theme files
+.theme/
+.themes/
+
+# Jekyll Ruby gems and bundle configuration
+.bundle/
+.bundle/config
+.gems/
+.ruby-gems/
+.ruby-version
+_sass/.sass-cache/
+_sass/.scss-cache/
+vendor/
+
+# Jekyll environment files
+.env
+.env.development
+.env.production
+
+# Jekyll deployment files
+.deploy/
+.deployment/
+
+# Jekyll node modules (if using Node.js with Jekyll)
+node_modules/

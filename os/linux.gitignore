@@ -1,0 +1,26 @@
+# Template from gitignores.com - Online .gitignore generator
+# Linux Operating System
+# Temporary files created by text editors or crash recovery
+*.bak
+*.old
+*.orig
+*~
+
+# Editor swap and backup files
+.#*
+.*.kate-swp
+.*.swn
+.*.swo
+.*.swp
+.*.un~
+\#*#
+
+# Linux system files and directories
+.directory
+.dolphinview
+.fuse_hidden*
+.Trash-*
+
+# Core dump files
+core
+core.*

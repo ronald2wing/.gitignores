@@ -1,0 +1,80 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# PrestaShop eCommerce Platform - Comprehensive .gitignore template
+
+# PrestaShop-specific directories and files
+app/config/parameters.php
+app/config/parameters.yml
+download/
+upload/
+var/cache/
+var/logs/
+var/sessions/
+
+# PrestaShop cache directories
+var/cache/dev/
+var/cache/prod/
+var/cache/sandbox/
+
+# PrestaShop log files
+*.log
+
+# PrestaShop media and uploads
+img/
+
+# PrestaShop configuration files
+config/settings.inc.php
+
+# PrestaShop backup files
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+backup/
+
+# PrestaShop development artifacts
+*.code-workspace
+*.sublime-*
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# PrestaShop temporary files
+*.temp
+*.tmp
+.tmp/
+temp/
+
+# PHP-specific patterns (since PrestaShop is PHP-based)
+.cache/
+.env
+.env.*.local
+.env.local
+.env.production
+.pdepend/
+.php-built-in-web-server.pid
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+behat.yml
+composer.phar
+coverage/
+docs/
+php_errors.log
+phpdoc/
+sess_*
+vendor/
+xdebug.log

@@ -1,0 +1,153 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# CACHE GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding temporary and cache files.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# TEMPORARY AND CACHE FILES
+# ----------------------------------------------------------------------------
+
+# Temporary directories
+tmp/
+temp/
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Cache directories
+.cache/
+cache/
+*.cache
+.cache.*
+cache.*
+.cache-*
+cache-*
+
+# Package manager caches
+.npm/
+.npminstall/
+.yarn/
+.yarn-cache/
+.pnpm-store/
+.bun/
+.cargo/
+.cargo/registry/
+.cargo/git/
+go/pkg/mod/
+pip-cache/
+composer-cache/
+maven-repo/
+gradle-cache/
+ivy-cache/
+sbt-cache/
+
+# Build system caches
+.parcel-cache/
+.turbo/
+.nx/
+.nx/cache/
+.pnp/
+.pnp.cjs
+.pnp.js
+.pnp.loader.mjs
+.eslintcache
+.prettiercache
+.stylelintcache
+.babel-cache/
+.tsbuildinfo
+.tsbuildinfo.*
+.swiftpm/
+.xcodebuild/
+.cmake/
+.cmake-build-*/
+cmake-build-*/
+build-*/
+out-*/
+target-*/
+
+# Browser and web caches
+.webassets-cache
+.sass-cache/
+.less-cache/
+.stylus-cache/
+.postcss-cache/
+.browser-cache/
+.chrome-cache/
+.firefox-cache/
+.safari-cache/
+
+# IDE and editor caches
+.idea/caches/
+.vscode/cache/
+.vscode/workspaceStorage/
+.sublime-cache/
+.atom-cache/
+.vim-cache/
+.emacs.d/auto-save-list/
+.emacs.d/backup/
+
+# Operating system caches
+/var/cache/
+/var/tmp/
+/tmp/
+/private/tmp/
+/private/var/tmp/
+
+# Application-specific caches
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.py,cover
+*.so
+*.o
+*.obj
+*.lib
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+*.ear
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Session and state files
+*.session
+*.state
+*.lock
+*.lck
+*.pid
+*.pid.lock
+
+# ============================================================================
+# CACHE MANAGEMENT NOTES
+# ============================================================================
+
+# CACHE DIRECTORIES:
+# - Cache directories speed up builds but are not necessary for version control
+# - Cache contents are temporary and can be regenerated
+# - Different developers may have different cache contents
+
+# PERFORMANCE OPTIMIZATION:
+# - Large cache directories can slow down Git operations
+# - Use .gitignore for cache directories in all projects
+# - Consider using build tools that support incremental caching
+
+# CROSS-PLATFORM DEVELOPMENT:
+# - Some cache files are platform-specific (native modules, binaries)
+# - Cache directories may not work across different operating systems
+# - Always test with clean cache in CI/CD pipelines
+
+# ============================================================================
+# END OF CACHE PATTERNS
+# ============================================================================
+

@@ -1,0 +1,153 @@
+# Template from gitignores.com - Online .gitignore generator
+# iOS Development Platform
+# Patterns for iOS application development, including Xcode projects, build artifacts, and distribution files
+
+# Xcode Workspace and Project Files
+*.xcworkspace/
+*.xcodeproj/
+project.xcworkspace/
+xcshareddata/
+xcschemes/
+*.xcscheme
+*.xcsettings
+*.xctestplan
+
+# User-specific Xcode Files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build Outputs and Derived Data
+DerivedData/
+*.moved-aside
+
+# Xcode User Interface State Files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Build Artifacts and Distribution Files
+*.ipa
+*.app
+*.dmg
+*.pkg
+*.ipa.zip
+*.app.zip
+*.dmg.zip
+*.pkg.zip
+*.ipa.tar.gz
+*.app.tar.gz
+*.dmg.tar.gz
+*.pkg.tar.gz
+*.ipa.7z
+*.app.7z
+*.dmg.7z
+*.pkg.7z
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# Fastlane for iOS
+.fastlane/
+fastlane/
+fastlane/README.md
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Swift Compiler and Debug Files
+*.swiftmodule
+*.swiftdoc
+*.dSYM
+*.dSYM.zip
+*.dSYM.tar.gz
+
+# Interface Builder and Storyboard Backups
+*.storyboardc
+*.nib
+*.xib~
+*.storyboard~
+
+# Core Data and Persistence
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.mom
+*.momd
+*.omo
+
+# Asset Catalogs and Resources
+*.car
+*.xcassets/
+
+# Code Signing and Provisioning
+*.mobileprovision
+*.p12
+*.cer
+*.crt
+*.key
+*.pem
+*.p8
+*.der
+*.pfx
+
+# Testing and Quality Assurance
+*.xctest
+*.xctestplan
+TestResults/
+.xctestrun
+
+# Performance and Profiling
+.trace
+.instruments
+.profiling
+
+# Documentation and Reports
+docs/
+.reports/
+.coverage/
+
+# Environment Configuration
+.env
+.env.ios
+.env.debug
+.env.release
+
+# Local Development Configuration
+.xcconfig
+.xcconfig.local
+
+# App Store Connect and Distribution
+.appstoreconnect/
+appstoreconnect/
+
+# Note on Xcode Project Files:
+# While .xcodeproj and .xcworkspace contain project configuration,
+# they should typically be tracked in version control as they define
+# the project structure and settings.
+
+# Note on Dependencies:
+# Dependency lock files (Podfile.lock, Package.resolved, Cartfile.resolved)
+# should typically be tracked to ensure reproducible builds.
+
+# Note on Fastlane:
+# Fastlane configuration files should be tracked, but generated reports
+# and screenshots can be excluded.
+

@@ -1,0 +1,76 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Docusaurus build output
+build/
+
+# Docusaurus cache and temporary files
+*.temp
+*.tmp
+.cache/
+.docusaurus/
+src/.cache/
+src/.docusaurus/
+
+# Docusaurus generated files
+blog/__generated__/
+docs/__generated__/
+i18n/__generated__/
+src/components/__generated__/
+src/pages/__generated__/
+src/theme/__generated__/
+static/__generated__/
+static/assets/__generated__/
+static/css/__generated__/
+static/img/__generated__/
+static/js/__generated__/
+
+# Docusaurus logs
+docusaurus.log
+
+# Docusaurus configuration backups
+.backup/
+.bak/
+docusaurus.config.js.bak
+docusaurus.config.json.bak
+docusaurus.config.ts.bak
+sidebars.js.bak
+sidebars.json.bak
+sidebars.ts.bak
+
+# Docusaurus environment files
+.env
+.env.development
+.env.production
+
+# Docusaurus deployment files
+.deploy/
+.deployment/
+
+# Docusaurus test files and coverage reports
+.nyc_output/
+__tests__/
+coverage/
+tests/
+
+# Docusaurus node modules
+.node_modules/
+node_modules/
+
+# Source maps and compiled files
+*.css.map
+*.js.map
+*.less.map
+*.parcel.js
+*.parcel.js.map
+*.postcss.map
+*.rollup.js
+*.rollup.js.map
+*.sass.map
+*.scss.map
+*.styl.map
+*.ts.js
+*.ts.map
+*.vite.js
+*.vite.js.map
+*.webpack.js
+*.webpack.js.map

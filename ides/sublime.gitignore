@@ -1,0 +1,55 @@
+# Template from gitignores.com - Online .gitignore generator
+# Sublime Text Editor
+# Workspace and project files
+*.sublime-project
+*.sublime-session
+*.sublime-workspace
+
+# Build and configuration files
+*.sublime-build
+*.sublime-color-scheme
+*.sublime-commands
+*.sublime-completions
+*.sublime-keymap
+*.sublime-macro
+*.sublime-menu
+*.sublime-mousemap
+*.sublime-package
+*.sublime-settings
+*.sublime-snippet
+*.sublime-syntax
+*.sublime-theme
+
+# Cache and temporary files
+*.autosave
+*.backup
+*.bak
+*.cache
+*.index
+*.tags
+*.tags_sorted_by_file
+Cache/
+Package\ Control.cache
+Package\ Control.last-run
+Package\ Control.merged-ca-bundle
+Package\ Control.system-ca-bundle
+Package\ Control.user-ca-bundle
+
+# Package management
+Installed\ Packages/
+User/Installed\ Packages/
+User/Preferences.sublime-settings
+
+# Platform-specific keymaps
+User/Default\ (Linux).sublime-keymap
+User/Default\ (OSX).sublime-keymap
+User/Default\ (Windows).sublime-keymap
+
+# Operating system files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

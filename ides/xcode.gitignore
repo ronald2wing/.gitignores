@@ -1,0 +1,46 @@
+# Template from gitignores.com - Online .gitignore generator
+# Xcode IDE
+# Patterns for Xcode IDE configuration files and project metadata
+
+# Xcode Workspace and Project Files
+*.xcworkspace/
+*.xcodeproj/
+project.xcworkspace/
+xcshareddata/
+xcschemes/
+*.xcscheme
+*.xcsettings
+*.xctestplan
+
+# User-specific Xcode Files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build Outputs and Derived Data
+DerivedData/
+*.moved-aside
+
+# Xcode User Interface State Files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Xcode IDE Configuration
+.xcode/
+.xcodebuild/
+.xcodeproj.userdata/
+
+# Notes:
+# Xcode project files (.xcodeproj) define project structure and should be tracked
+# Xcode workspace files (.xcworkspace) manage multiple projects and dependencies
+# User-specific files (xcuserdata/) contain personal workspace settings
+# DerivedData contains build artifacts and can be regenerated
+# Interface state files contain window layouts and personal preferences
+

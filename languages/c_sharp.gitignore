@@ -1,0 +1,259 @@
+# Template from gitignores.com - Online .gitignore generator
+# C# and .NET Development
+# Patterns for C# projects, .NET Framework, .NET Core, and ASP.NET applications
+
+# ============================================================================
+# C# AND .NET-SPECIFIC PATTERNS
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Build Output Directories (Case-Insensitive Patterns)
+# ----------------------------------------------------------------------------
+# C#/.NET build output directories with case-insensitive patterns
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Dd]ebug/
+[Dd]ebugPS/
+[Dd]ebugPublic/
+[Ee]xpress/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleasePS/
+[Rr]eleases/
+[Ww][Ii][Nn]32/
+x64/
+x86/
+
+# ----------------------------------------------------------------------------
+# Compiled Binary and Intermediate Files
+# ----------------------------------------------------------------------------
+# C# compiled binaries, intermediate files, and build artifacts
+*.appx
+*.appxbundle
+*.appxupload
+*.aps
+*.azurePubxml
+*.bim.layout
+*.bim_*.settings
+*.binlog
+*.btm.cs
+*.btp.cs
+*.build.csdef
+*.cachefile
+*.coverage
+*.coveragexml
+*.dbmdl
+*.dbproj.schemaview
+*.dotCover
+*.DotSettings.user
+*.e2e
+*.GhostDoc.xml
+*.gpState
+*.ilk
+*.iobj
+*.ipdb
+*.jfm
+*.jmconfig
+*.ldf
+*.mdf
+*.meta
+*.mm.*
+*.ncb
+*.ndf
+*.nuget.props
+*.nuget.targets
+*.nupkg
+*.obj
+*.odx.cs
+*.opendb
+*.opensdf
+*.opt
+*.pch
+*.pdb
+*.pfx
+*.pgc
+*.pgd
+*.pidb
+*.plg
+*.psess
+*.publishproj
+*.publishsettings
+*.pubxml
+*.rdl.data
+*.rptproj.bak
+*.rptproj.rsuser
+*.rsp
+*.sap
+*.sbr
+*.scc
+*.sdf
+*.sln.iml
+*.snupkg
+*.svclog
+*.tlb
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.tss
+*.vbw
+*.VC.db
+*.VC.VC.opendb
+*.VisualState.xml
+*.vsp
+*.vspscc
+*.vspx
+*.vssscc
+*.xsd.cs
+*_h.h
+*_i.c
+*_p.c
+*_wpftmp.csproj
+
+# ----------------------------------------------------------------------------
+# Cache, Logs, and Temporary Files
+# ----------------------------------------------------------------------------
+# C#/.NET cache files, logs, and temporary development artifacts
+$tf/
+*.[Cc]ache
+*.[Pp]ublish.xml
+*.[Rr]e[Ss]harper
+.*crunch*.local.xml
+.axoCover/*
+.builds
+.cr/personal
+.fake/
+.nsight-gpu/
+.ntvs_analysis.dat
+.paket/paket.exe
+.sass-cache/
+[Bb]uild[Ll]og.*
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+__pycache__/
+_Chutzpah*
+_NCrunch_*
+_pkginfo.txt
+_Pvt_Extensions
+_ReSharper*/
+_TeamCity*
+_UpgradeReport_Files/
+coverage*.info
+coverage*.json
+coverage*.xml
+ipch/
+nCrunchTemp_*
+nunit-*.xml
+StyleCopReport.xml
+TestResult.xml
+UpgradeLog*.htm
+UpgradeLog*.XML
+~$*
+
+# ----------------------------------------------------------------------------
+# NuGet Package Management
+# ----------------------------------------------------------------------------
+# NuGet package management files and dependencies
+!**/[Pp]ackages/build/
+**/[Pp]ackages/*
+*.pyc
+Package.StoreAssociation.xml
+paket-files/
+project.fragment.lock.json
+project.lock.json
+
+# ----------------------------------------------------------------------------
+# Testing and Code Coverage Tools
+# ----------------------------------------------------------------------------
+# C#/.NET testing frameworks and code coverage tools
+!.axoCover/settings.json
+!?*.[Cc]ache/
+ASALocalRun/
+AutoTest.Net/
+BenchmarkDotNet.Artifacts/
+csx/
+dlldata.c
+FakesAssemblies/
+OpenCover/
+orleans.codegen.cs
+
+# ----------------------------------------------------------------------------
+# Web and Deployment Artifacts
+# ----------------------------------------------------------------------------
+# ASP.NET web artifacts and deployment outputs
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.HTMLClient/GeneratedArtifacts
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+*-\\\\\\\\ [Bb]ackup.rdl
+*-\\\\\\\\ [Bb]ackup\\\\\\\\ ([0-9]).rdl
+*-\\\\\\\\ [Bb]ackup\\\\\\\\ ([0-9][0-9]).rdl
+AppPackages/
+artifacts/
+Backup*/
+bld/
+BundleArtifacts/
+ClientBin/
+DocProject/buildhelp/
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/*.HxC
+DocProject/Help/*.HxT
+DocProject/Help/html
+DocProject/Help/Html2
+ecf/
+Generated\\\\ Files/
+Generated_Code/
+node_modules/
+publish/
+PublishScripts/
+rcf/
+ScaffoldingReadMe.txt
+ServiceFabricBackup/
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# For comprehensive coverage, consider combining this template with common patterns:
+
+# 1. Security and environment files:
+#    cat common/security.gitignore languages/c_sharp.gitignore > .gitignore
+
+# 2. Dependency management:
+#    cat common/dependencies.gitignore languages/c_sharp.gitignore > .gitignore
+
+# 3. Build artifacts:
+#    cat common/build.gitignore languages/c_sharp.gitignore > .gitignore
+
+# 4. Testing and quality tools:
+#    cat common/testing.gitignore languages/c_sharp.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL):
+#    cat ides/vscode.gitignore languages/c_sharp.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files:
+#    cat common/logs.gitignore languages/c_sharp.gitignore > .gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on Microsoft .NET documentation and community best practices
+# Additional patterns from ASP.NET Core, .NET Framework, and Visual Studio templates
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses on C# and .NET-specific patterns
+# - Common patterns (.env, *.log, build/, etc.) are included for convenience
+# - For production projects, combine with appropriate common patterns
+# - Always review and customize for your specific project needs
+# - Build output directories (bin/, obj/, Debug/, Release/) should be ignored
+# - NuGet packages directory (packages/) should be ignored (dependencies can be restored)
+# - User-specific settings files (*.user, *.DotSettings.user) should be ignored
+# - Temporary files and cache directories should be ignored
+# - Test results and coverage reports should be ignored (can be regenerated)

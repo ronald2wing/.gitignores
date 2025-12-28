@@ -1,0 +1,33 @@
+# Template from gitignores.com - Online .gitignore generator
+# System image files
+# Package directories
+# Jupyter notebooks output
+# Compiled files
+# Test output
+# IDE files
+# OS generated files
+# Logs
+# Temporary files
+# Julia package manager artifacts
+*.cov
+*.dll
+*.dylib
+*.ji
+*.mem
+*.prof
+*.so
+*.temp
+*.tmp
+*~
+.depot/
+.ipynb_checkpoints/
+.julia/
+.venv/
+artifacts/
+compiled/
+env/
+Manifest.toml
+packages/
+registries/
+test/coverage/
+test/Perf.data.*

@@ -1,0 +1,70 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Eleventy build output
+_site/
+docs/_build/
+docs/_site/
+
+# Eleventy cache and temporary files
+*.temp
+*.tmp
+.11ty-cache/
+.cache/
+.dependencies/
+.eleventy.js.cache
+
+# Eleventy logs
+eleventy.log
+
+# Eleventy configuration backups
+.backup/
+.bak/
+.eleventy.config.js.bak
+.eleventy.config.json.bak
+.eleventy.config.ts.bak
+.eleventy.js.bak
+.eleventyignore.bak
+
+# Eleventy generated files
+.eleventy.js/filters/__generated__/
+.eleventy.js/plugins/__generated__/
+.eleventy.js/shortcodes/__generated__/
+.eleventy.js/transforms/__generated__/
+_11ty/
+_collections/__generated__/
+_components/__generated__/
+_data/__generated__/
+_includes/__generated__/
+_layouts/__generated__/
+assets/__generated__/
+assets/css/__generated__/
+assets/images/__generated__/
+assets/js/__generated__/
+static/__generated__/
+
+# Eleventy environment files
+.env
+.env.development
+.env.production
+
+# Eleventy deployment files
+.deploy/
+.deployment/
+
+# Eleventy test and benchmark files
+benchmark/
+benchmarks/
+test/
+tests/
+
+# Eleventy example and documentation files
+example/
+examples/
+
+# Eleventy node modules
+node_modules/
+
+# Compiled files and source maps
+*.js.map
+*.ts.js
+*.ts.map

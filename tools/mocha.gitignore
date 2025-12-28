@@ -1,0 +1,74 @@
+# Template from gitignores.com - Online .gitignore generator
+# Mocha Testing Framework
+
+# Temporary files
+*.temp
+*.tmp
+
+# Mocha-specific log files
+mocha-debug.log
+mocha.log
+
+# Mocha configuration backup files
+.mocharc.js.bak
+.mocharc.json.bak
+.mocharc.ts.bak
+.mocharc.yaml.bak
+.mocharc.yml.bak
+
+# Test coverage directories
+.nyc_output/
+coverage/
+test-results/
+
+# Mocha output directories
+mocha-output/
+mocha-results/
+
+# Test environment files
+test/.env
+test/.env.test
+test/.env.testing
+
+# Test cache directories
+test/.cache/
+test/cache/
+
+# Test artifacts and outputs
+test/__mocks__/__generated__/
+test/__output__/
+test/__snapshots__/
+test/artifacts/
+test/benchmarks/
+test/fixtures/__generated__/
+test/fixtures/__output__/
+test/fixtures/output/
+test/mocks/__generated__/
+test/parallel/
+test/performance/
+test/reporters/
+test/reports/
+test/screenshots/
+test/snapshots/
+test/visual/
+test/workers/
+
+# Test database directories
+test/database/
+test/db/
+
+# Test file upload/download directories
+test/downloads/
+test/tmp/cookies/
+test/tmp/downloads/
+test/tmp/sessions/
+test/tmp/uploads/
+test/uploads/
+
+# Test session and cookie directories
+test/cookies/
+test/sessions/
+
+# Note: Mocha is a feature-rich JavaScript test framework
+# For framework-specific patterns, see the respective framework templates
+# For package manager patterns, see npm.gitignore and yarn.gitignore

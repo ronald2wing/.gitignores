@@ -1,0 +1,35 @@
+# Template from gitignores.com - Online .gitignore generator
+# ESLint & Prettier Code Quality Tools
+
+# Temporary files
+*.temp
+*.tmp
+
+# ESLint-specific cache and configuration backup files
+.eslintcache
+.eslintignore~
+.eslintrc.json~
+.eslintrc.js~
+.eslintrc.yaml~
+.eslintrc.yml~
+.eslintrc~
+eslint-output.json
+eslint-report.json
+
+# Prettier-specific cache and configuration backup files
+.prettiercache
+.prettierignore~
+.prettierrc.json~
+.prettierrc.js~
+.prettierrc.yaml~
+.prettierrc.yml~
+.prettierrc~
+
+# Note on configuration files:
+# The following files should typically be tracked in version control:
+# - .eslintignore, .eslintrc, .eslintrc.js, .eslintrc.json, .eslintrc.yaml, .eslintrc.yml
+# - .prettierignore, .prettierrc, .prettierrc.js, .prettierrc.json, .prettierrc.yaml, .prettierrc.yml
+# - package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb (dependency lock files)
+#
+# For package manager patterns, see npm.gitignore and yarn.gitignore
+# For dependency directories, see npm.gitignore (node_modules/)

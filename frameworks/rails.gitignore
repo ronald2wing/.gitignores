@@ -1,0 +1,52 @@
+# Template from gitignores.com - Online .gitignore generator
+# Ruby on Rails Framework
+# Environment configuration files
+.env
+.env.*
+config/credentials.yml.enc
+config/master.key
+
+# Database files
+db/*.sqlite3
+db/*.sqlite3-*
+db/*.sqlite3-journal
+
+# Log files
+.byebug_history
+log/*
+yarn-debug.log*
+yarn-error.log
+
+# Temporary files and directories
+tmp/*
+tmp/pids/*
+
+# Storage directories
+storage/*
+
+# Public assets
+public/assets
+
+# Dependencies and package management
+.bundle
+.yarn-integrity
+node_modules/
+
+# Test coverage directories
+coverage/
+
+# Spring application server files
+spring/*.pid
+
+# Exceptions (files that should NOT be ignored)
+!log/.keep
+!storage/.keep
+!tmp/.keep
+!tmp/pids/
+!tmp/pids/.keep
+
+# Framework-specific patterns
+# Rails: Ruby on Rails framework patterns
+# Bundler: Ruby dependency management
+# Spring: Rails application preloader
+# Yarn: JavaScript package management

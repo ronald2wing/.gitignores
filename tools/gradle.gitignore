@@ -1,0 +1,60 @@
+# Template from gitignores.com - Online .gitignore generator
+# Gradle
+# Compiled class file
+# Log file
+# BlueJ files
+# Mobile Tools for Java (J2ME)
+# Package Files #
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Maven
+# IDE
+# Gradle wrapper
+# Gradle build output
+# Gradle cache
+# Gradle wrapper properties
+# Gradle build scans
+# Gradle enterprise
+# Gradle test results
+# Gradle dependency verification
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.ctxt
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+.factorypath
+.gradle/
+.gradle/build-scan-data/
+.gradle/caches/
+.gradle/daemon/
+.gradle/enterprise/
+.gradle/native/
+.gradle/wrapper/
+.mtj.tmp/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+build/
+build/classes/
+build/distributions/
+build/libs/
+build/reports/
+build/reports/tests/
+build/resources/
+build/test-classes/
+build/test-results/
+buildNumber.properties
+dependency-reduced-pom.xml
+gradle/verification-metadata.xml
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+hs_err_pid*
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+target/

@@ -1,0 +1,61 @@
+# Template from gitignores.com - Online .gitignore generator
+# Ansible Configuration Management
+
+# Ansible-specific files
+*.retry
+*.vault
+*.vault.yaml
+*.vault.yml
+.vault_pass
+ansible-vault
+ansible.cfg
+ansible.log
+
+# Python byte-compiled files (Ansible is written in Python)
+*$py.class
+*.py[cod]
+__pycache__/
+
+# Python distribution/packaging
+*.egg
+*.egg-info/
+.eggs/
+.pdm.toml
+.Python
+build/
+dist/
+parts/
+sdist/
+site/
+wheels/
+
+# Python virtual environments
+.env
+.python-version
+.venv
+__pypackages__/
+env/
+ENV/
+venv/
+
+# Python testing and coverage
+.coverage
+.coverage.*
+.coverage.xml
+.pytest_cache/
+htmlcov/
+
+# Python package management
+.cache
+.tox/
+lib/
+lib64/
+var/
+
+# Documentation
+docs/_build/
+
+# Type checking and analysis
+.mypy_cache/
+.pyre/
+.pytype/

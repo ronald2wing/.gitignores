@@ -1,0 +1,33 @@
+# Template from gitignores.com - Online .gitignore generator
+# Lua Language
+
+# Compiled Lua files
+*.luac
+
+# Build and distribution directories
+build/
+dist/
+lib/
+out/
+
+# Dependency directories
+.luarocks/
+deps/
+
+# Test output and temporary files
+*.out
+*.spec
+*.temp
+*.test
+*.tmp
+
+# Editor and IDE files
+*.swo
+*.swp
+*~
+.lock
+.lock-hash
+
+# LuaRocks (Lua package manager) files
+# Note: .luarocks/ directory contains installed packages
+# and should typically be ignored

@@ -1,0 +1,192 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# TESTING GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding test outputs, coverage reports, and quality tool artifacts.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# TEST OUTPUTS AND COVERAGE REPORTS
+# ----------------------------------------------------------------------------
+
+# Coverage reports
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+htmlcov/
+*.cover
+*.py,cover
+cover/
+lcov.info
+*.lcov
+.nyc_output/
+
+# Java coverage reports
+jacoco.exec
+jacoco.xml
+*.exec
+coverage.cobertura.xml
+coverage.opencover.xml
+coverage.xml
+*.coverage
+*.coveragexml
+
+# Test reports and outputs
+test-output/
+test-reports/
+test-results/
+test-results.xml
+test-report.xml
+test-output.xml
+testng-results.xml
+surefire-reports/
+failsafe-reports/
+target/surefire-reports/
+target/failsafe-reports/
+
+# .NET test outputs
+.nunit/
+TestResult.xml
+*.trx
+*.VisualState.xml
+.vstest/
+
+# Python test outputs
+.nox/
+.tox/
+.pytest_cache/
+test-output/
+
+# ----------------------------------------------------------------------------
+# SNAPSHOT AND VISUAL TESTING
+# ----------------------------------------------------------------------------
+
+# Snapshot testing
+__snapshots__/
+*.snap
+.snapshots/
+snapshots/
+__diff_output__/
+__image_snapshots__/
+__screenshots__/
+
+# Cypress test outputs
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Playwright test outputs
+playwright-report/
+playwright/.cache/
+
+# ----------------------------------------------------------------------------
+# PERFORMANCE AND LOAD TESTING
+# ----------------------------------------------------------------------------
+
+# Performance testing
+benchmark/
+benchmarks/
+benchmark-results/
+benchmark_results/
+.perf/
+performance-reports/
+performance_results/
+
+# Load and stress testing
+load-test-results/
+load_test_results/
+stress-test-results/
+stress_test_results/
+
+# ----------------------------------------------------------------------------
+# SECURITY AND QUALITY SCANS
+# ----------------------------------------------------------------------------
+
+# Security scanning
+.secrets/
+secret-scans/
+security-scans/
+.trivy/
+.grype/
+.syft/
+
+# Code quality scanning
+.sonarlint/
+.sonar/
+sonar-project.properties
+.scannerwork/
+.codeclimate.yml
+.codeclimate/
+
+# ----------------------------------------------------------------------------
+# MUTATION AND INTEGRATION TESTING
+# ----------------------------------------------------------------------------
+
+# Mutation testing
+.pitest/
+pitest-reports/
+mutation-testing/
+mutation-testing-reports/
+
+# Integration testing
+integration/
+integration-test/
+integration-tests/
+integration_test/
+integration_tests/
+
+# End-to-end testing
+e2e/
+e2e-test/
+e2e-tests/
+e2e_test/
+e2e_tests/
+
+# Browser testing
+tests/Browser/console/
+tests/Browser/screenshots/
+tests/Browser/source/
+
+# ----------------------------------------------------------------------------
+# DOCUMENTATION TESTING
+# ----------------------------------------------------------------------------
+
+# Documentation testing
+.doctest/
+doctest-output/
+
+# ============================================================================
+# TESTING MANAGEMENT NOTES
+# ============================================================================
+
+# TEST OUTPUTS:
+# - Test outputs are generated during test execution
+# - Coverage reports show code coverage but can be regenerated
+# - Test reports provide execution details but are temporary
+
+# SNAPSHOT TESTING:
+# - Snapshot files capture expected output for comparison
+# - These should typically be committed for regression testing
+# - Consider whether to include or exclude based on project needs
+
+# PERFORMANCE TESTING:
+# - Performance test results vary between runs and environments
+# - Benchmark results are useful for comparison but can be regenerated
+# - Load test outputs are large and temporary
+
+# SECURITY SCANNING:
+# - Security scan results may contain sensitive vulnerability information
+# - Quality tool outputs help identify issues but can be regenerated
+# - Consider excluding scan results from version control
+
+# BEST PRACTICES:
+# - Store test expectations (snapshots, fixtures) in version control
+# - Exclude generated test outputs and reports
+# - Use CI/CD systems to generate and archive test artifacts
+
+# ============================================================================
+# END OF TESTING PATTERNS
+# ============================================================================
+

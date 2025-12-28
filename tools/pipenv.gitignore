@@ -1,0 +1,71 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Pipenv - Python Development Workflow for Humans
+# https://pipenv.pypa.io/
+
+# Pipenv virtual environments
+.venv/
+env.bak/
+env/
+ENV/
+venv.bak/
+venv/
+
+# Pipenv cache
+.cache/
+.pipenv/
+
+# Pipenv lock file (should be committed for reproducible builds)
+# Pipfile.lock
+
+# Python bytecode
+*$py.class
+*.py[cod]
+__pycache__/
+
+# Python build outputs
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Python test coverage
+*.cover
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+coverage.xml
+nosetests.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pip
+pip-delete-this-directory.txt
+pip-log.txt
+
+# Environment files
+.env
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Pipenv specific
+# Note: Pipenv creates a virtual environment and manages dependencies
+# The Pipfile.lock should be committed for reproducible builds

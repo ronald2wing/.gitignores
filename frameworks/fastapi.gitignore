@@ -1,0 +1,174 @@
+# Template from gitignores.com - Online .gitignore generator
+# FastAPI Python Framework
+# Based on official FastAPI .gitignore: https://github.com/tiangolo/fastapi
+
+# IDE files
+.idea
+.vscode
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Python cache
+.mypy_cache
+__pycache__
+.pytest_cache
+
+# Build and distribution
+dist
+site
+.coverage*
+coverage.xml
+htmlcov
+
+# Database files
+test.db
+
+# Log files
+log.txt
+
+# Package manager files
+Pipfile.lock
+
+# Virtual environments
+env3.*
+env
+docs_build
+site_build
+venv
+docs.zip
+archive.zip
+
+# Vim temporary files
+*~
+.*.sw?
+.cache
+
+# macOS system files
+.DS_Store
+
+# Package manager lock files (uv)
+uv.lock
+
+# Performance testing
+.codspeed
+
+# Additional FastAPI patterns
+# Environment files
+.env
+.env.local
+.env.production
+
+# FastAPI-specific files
+# (FastAPI doesn't have framework-specific build artifacts)
+
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Distribution files
+*.egg
+*.egg-info/
+build/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/

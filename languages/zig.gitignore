@@ -1,0 +1,68 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Zig - General-purpose programming language and toolchain
+# https://ziglang.org/
+
+# Zig build outputs
+zig-cache/
+zig-out/
+
+# Zig compiled binaries
+*.a
+*.dll
+*.dylib
+*.exe
+*.lib
+*.o
+*.obj
+*.so
+
+# Zig test outputs
+test-results/
+
+# Zig package manager
+.zig/
+zig-packages/
+
+# Zig documentation
+doc/
+docs/
+
+# Zig temporary files
+*.temp
+*.tmp
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build directories
+build/
+dist/
+out/
+
+# Debug symbols
+*.idb
+*.ilk
+*.pdb
+
+# Backup files
+*.backup
+*.bak
+*~

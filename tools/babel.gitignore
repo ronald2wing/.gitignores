@@ -1,0 +1,22 @@
+# Template from gitignores.com - Online .gitignore generator
+# Babel JavaScript Compiler
+
+# Babel-specific cache directories
+.babel-cache/
+
+# Babel configuration backup files (tilde backups)
+.babelrc~
+babel.config.json~
+babel.config.js~
+babel.config.ts~
+
+# Note on Babel configuration files:
+# The following files should typically be tracked in version control:
+# - .babelrc, .babelrc.js, .babelrc.json, .babelrc.cjs, .babelrc.mjs
+# - babel.config.js, babel.config.json, babel.config.ts, babel.config.cjs, babel.config.mjs
+# - Any other Babel configuration files without the tilde (~) suffix
+
+# Note on build outputs and dependencies:
+# For build output patterns (build/, dist/, lib/, etc.), see framework or build tool templates
+# For dependency directories (node_modules/), see npm.gitignore or yarn.gitignore
+# For lock files (package-lock.json, yarn.lock, etc.), these should be tracked, not ignored

@@ -1,0 +1,204 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# DEPENDENCIES GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding dependency directories and package management artifacts.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# NODE.JS / JAVASCRIPT / TYPESCRIPT
+# ----------------------------------------------------------------------------
+
+# Node.js package management
+node_modules/
+.npm
+.pnp.*
+.yarn-integrity
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/versions/
+
+# JavaScript package management
+jspm_packages/
+bower_components/
+.webpack/
+.rollup.cache/
+.parcel-cache/
+.fusebox/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Frontend framework build dependencies
+.next/
+.nuxt/
+.gatsby/
+.storybook-out/
+storybook-static/
+.docusaurus/
+.serverless/
+
+# ----------------------------------------------------------------------------
+# PYTHON
+# ----------------------------------------------------------------------------
+
+# Python package management
+__pycache__/
+.python-eggs/
+.eggs/
+eggs/
+develop-eggs/
+dist/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+
+# Python development tools
+.pytest_cache/
+.tox/
+.nox/
+.pdm.toml
+.pdm-build/
+.pip-wheel-metadata/
+
+# Python virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+
+# Python interactive development
+.ipynb_checkpoints/
+.mypy_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.scrapy
+
+# ----------------------------------------------------------------------------
+# RUBY
+# ----------------------------------------------------------------------------
+
+# Ruby package management
+.bundle/
+vendor/bundle
+vendor/cache
+vendor/gems
+vendor/ruby
+*.gem
+
+# Ruby version management
+.ruby-version
+.ruby-gemset
+
+# ----------------------------------------------------------------------------
+# PHP
+# ----------------------------------------------------------------------------
+
+# PHP package management
+vendor/
+.phpunit.result.cache
+.phpunit.cache
+
+# ----------------------------------------------------------------------------
+# GO
+# ----------------------------------------------------------------------------
+
+# Go package management
+vendor/
+go.mod
+*.test
+*.out
+
+# ----------------------------------------------------------------------------
+# RUST
+# ----------------------------------------------------------------------------
+
+# Rust package management
+target/
+*.rs.bk
+
+# ----------------------------------------------------------------------------
+# JAVA / KOTLIN / SCALA
+# ----------------------------------------------------------------------------
+
+# Java/Kotlin package management
+.gradle/
+build/
+out/
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven build artifacts
+target/
+
+# ----------------------------------------------------------------------------
+# .NET / C# / F#
+# ----------------------------------------------------------------------------
+
+# .NET package management
+packages/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.nupkg
+
+# ----------------------------------------------------------------------------
+# SYSTEM PACKAGE DEPENDENCIES
+# ----------------------------------------------------------------------------
+
+# System-level dependencies
+/usr/local/lib/
+/usr/local/include/
+/opt/local/lib/
+/opt/local/include/
+
+# ============================================================================
+# DEPENDENCY MANAGEMENT NOTES
+# ============================================================================
+
+# DEPENDENCY MANAGEMENT:
+# - Dependency directories can be regenerated from package manager files
+# - Lock files (package-lock.json, yarn.lock, etc.) SHOULD be committed for reproducible builds
+# - Virtual environments contain platform-specific binaries and should not be versioned
+
+# BUILD ARTIFACTS:
+# - Build artifacts are generated from source code and dependencies
+# - Cache directories speed up builds but are not necessary for version control
+# - Distribution packages can be regenerated from source
+
+# SECURITY CONSIDERATIONS:
+# - Dependency directories may contain nested .git repositories
+# - Some package managers download binaries that could be platform-specific
+# - Always verify dependencies from trusted sources
+
+# PERFORMANCE OPTIMIZATION:
+# - Large dependency directories can slow down Git operations
+# - Consider using .gitignore for dependency directories in all projects
+# - Use package manager lock files to ensure consistent dependency versions
+
+# CROSS-PLATFORM DEVELOPMENT:
+# - Some dependencies are platform-specific (native modules, binaries)
+# - Virtual environments may not work across different operating systems
+# - Always test with clean dependency installation in CI/CD pipelines
+
+# ============================================================================
+# END OF DEPENDENCIES PATTERNS
+# ============================================================================
+

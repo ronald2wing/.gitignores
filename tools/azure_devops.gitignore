@@ -1,0 +1,43 @@
+# Template from gitignores.com - Online .gitignore generator
+# Azure DevOps CI/CD Platform
+# Patterns for Azure Pipelines, artifacts, and automation
+
+# Azure DevOps Configuration
+.azure/
+azure-pipelines.yml
+azure-pipelines-*.yml
+azure-pipelines/
+
+# Azure DevOps Directories
+azure-devops/
+azure/
+.azuredevops/
+azuredevops/
+
+# Azure DevOps Agent and Tasks
+azure-pipelines-agent/
+azure-pipelines-tasks/
+
+# Azure DevOps Variables and Secrets
+azure-pipelines-variables/
+azure-pipelines-secrets/
+
+# Azure DevOps Artifacts and Cache
+azure-pipelines-artifacts/
+azure-pipelines-cache/
+
+# Azure DevOps Testing and Coverage
+azure-pipelines-test/
+azure-pipelines-coverage/
+
+# Azure DevOps Deployment and Release
+azure-pipelines-deploy/
+azure-pipelines-release/
+
+# Notes:
+# Azure Pipelines configuration (azure-pipelines.yml) defines CI/CD pipelines
+# These files should typically be tracked in version control
+# Artifacts, cache, and test results contain generated files
+# Variables and secrets directories may contain sensitive information
+# Agent and task directories contain runtime executables and configurations
+

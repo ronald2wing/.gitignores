@@ -1,0 +1,41 @@
+# Template from gitignores.com - Online .gitignore generator
+# Yarn Package Manager
+
+# Yarn log files
+yarn-error.log*
+yarn.log*
+
+# Temporary files created by Yarn
+*.temp
+*.tmp
+.yarn/tmp/
+
+# Yarn cache directories (Yarn 2+ / Berry)
+.yarn/build-state.yml
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/patches/
+.yarn/plugins/
+.yarn/releases/
+.yarn/sdks/
+.yarn/unplugged/
+.yarn/versions/
+.yarn/workspace/
+
+# Yarn configuration backup files
+.yarnrc.bak
+.yarnrc.yaml.bak
+.yarnrc.yml.bak
+
+# Global Yarn directories (user home)
+~/.config/yarn/
+~/.yarn/
+
+# Note on Yarn configuration and lock files:
+# The following files should typically be tracked in version control:
+# - yarn.lock (dependency lock file)
+# - .yarnrc, .yarnrc.yml, .yarnrc.yaml (project-specific configuration)
+# - .pnp.cjs, .pnp.loader.mjs (Yarn PnP files)
+#
+# For general npm/yarn patterns, see npm.gitignore
+# For framework-specific patterns, see the respective framework templates

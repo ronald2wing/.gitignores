@@ -1,0 +1,66 @@
+# Template from gitignores.com - Online .gitignore generator
+# Symfony PHP Framework
+
+# Symfony bundle markers (used by Symfony Flex)
+###> symfony/framework-bundle ###
+###< symfony/framework-bundle ###
+###> symfony/phpunit-bridge ###
+###< symfony/phpunit-bridge ###
+###> symfony/webpack-encore-bundle ###
+###< symfony/webpack-encore-bundle ###
+###> symfony/maker-bundle ###
+###< symfony/maker-bundle ###
+
+# Environment configuration files
+.env
+.env.*.local
+.env.dev
+.env.local
+.env.local.php
+.env.prod
+.env.test
+
+# Composer dependencies
+vendor/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Symfony cache and runtime directories
+cache/
+var/
+var/cache/
+var/log/
+var/sessions/
+
+# PHPUnit test cache and results
+.phpunit
+.phpunit.cache/
+.phpunit.result.cache
+phpunit.xml
+
+# IDE and development tool files
+.buildpath
+.phpstorm.meta.php
+.project
+.settings/
+
+# Temporary files
+*.temp
+*.tmp
+*~
+
+# Symfony secrets (production decryption key)
+config/secrets/prod/prod.decrypt.private.php
+
+# Webpack Encore build output
+public/build/
+
+# Git keep files (negated to preserve empty directories)
+!cache/.gitkeep
+!var/cache/.gitkeep
+!var/log/.gitkeep
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php

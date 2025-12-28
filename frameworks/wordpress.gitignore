@@ -1,0 +1,116 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# WordPress CMS - Comprehensive .gitignore template
+
+# Core WordPress files (should be installed via Composer or downloaded separately)
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-admin/
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-cron.php
+wp-includes/
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# WordPress content directory (user-generated content)
+!wp-content/.gitkeep
+!wp-content/index.php
+wp-content/
+
+# WordPress uploads (user media - should not be tracked)
+!wp-content/uploads/.gitkeep
+!wp-content/uploads/index.php
+wp-content/uploads/
+
+# WordPress cache directories
+wp-content/backup-db/
+wp-content/backup/
+wp-content/cache/
+wp-content/upgrade/
+
+# WordPress themes
+wp-content/themes/*/build/
+wp-content/themes/*/dist/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/vendor/
+wp-content/themes/twenty*/
+
+# WordPress plugins
+wp-content/plugins/*/build/
+wp-content/plugins/*/dist/
+wp-content/plugins/*/node_modules/
+wp-content/plugins/*/vendor/
+wp-content/plugins/hello.php
+
+# WordPress development and build artifacts
+*.code-workspace
+*.log
+*.sublime-*
+.DS_Store
+.idea/
+.vscode/
+debug.log
+error_log
+Thumbs.db
+
+# WordPress multisite
+wp-content/blogs.dir/
+wp-content/uploads/sites/
+
+# WordPress database backups
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# WordPress temporary files
+*.temp
+*.tmp
+.tmp/
+temp/
+
+# PHP-specific patterns (since WordPress is PHP-based)
+.cache/
+.env
+.env.*.local
+.env.local
+.env.production
+.pdepend/
+.php-built-in-web-server.pid
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+behat.yml
+composer.phar
+coverage/
+docs/
+php_errors.log
+phpdoc/
+sess_*
+tmp/
+uploads/
+vendor/
+xdebug.log

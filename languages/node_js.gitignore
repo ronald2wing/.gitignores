@@ -1,0 +1,104 @@
+# Template from gitignores.com - Online .gitignore generator
+# Node.js Development
+# Patterns for Node.js applications and server-side JavaScript development
+
+# ============================================================================
+# NODE.JS-SPECIFIC PATTERNS
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Package Management
+# ----------------------------------------------------------------------------
+# Node.js package manager artifacts and cache
+.npm
+.pnp.*
+.web_modules/
+.yarn-integrity
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/versions/
+
+# ----------------------------------------------------------------------------
+# Build and Development Cache
+# ----------------------------------------------------------------------------
+# Node.js build system cache and development artifacts
+.eslintcache
+.fusebox/
+.grunt
+.lock-wscript
+.node_repl_history
+.nyc_output/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.stylelintcache
+.tern-port
+.vscode-test/
+
+# ----------------------------------------------------------------------------
+# Test Coverage and Quality Metrics
+# ----------------------------------------------------------------------------
+# Test coverage reports and quality tool outputs
+coverage/
+lib-cov/
+
+# ----------------------------------------------------------------------------
+# Framework-Specific Patterns
+# ----------------------------------------------------------------------------
+# Common framework build and cache directories
+# Next.js: Build output and cache directories
+# Nuxt.js: Build and generate output
+# Gatsby: Build files and cache
+# Storybook: Build outputs
+# Docusaurus: Build outputs
+# Serverless: Deployment artifacts
+# DynamoDB: Local development files
+# FuseBox: Build system cache
+# TernJS: JavaScript analysis
+# Snowpack: Modern web bundler cache
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# For comprehensive coverage, consider combining this template with common patterns:
+
+# 1. Security and environment files:
+#    cat common/security.gitignore languages/node_js.gitignore > .gitignore
+
+# 2. Dependency management:
+#    cat common/dependencies.gitignore languages/node_js.gitignore > .gitignore
+
+# 3. Build artifacts:
+#    cat common/build.gitignore languages/node_js.gitignore > .gitignore
+
+# 4. Testing and quality tools:
+#    cat common/testing.gitignore languages/node_js.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL):
+#    cat ides/vscode.gitignore languages/node_js.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files:
+#    cat common/logs.gitignore languages/node_js.gitignore > .gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on Node.js community best practices and official package manager documentation
+# Additional patterns from popular Node.js framework repositories
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses on Node.js-specific patterns
+# - Common patterns (node_modules/, .env, .node-version, etc.) are included for convenience
+# - For production projects, combine with appropriate common patterns
+# - Always review and customize for your specific project needs
+# - Lock files (package-lock.json, yarn.lock, pnpm-lock.yaml) should generally be tracked
+# - Dependency directories (node_modules/) should always be ignored
+# - Build artifacts (.next/, .nuxt/, dist/, etc.) should be ignored
+# - Environment files (.env, .env.*) should be ignored as they may contain secrets

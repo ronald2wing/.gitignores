@@ -1,0 +1,31 @@
+# Template from gitignores.com - Online .gitignore generator
+# Kate Text Editor
+# Patterns for Kate text editor configuration files and session data
+
+# Kate Session and Swap Files
+.kate-swp
+*.tmproj
+*.tmproject
+tmtags
+.tm_properties
+
+# Kate Configuration and Cache
+.kateconfig
+.katecache
+.kateproject
+
+# Kate Session Files
+.katesession
+.kate-sessions/
+
+# Kate Backups and Autosave
+.kate-backup
+.kate-autosave
+
+# Notes:
+# Kate is a feature-rich text editor for the KDE desktop environment
+# Session files contain open documents and window layouts
+# Swap files are temporary recovery files for unsaved changes
+# Configuration files contain personal editor preferences
+# Backup and autosave files are temporary and can be regenerated
+

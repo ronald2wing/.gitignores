@@ -1,0 +1,134 @@
+# Template from gitignores.com - Online .gitignore generator
+# Jupyter Notebook Environment
+
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.temp
+*.tmp
+
+# Jupyter cache
+.cache/
+.jupyter/
+
+# Jupyter logs
+jupyter.log
+
+# Jupyter configuration backups
+jupyter_notebook_config.json.bak
+jupyter_notebook_config.py.bak
+jupyter_notebook_config.yaml.bak
+jupyter_notebook_config.yml.bak
+
+# Jupyter kernel specs
+.kernels/
+kernels/
+
+# Jupyter runtime files
+.runtime/
+runtime/
+
+# Jupyter lab workspaces
+.labworkspaces/
+labworkspaces/
+
+# Jupyter notebook outputs
+*.nbconvert.html
+*.nbconvert.ipynb
+*.nbconvert.latex
+*.nbconvert.markdown
+*.nbconvert.pdf
+*.nbconvert.rst
+*.nbconvert.script
+*.nbconvert.slides
+
+# Jupyter notebook exports
+.exports/
+exports/
+
+# Jupyter notebook backups
+.backup/
+.backups/
+.bak/
+backups/
+
+# Jupyter notebook autosaves
+.autosaves/
+autosaves/
+
+# Jupyter notebook drafts
+.drafts/
+drafts/
+
+# Jupyter data files
+.data/
+.datasets/
+data/
+datasets/
+
+# Jupyter models
+.models/
+models/
+
+# Jupyter figures and plots
+.figures/
+.plots/
+figures/
+plots/
+
+# Jupyter media files
+.audio/
+.images/
+.videos/
+audio/
+images/
+videos/
+
+# Jupyter documentation
+.documents/
+documents/
+
+# Jupyter research files
+.research/
+research/
+
+# Jupyter visualizations
+.visualizations/
+visualizations/
+
+# Jupyter environment files
+.env
+.env.jupyter
+.env.notebook
+
+# Jupyter deployment files
+.deploy/
+.deployment/
+
+# Jupyter analysis files
+.analysis/
+analysis/
+
+# Jupyter charts and dashboards
+.charts/
+.dashboards/
+charts/
+dashboards/
+
+# Jupyter experiments
+.experiments/
+experiments/
+
+# Jupyter graphs
+.graphs/
+graphs/
+
+# Jupyter presentations
+.presentations/
+presentations/
+
+# Jupyter reports
+.reports/
+reports/

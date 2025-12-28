@@ -1,0 +1,114 @@
+# Template from gitignores.com - Online .gitignore generator
+# React Framework
+# Based on official create-react-app .gitignore: https://github.com/facebook/create-react-app
+
+# ============================================================================
+# REACT-SPECIFIC PATTERNS
+# ============================================================================
+# This template contains React-specific patterns. For comprehensive coverage,
+# combine with appropriate common patterns from the common/ directory.
+
+# ----------------------------------------------------------------------------
+# React Application Patterns
+# ----------------------------------------------------------------------------
+# React-specific application files and directories
+my-app*
+template/src/__tests__/__snapshots__/
+/.changelog
+
+# ----------------------------------------------------------------------------
+# React-Specific Build and Development
+# ----------------------------------------------------------------------------
+# React-specific build outputs and development artifacts
+# Note: .storybook-out/ and storybook-static/ are in common/dependencies.gitignore
+
+# ----------------------------------------------------------------------------
+# React Environment Configuration Files
+# ----------------------------------------------------------------------------
+# React-specific environment configuration files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------------------------------------------------------------
+# React IDE Configurations
+# ----------------------------------------------------------------------------
+# IDE-specific files for React development
+.fleet/
+.nova/
+
+# ----------------------------------------------------------------------------
+# React CI/CD Configurations
+# ----------------------------------------------------------------------------
+# CI/CD pipeline configuration files for React projects
+.circleci/
+.github/
+.gitlab/
+.jenkins/
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# IMPORTANT: This template focuses ONLY on React-specific patterns.
+# For comprehensive coverage, ALWAYS combine with appropriate common patterns:
+
+# 1. Environment and configuration files (CRITICAL for security):
+#    cat common/environment.gitignore frameworks/react.gitignore > .gitignore
+
+# 2. Dependency management (ESSENTIAL for all React projects):
+#    cat common/dependencies.gitignore frameworks/react.gitignore > .gitignore
+
+# 3. Build artifacts (IMPORTANT for React build outputs):
+#    cat common/build.gitignore frameworks/react.gitignore > .gitignore
+
+# 4. Testing and quality tools (RECOMMENDED for React test outputs):
+#    cat common/testing.gitignore frameworks/react.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL for editor files):
+#    cat ides/vscode.gitignore frameworks/react.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files (RECOMMENDED for application logs):
+#    cat common/logs.gitignore frameworks/react.gitignore > .gitignore
+
+# 7. CI/CD configurations (OPTIONAL for pipeline files):
+#    cat tools/github_actions.gitignore frameworks/react.gitignore > .gitignore
+#    (or use other specific CI/CD templates from tools/ directory)
+
+# Recommended comprehensive setup for React projects:
+# cat common/environment.gitignore common/dependencies.gitignore common/build.gitignore frameworks/react.gitignore > .gitignore
+
+# ============================================================================
+# PATTERNS REMOVED TO COMMON FILES
+# ============================================================================
+# The following patterns have been moved to common files to avoid duplication:
+# - .idea/, .vscode/ → common/ide.gitignore
+# - node_modules/, .npm/ → common/dependencies.gitignore
+# - build/ → common/build.gitignore
+# - .DS_Store → common/ide.gitignore (macOS)
+# - *.tgz → common/logs.gitignore
+# - lerna-debug.log, npm-debug.log*, yarn-debug.log*, yarn-error.log* → common/logs.gitignore
+# - coverage/ → common/testing.gitignore
+# - .storybook-out/, storybook-static/ → common/dependencies.gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on official create-react-app .gitignore: https://github.com/facebook/create-react-app
+# Additional patterns from React community best practices
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses EXCLUSIVELY on React-specific patterns
+# - Common patterns are now in the common/ directory to avoid duplication
+# - ALWAYS combine with appropriate common patterns for your project
+# - Review and customize for your specific project needs
+
+# IMPORTANT BEST PRACTICES:
+# - Lock files (package-lock.json, yarn.lock) SHOULD be tracked
+# - Build directory (build/) should be ignored (contains production files)
+# - Environment files (.env*) MUST be ignored (contain secrets)
+# - Node modules (node_modules/) should always be ignored
+# - Test outputs and coverage reports can be regenerated

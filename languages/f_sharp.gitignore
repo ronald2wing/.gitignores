@@ -1,0 +1,75 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# F# - Functional-first programming language for .NET
+# https://fsharp.org/
+
+# F# compiled outputs
+bin/
+obj/
+
+# F# interactive sessions
+*.fsscript
+*.fsx
+
+# F# build artifacts
+*.dll
+*.exe
+*.mdb
+*.pdb
+*.sln.docstates
+
+# F# test results
+TestResults/
+
+# F# package directories
+packages/
+
+# F# backup files
+*.backup
+*.bak
+*~
+
+# F# temporary files
+*.temp
+*.tmp
+
+# .NET Core build outputs
+**/bin/
+**/obj/
+
+# .NET NuGet packages
+**/packages/*
+*.nupkg
+
+# .NET test results
+[Bb]uild[Ll]og.*
+[Tt]est[Rr]esult*/
+
+# .NET Rider
+*.sln.iml
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+.vs/

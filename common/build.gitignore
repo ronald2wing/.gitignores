@@ -1,0 +1,215 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# BUILD ARTIFACTS GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding build directories, compiled files, and distribution artifacts.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# BUILD DIRECTORY PATTERNS
+# ----------------------------------------------------------------------------
+
+# Primary build directories
+build/
+dist/
+out/
+target/
+
+# Variant build directories
+build-*/
+build.*/
+build_*/
+.build/
+.build-*/
+.build.*/
+.build_*/
+_build/
+_build-*/
+_build.*/
+_build_*/
+
+dist-*/
+dist.*/
+dist_*/
+.dist/
+.dist-*/
+.dist.*/
+.dist_*/
+_dist/
+_dist-*/
+_dist.*/
+_dist_*/
+
+out-*/
+out.*/
+out_*/
+.out/
+.out-*/
+.out.*/
+.out_*/
+_out/
+_out-*/
+_out.*/
+_out_*/
+
+target-*/
+target.*/
+target_*/
+.target/
+.target-*/
+.target.*/
+.target_*/
+_target/
+_target-*/
+_target.*/
+_target_*/
+
+# ----------------------------------------------------------------------------
+# COMPILED AND GENERATED FILES
+# ----------------------------------------------------------------------------
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+*.ko
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+*.sage.py
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# .NET compiled files
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# C/C++ compiled files
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+
+# ----------------------------------------------------------------------------
+# PACKAGE AND DISTRIBUTION ARTIFACTS
+# ----------------------------------------------------------------------------
+
+# Archive formats
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# Package formats
+*.deb
+*.rpm
+*.msi
+*.dmg
+*.pkg
+*.app
+*.whl
+*.egg
+
+# ----------------------------------------------------------------------------
+# BUILD SYSTEM ARTIFACTS AND CACHE
+# ----------------------------------------------------------------------------
+
+# Build cache directories
+.cache/
+.parcel-cache/
+.pnpm-store/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+node_modules/.cache/
+node_modules/.pnpm-store/
+
+# Framework-specific build outputs
+.next/
+.nuxt/
+.gatsby/
+.storybook-out/
+storybook-static/
+.docusaurus/
+.serverless/
+.fusebox/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ----------------------------------------------------------------------------
+# DEVELOPMENT BUILD ARTIFACTS
+# ----------------------------------------------------------------------------
+
+# Python development artifacts
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+site/
+wheels/
+share/python-wheels/
+
+# ============================================================================
+# BUILD ARTIFACTS MANAGEMENT NOTES
+# ============================================================================
+
+# BUILD ARTIFACTS:
+# - Build directories contain generated code and should not be versioned
+# - Distribution artifacts can be regenerated from source code
+# - Compiled files are platform/architecture specific
+
+# CACHE DIRECTORIES:
+# - Cache directories speed up builds but are not necessary for version control
+# - Cache contents are temporary and can be regenerated
+# - Different developers may have different cache contents
+
+# FRAMEWORK-SPECIFIC OUTPUTS:
+# - Framework build outputs are generated from source code
+# - These directories often contain optimized/minified code
+# - Should be regenerated during the build process
+
+# PERFORMANCE CONSIDERATIONS:
+# - Build artifacts can be large and slow down Git operations
+# - Generated files should be excluded from version control
+# - Use .gitignore patterns to keep repositories clean and fast
+
+# REPRODUCIBLE BUILDS:
+# - Source code should be the single source of truth
+# - Build artifacts should be reproducible from source
+# - Always include build instructions in documentation
+
+# ============================================================================
+# END OF BUILD ARTIFACTS PATTERNS
+# ============================================================================
+

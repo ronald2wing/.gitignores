@@ -1,0 +1,45 @@
+# Template from gitignores.com - Online .gitignore generator
+# Java Language
+
+# Compiled class files and archives
+*.class
+*.ctxt
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+# Build directories and tools
+.gradle/
+.mtj.tmp/
+.mvn/
+.sonar/
+build/
+dist/
+target/
+
+# Build tool executables
+mvnw
+mvnw.cmd
+
+# Test reports and coverage
+.jacoco/
+checkstyle-result.xml
+javadoc/
+TEST-*.xml
+
+# Java Virtual Machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Important exceptions (files that should be committed)
+# Note: These patterns allow specific important files to be committed
+# even if they would otherwise be ignored by broader patterns
+# Gradle wrapper JAR (should be committed for reproducible builds)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven wrapper JAR (should be committed for reproducible builds)
+!mvn/wrapper/maven-wrapper.jar

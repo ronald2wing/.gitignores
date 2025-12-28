@@ -1,0 +1,177 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# SECURITY GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding security-sensitive files.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# SECURITY AND ENVIRONMENT FILES
+# ----------------------------------------------------------------------------
+
+# Certificate and key files
+*.cert
+*.crt
+*.key
+*.pem
+*.priv
+*.pfx
+*.p12
+*.der
+*.cer
+*.jks
+*.keystore
+*.truststore
+*.p7b
+*.p7c
+*.spc
+*.crl
+*.csr
+*.req
+
+# Environment and configuration files
+.env
+.env.*
+.env.*.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.test
+.env.test.local
+.env.staging
+.env.staging.local
+.env.qa
+.env.qa.local
+.env.demo
+.env.demo.local
+
+.secret
+.secrets
+.secret.*
+.secrets.*
+.config
+.config.*
+.local
+.local.*
+
+# Local configuration files
+config/local.*
+config/secret.*
+config/credentials.*
+config/*.local.*
+credentials.*
+local.*
+local-*
+local_*
+local.config.*
+settings.local.*
+secrets.local.*
+credentials.local.*
+
+# SSH and authentication files
+*.pub
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.asc
+*.gpg
+*.pgp
+ssh_config
+ssh_known_hosts
+known_hosts
+authorized_keys
+.ssh/
+.ssh/known_hosts
+.ssh/authorized_keys
+.ssh/config
+.ssh/id_*
+
+# Password and credential files
+*.passwd
+*.password
+*.pwd
+passwd
+password
+pwd
+*.cred
+*.creds
+credential*
+*.token
+*.auth
+*.authz
+*.acl
+
+# Database credentials and dumps
+*.sql
+*.sqlite
+*.sql.gz
+*.sql.bz2
+*.sql.xz
+*.dump
+*.backup
+*.bak
+*.db
+*.db-journal
+*.mdb
+*.accdb
+*.frm
+*.myd
+*.myi
+*.ibd
+
+# Application secrets
+*.secret
+*.secrets
+secret*
+secrets*
+*.private
+private*
+*.confidential
+confidential*
+
+# Cloud provider configuration
+.aws/
+aws.yml
+aws.yaml
+aws.json
+aws.config
+.azure/
+azure.yml
+azure.yaml
+azure.json
+azure.config
+.gcloud/
+gcloud.yml
+gcloud.yaml
+gcloud.json
+gcloud.config
+
+# ============================================================================
+# SECURITY NOTES AND BEST PRACTICES
+# ============================================================================
+
+# CRITICAL SECURITY NOTES:
+# - Environment files (.env, .env.*) MUST be ignored - they contain API keys, database passwords, and other secrets
+# - Security files (*.pem, *.key, *.crt) MUST be ignored - they contain cryptographic keys and certificates
+# - Database configuration files with passwords MUST be ignored
+# - Cloud provider configuration files with access keys MUST be ignored
+
+# DEVELOPMENT BEST PRACTICES:
+# - Use environment variables for sensitive data in production
+# - Store secrets in secure secret management systems (AWS Secrets Manager, HashiCorp Vault, etc.)
+# - Use .env.example or .env.sample files to document required environment variables
+# - Never commit actual secrets to version control
+
+# PRODUCTION DEPLOYMENT:
+# - Environment variables should be set in the deployment environment
+# - Secrets should be injected at runtime, not stored in files
+# - Configuration should be managed through infrastructure as code or configuration management
+
+# ============================================================================
+# END OF SECURITY PATTERNS
+# ============================================================================
+

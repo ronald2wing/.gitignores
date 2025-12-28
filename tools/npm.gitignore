@@ -1,0 +1,96 @@
+# Template from gitignores.com - Online .gitignore generator
+# npm / yarn Package Manager
+# Patterns for npm, yarn, pnpm, and Bun package managers
+
+# ============================================================================
+# PACKAGE MANAGER-SPECIFIC PATTERNS
+# ============================================================================
+# This template contains package manager-specific patterns. For comprehensive coverage,
+# combine with appropriate common patterns from the common/ directory.
+
+# ----------------------------------------------------------------------------
+# Package Manager Configuration Files
+# ----------------------------------------------------------------------------
+# Package manager configuration and environment files
+.npmrc
+.pnpmfile.js
+.yarnrc
+
+# ----------------------------------------------------------------------------
+# Package Manager Specific Directories
+# ----------------------------------------------------------------------------
+# Package manager-specific directories and storage
+.bun/
+.npm-cache/
+.pnpm-store/
+.yarn-cache/
+npm-scripts/
+
+# ----------------------------------------------------------------------------
+# Package Manager Scripts and Tools
+# ----------------------------------------------------------------------------
+# Package manager scripts and development tools
+# npm-scripts/ directory for custom npm scripts
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# IMPORTANT: This template focuses ONLY on package manager-specific patterns.
+# For comprehensive coverage, ALWAYS combine with appropriate common patterns:
+
+# 1. Security and environment files (CRITICAL for security):
+#    cat common/security.gitignore tools/npm.gitignore > .gitignore
+
+# 2. Dependency management (ESSENTIAL for all package manager projects):
+#    cat common/dependencies.gitignore tools/npm.gitignore > .gitignore
+
+# 3. Build artifacts (IMPORTANT for build outputs):
+#    cat common/build.gitignore tools/npm.gitignore > .gitignore
+
+# 4. Testing and quality tools (RECOMMENDED for test outputs):
+#    cat common/testing.gitignore tools/npm.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL for editor files):
+#    cat ides/vscode.gitignore tools/npm.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files (RECOMMENDED for package manager logs):
+#    cat common/logs.gitignore tools/npm.gitignore > .gitignore
+
+# Recommended comprehensive setup for package manager projects:
+# cat common/security.gitignore common/dependencies.gitignore common/logs.gitignore tools/npm.gitignore > .gitignore
+
+# ============================================================================
+# PATTERNS REMOVED TO COMMON FILES
+# ============================================================================
+# The following patterns have been moved to common files to avoid duplication:
+# - .env, .env.*.local, .env.local, .env.production → common/environment.gitignore
+# - .npm, .pnp.*, .yarn-integrity, .yarn/* → common/dependencies.gitignore
+# - bower_components/, jspm_packages/, node_modules/, web_modules/ → common/dependencies.gitignore
+# - .cache/, .dynamodb/, .fusebox/, .nyc_output/, .parcel-cache/ → common/dependencies.gitignore
+# - .rpt2_cache/, .rts2_cache_*, .serverless/ → common/dependencies.gitignore
+# - .eslintcache, .grunt, .lock-wscript, .node_repl_history, .stylelintcache, .tern-port, .vscode-test/ → common/dependencies.gitignore
+# - *.lcov, *.pid, *.pid.lock, *.seed, *.tar.gz, *.tgz, *.tsbuildinfo → common/logs.gitignore
+# - lerna-debug.log*, npm-debug.log*, pnpm-debug.log*, yarn-debug.log*, yarn-error.log* → common/logs.gitignore
+# - *.temp, *.tmp, .temp/, temp/, tmp/ → common/logs.gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on npm, yarn, pnpm, and Bun official documentation
+# Additional patterns from package manager community best practices
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses EXCLUSIVELY on package manager-specific patterns
+# - Common patterns are now in the common/ directory to avoid duplication
+# - ALWAYS combine with appropriate common patterns for your project
+# - Review and customize for your specific project needs
+
+# IMPORTANT BEST PRACTICES:
+# - Lock files (package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb) SHOULD be tracked
+# - Project-specific config files (.npmrc, .yarnrc) SHOULD be tracked
+# - Environment files (.env, .env.*) MUST be ignored (contain secrets)
+# - Dependency directories can be reinstalled from package manager files
+# - Cache directories can be regenerated and should be ignored

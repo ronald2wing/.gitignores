@@ -1,0 +1,39 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Grunt intermediate storage
+.grunt/
+
+# Grunt temporary files
+*.temp
+*.tmp
+
+# Grunt logs
+grunt.log
+
+# Grunt reports
+grunt-report-*.html
+
+# Grunt configuration backups
+Gruntfile.coffee~
+Gruntfile.js~
+
+# Grunt plugins directory
+node_modules/grunt-*/
+
+# Grunt tasks directory (except .gitkeep)
+!tasks/.gitkeep
+tasks/
+
+# Grunt test coverage
+.nyc_output
+coverage/
+
+# TypeScript build info (if using TypeScript with Grunt)
+*.tsbuildinfo
+
+# Note: Grunt is a JavaScript task runner and build system
+# For framework-specific patterns, see the respective framework templates
+# For package manager patterns, see npm.gitignore and yarn.gitignore
+# For build output patterns (build/, dist/, lib/, etc.), see framework or build tool templates
+# For dependency directories (node_modules/), see npm.gitignore or yarn.gitignore
+# For lock files (package-lock.json, yarn.lock, etc.), these should be tracked, not ignored

@@ -1,0 +1,82 @@
+# Template from gitignores.com - Online .gitignore generator
+# PHP Programming Language
+# Patterns for PHP projects and general PHP development
+
+# Compiled files
+*.class
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+# PHP dependencies
+vendor/
+
+# PHP cache directories
+.cache/
+.pdepend/
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+
+# PHP logs
+php_errors.log
+xdebug.log
+
+# PHP environment files
+.env
+.env.*.local
+.env.local
+.env.production
+
+# PHP built-in web server
+.php-built-in-web-server.pid
+
+# PHP testing and coverage
+behat.yml
+coverage/
+
+# PHP documentation
+docs/
+phpdoc/
+
+# PHP temporary files
+tmp/
+
+# PHP uploads directory
+uploads/
+
+# PHP var directories (keep structure)
+!var/cache
+!var/cache/.gitkeep
+!var/logs
+!var/logs/.gitkeep
+!var/sessions
+!var/sessions/.gitkeep
+var/
+var/cache/*
+var/logs/*
+var/sessions/*
+
+# PHP session files
+sess_*
+
+# Note: For framework-specific patterns, use the appropriate framework template:
+# - WordPress: frameworks/wordpress.gitignore
+# - Drupal: frameworks/drupal.gitignore
+# - Joomla: frameworks/joomla.gitignore
+# - Symfony: frameworks/symfony.gitignore
+# - Laravel: frameworks/laravel.gitignore
+# - CakePHP: Check frameworks/ directory for CakePHP template

@@ -1,0 +1,67 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Ruby gems and packages
+*.gem
+.bundle/
+vendor/bundle/
+
+# Ruby version manager files
+.rbenv-version
+.ruby-version
+.rvmrc
+
+# Ruby documentation
+.yardoc/
+_yardoc/
+doc/
+
+# Ruby compiled extensions
+*.a
+*.bundle
+*.o
+*.so
+
+# Ruby logs
+.byebug_history
+log/
+log/*
+spring/*.pid
+
+# Ruby temporary files
+.cache/
+tmp/
+tmp/*
+tmp/pids/*
+
+# Ruby environment files
+.env
+.env.*.local
+.env.development
+.env.local
+.env.production
+.env.test
+
+# Ruby configuration files
+config/credentials/*.key
+config/database.yml
+config/master.key
+
+# Ruby test and coverage reports
+coverage/
+spec/reports
+test/reports
+
+# Ruby assets and packs
+public/assets
+public/packs
+public/packs-test
+
+# Ruby storage
+!storage/.keep
+storage/*
+
+# Ruby logs and temp directories (keep structure)
+!log/.keep
+!tmp/.keep
+!tmp/pids/
+!tmp/pids/.keep

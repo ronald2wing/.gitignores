@@ -1,0 +1,92 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Composer vendor directory
+vendor/
+
+# Composer cache directories
+.cache/composer/
+.composer/
+~/.composer/
+~/.config/composer/
+
+# Composer temporary files
+*.temp
+*.tmp
+
+# Composer logs
+composer.log
+
+# Composer configuration backups
+.backup/
+.bak/
+composer.json.backup
+composer.json.bak
+
+# Composer autoload files
+vendor/autoload.php
+vendor/composer/
+
+# Composer installed.json
+vendor/composer/installed.json
+
+# Composer packages directory
+packages/
+
+# Composer environment files
+.env
+.env.local
+.env.production
+
+# Composer deployment files
+.deploy/
+.deployment/
+
+# Composer test files and coverage
+coverage/
+tests/_output/
+tests/_support/_generated/
+
+# Composer PHPUnit cache
+.phpunit.result.cache
+
+# Composer PHP CS Fixer cache
+.php-cs-fixer.cache
+
+# Composer PHPStan cache
+.phpstan.cache
+.phpstan/
+
+# Composer Psalm cache
+.psalm.cache
+.psalm/
+
+# Composer PHPMD cache
+.phpmd.cache
+.phpmd/
+
+# Composer PHPCPD cache
+.phpcpd.cache
+.phpcpd/
+
+# Composer PHPLOC cache
+.phploc.cache
+.phploc/
+
+# Composer PHPCS cache
+.phpcs.cache
+.phpcs/
+
+# Composer PHPDox cache
+.phpdox.cache
+.phpdox/
+
+# Composer PHPInsights cache
+.phpinsights.cache
+.phpinsights/
+
+# Composer Infection cache
+.infection.cache
+.infection/
+
+# Composer coveralls configuration
+.coveralls.yml

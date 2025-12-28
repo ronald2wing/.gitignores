@@ -1,0 +1,32 @@
+# Template from gitignores.com - Online .gitignore generator
+# Dart Language
+
+# Generated Dart files
+*.freezed.dart
+*.g.dart
+*.gr.dart
+
+# Build and tool directories
+.build/
+.dart_tool/
+build/
+
+# Package management files
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# Test coverage directories
+coverage/
+test/coverage/
+
+# Flutter-specific files (if using Flutter)
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter/
+.flutter_tool.state
+.fvm/
+
+# Test tool directories
+test/.dart_tool/

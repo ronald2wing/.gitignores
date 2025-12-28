@@ -1,0 +1,58 @@
+# Template from gitignores.com - Online .gitignore generator
+# Express.js Framework
+# Based on official Express.js generator .gitignore: https://github.com/expressjs/generator
+
+# Dependencies
+node_modules/
+
+# Debug logs
+npm-debug.log
+
+# Additional Express.js patterns
+# Log files
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+out/
+
+# Cache directories
+.cache/
+.nyc_output/
+
+# Test coverage
+coverage/
+lib-cov/
+
+# Process IDs
+*.pid
+pids/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# TypeScript declaration files
+typings/
+
+# Additional common patterns (available in common/ directory):
+# - Package manager files: yarn.lock, pnpm-lock.yaml, .npm/, .yarn/
+# - TypeScript: *.tsbuildinfo
+# - Cache directories: .eslintcache, .fusebox/, .grunt, .lock-wscript, .node_repl_history, .parcel-cache, .rpt2_cache/, .rts2_cache_*/, .serverless/, .tern-port, .vscode-test/
+# - Debug logs: yarn-debug.log*, yarn-error.log*, lerna-debug.log*

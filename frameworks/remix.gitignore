@@ -1,0 +1,73 @@
+# Template from gitignores.com - Online .gitignore generator
+# Remix Framework
+
+# Log files
+*.lcov
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+lerna-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache directories
+.cache/
+.dynamodb/
+.eslintcache
+.fusebox/
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+.nyc_output
+.parcel-cache/
+.pnp.*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.tern-port
+.vscode-test
+.yarn-integrity
+.yarn/build-state.yml
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/unplugged
+
+# Framework build outputs
+.build/
+.next
+.nuxt
+.vuepress/dist
+
+# Environment configuration files
+.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+
+# Dependency directories
+bower_components
+jspm_packages/
+node_modules/
+web_modules/
+
+# Build and distribution directories
+build/Release
+dist/
+lib-cov/
+public/build/
+
+# Test coverage and reports
+coverage/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data and logs
+logs/
+pids/

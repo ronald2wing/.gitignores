@@ -1,0 +1,87 @@
+# Template from gitignores.com - Online .gitignore generator
+# Cypress Testing Framework
+
+# Cypress test results
+cypress/artifacts/
+cypress/test-results/
+
+# Cypress fixtures (generated)
+cypress/fixtures/__generated__/
+cypress/fixtures/__output__/
+
+# Cypress support files (generated)
+cypress/support/__generated__/
+cypress/support/commands/__generated__/
+
+# Cypress plugins (generated)
+cypress/plugins/__generated__/
+
+# Cypress temporary files
+cypress/temp/
+cypress/tmp/
+cypress/tmp/cookies/
+cypress/tmp/sessions/
+cypress/tmp/storage/
+
+# Cypress logs
+cypress/logs/
+
+# Cypress configuration backups
+cypress.config.js.bak
+cypress.config.ts.bak
+cypress.env.json.bak
+cypress.json.bak
+
+# Cypress coverage reports
+cypress/.nyc_output/
+cypress/coverage/
+
+# Cypress TypeScript definitions (generated)
+cypress/types/__generated__/
+
+# Cypress snapshots
+cypress/__snapshots__/
+cypress/snapshots/
+
+# Cypress visual regression tests
+cypress/visual-regression/
+cypress/visual/
+
+# Cypress performance tests
+cypress/performance/
+
+# Cypress parallel test runs
+cypress/parallel/
+
+# Cypress custom reporters output
+cypress/reporters/
+cypress/reports/
+
+# Cypress environment files
+cypress/.env
+cypress/.env.cypress
+cypress/.env.test
+
+# Cypress mock files
+cypress/__mocks__/__generated__/
+cypress/mocks/__generated__/
+
+# Cypress test databases
+cypress/database/
+cypress/db/
+
+# Cypress test caches
+cypress/.cache/
+cypress/cache/
+
+# Cypress test sessions
+cypress/sessions/
+
+# Cypress test cookies
+cypress/cookies/
+
+# Cypress test storage
+cypress/storage/
+
+# Cypress workers
+cypress/workers/

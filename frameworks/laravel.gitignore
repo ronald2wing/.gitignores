@@ -1,0 +1,71 @@
+# Template from gitignores.com - Online .gitignore generator
+# Laravel PHP Framework
+# Based on official Laravel .gitignore: https://github.com/laravel/laravel
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build and cache directories
+.phpunit.cache
+.phpunit.result.cache
+.phpactor.json
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+bootstrap/cache/
+public/build/
+public/hot/
+
+# Storage directories (except public storage)
+storage/*.key
+storage/pail/
+
+# Laravel-specific files
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Debug logs
+npm-debug.log
+yarn-error.log
+
+# IDE files
+.fleet/
+.idea/
+.nova/
+.vscode/
+.zed/
+
+# Laravel Package and Extension Directories
+.vapor/
+blueprint/
+nova-components/
+platform/
+spark/
+telescope/
+vendor/encore/laravel-admin/
+vendor/frozennode/administrator/
+vendor/lacasts/generators/
+vendor/tcg/voyager/
+
+# Additional Laravel patterns
+horizon.pid
+octane-state.json
+docker-compose.override.yml
+
+# Testing directories
+tests/Browser/console/
+tests/Browser/screenshots/
+tests/Browser/source/
+
+# Additional common patterns (available in common/ directory):
+# - Log files: *.log, logs/
+# - Cache directories: .cache/, .php-cs-fixer.cache
+# - Build artifacts: dist/, build/, target/
+# - System files: .DS_Store, Thumbs.db

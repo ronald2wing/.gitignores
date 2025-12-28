@@ -1,0 +1,44 @@
+# Template from gitignores.com - Online .gitignore generator
+# GitHub Actions CI/CD Platform
+# Patterns for GitHub Actions workflows, artifacts, and automation
+
+# GitHub Actions Workflows
+.github/workflows/*.yml
+.github/workflows/*.yaml
+.github/actions/
+.github/cache/
+.github/artifacts/
+.github/packages/
+.github/security/
+
+# GitHub Configuration and Automation
+.github/dependabot.yml
+.github/dependabot/
+.github/CODEOWNERS
+.github/SECURITY.md
+.github/SUPPORT.md
+
+# GitHub Templates
+.github/ISSUE_TEMPLATE/
+.github/PULL_REQUEST_TEMPLATE/
+
+# Specific Workflow Types (can be customized)
+.github/workflows/backup-*
+.github/workflows/cache-*
+.github/workflows/deploy-*
+.github/workflows/test-*
+.github/workflows/lint-*
+.github/workflows/build-*
+.github/workflows/release-*
+.github/workflows/security-*
+.github/workflows/dependency-*
+.github/workflows/coverage-*
+.github/workflows/benchmark-*
+
+# Notes:
+# GitHub Actions workflows (.yml/.yaml files) define CI/CD pipelines
+# These files should typically be tracked in version control
+# Cache, artifacts, and packages directories contain generated files
+# Dependabot configuration helps manage dependency updates
+# CODEOWNERS and template files are configuration and should be tracked
+

@@ -1,0 +1,36 @@
+# Template from gitignores.com - Online .gitignore generator
+# AWS CodeBuild CI/CD Service
+# Patterns for AWS CodeBuild configurations, artifacts, and logs
+
+# AWS CodeBuild Configuration
+.buildspec.yml
+.buildspec-*.yml
+
+# AWS CodeBuild Directories
+.codebuild/
+codebuild/
+aws-codebuild/
+
+# AWS CodeBuild Cache and Artifacts
+.codebuild-cache/
+.codebuild-artifacts/
+
+# AWS CodeBuild Logs and Reports
+.codebuild-logs/
+.codebuild-reports/
+
+# AWS CodeBuild Testing and Coverage
+.codebuild-test/
+.codebuild-coverage/
+
+# AWS CodeBuild Deployment and Release
+.codebuild-deploy/
+.codebuild-release/
+
+# Notes:
+# AWS CodeBuild configuration (.buildspec.yml) defines build specifications
+# This file should typically be tracked in version control
+# Cache, artifacts, and logs contain generated files
+# Test results and coverage reports are generated during builds
+# Deployment artifacts are output from build processes
+

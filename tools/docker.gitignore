@@ -1,0 +1,112 @@
+# Template from gitignores.com - Online .gitignore generator
+# Docker Containerization Platform
+# Patterns for Docker development, container management, and orchestration
+
+# ============================================================================
+# DOCKER-SPECIFIC PATTERNS
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Configuration and Metadata Files
+# ----------------------------------------------------------------------------
+# Docker configuration files and metadata
+.docker/
+.dockerenv
+.dockerignore
+.dockerpass
+.dockertmp/
+
+# ----------------------------------------------------------------------------
+# Docker Compose Configuration
+# ----------------------------------------------------------------------------
+# Docker Compose configuration files and overrides
+docker-compose.*
+docker-compose.*.yml
+docker-compose.override.yml
+docker-compose.yml
+docker-compose.yml.bak
+docker-stack.yml
+
+# ----------------------------------------------------------------------------
+# Dockerfile Definitions
+# ----------------------------------------------------------------------------
+# Dockerfile definitions and build scripts
+Dockerfile
+Dockerfile.*
+Dockerfile.bak
+
+# ----------------------------------------------------------------------------
+# Runtime Files and Process Logs
+# ----------------------------------------------------------------------------
+# Docker runtime files and process management
+docker.log
+docker.pid
+docker.sock
+
+# ----------------------------------------------------------------------------
+# Volume Management and Storage
+# ----------------------------------------------------------------------------
+# Docker volume management and storage artifacts
+docker-volume-backup.*
+docker-volume-restore.*
+docker-volume-snapshot.*
+docker-volumes*/
+
+# ----------------------------------------------------------------------------
+# Secrets and Sensitive Data
+# ----------------------------------------------------------------------------
+# Docker secrets and sensitive data management
+secrets/
+volumes/
+
+# ----------------------------------------------------------------------------
+# Container Orchestration Artifacts
+# ----------------------------------------------------------------------------
+# Container orchestration and deployment artifacts
+# Docker Compose: Service definitions and overrides
+# Docker Stack: Swarm mode stack definitions
+# Docker Secrets: Sensitive configuration data
+# Docker Volumes: Persistent storage management
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# For comprehensive coverage, consider combining this template with common patterns:
+
+# 1. Security and environment files:
+#    cat common/security.gitignore tools/docker.gitignore > .gitignore
+
+# 2. Build artifacts:
+#    cat common/build.gitignore tools/docker.gitignore > .gitignore
+
+# 3. Log files:
+#    cat common/logs.gitignore tools/docker.gitignore > .gitignore
+
+# 4. Testing and quality tools:
+#    cat common/testing.gitignore tools/docker.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL):
+#    cat ides/vscode.gitignore tools/docker.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. CI/CD configurations (OPTIONAL):
+#    cat tools/github_actions.gitignore tools/docker.gitignore > .gitignore
+#    (or use other specific CI/CD templates from tools/ directory)
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on Docker community best practices and official documentation
+# Additional patterns from Docker Compose and container orchestration tools
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses on Docker-specific patterns
+# - Common patterns (.env, *.log, build/, etc.) are included for convenience
+# - For production projects, combine with appropriate common patterns
+# - Always review and customize for your specific project needs
+# - Docker configuration files (.docker/, docker-compose.*) should be ignored if generated
+# - Docker secrets and sensitive data (secrets/, volumes/) should always be ignored
+# - Docker runtime files (docker.sock, docker.pid) are system-specific and should be ignored
+# - Docker build artifacts (Dockerfile.bak, docker-compose.yml.bak) are temporary and should be ignored

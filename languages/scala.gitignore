@@ -1,0 +1,33 @@
+# Template from gitignores.com - Online .gitignore generator
+# Scala Programming Language
+
+# Compiled class files
+*.class
+
+# Log file
+.history/
+
+# sbt specific
+.bloop/
+.cache/
+.lib/
+.scala_dependencies
+lib_managed/
+project/boot/
+project/plugins/project/
+src_managed/
+target/
+
+# Scala-IDE specific
+.worksheet
+
+# ENSIME specific
+.ensime
+.ensime_cache/
+.ensime_lucene/
+
+# Metals specific
+.metals/
+
+# Distribution files
+dist/*

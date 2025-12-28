@@ -1,0 +1,122 @@
+# Template from gitignores.com - Online .gitignore generator
+# Make Build Tool
+
+# Make build artifacts
+*.a
+*.d
+*.dll
+*.dylib
+*.exe
+*.o
+*.obj
+*.so
+bin/
+build/
+dist/
+obj/
+out/
+pkg/
+target/
+
+# Make temporary files
+*.temp
+*.tmp
+.cache/make/
+.make/
+test-output/
+test-results/
+
+# Make logs
+make.log
+
+# Make configuration backups
+*.mk.bak
+GNUmakefile.bak
+Makefile.bak
+makefile.bak
+
+# Make dependency files
+.dependencies/
+.deps/
+
+# Make install directories
+install/
+installed/
+
+# Make package directories
+packages/
+
+# Make test results
+# (already covered in Make temporary files section)
+
+# Make coverage reports
+.gcov/
+coverage/
+
+# Make documentation
+doc/
+docs/
+man/
+manual/
+
+# Make examples
+demo/
+demos/
+example/
+examples/
+
+# Make backup files
+.backup/
+.bak/
+
+# Make environment files
+.bash
+.env
+.env.build
+.env.make
+.fish
+.sh
+.zsh
+
+# Make deployment files
+.deploy/
+.deployment/
+
+# Make lock files
+.lock
+.lockfile
+
+# Make state files
+.state
+.status
+
+# Make timestamp files
+.timestamp
+.timestamps
+
+# Make hash files
+.hash
+.hashes
+.md5
+.sha1
+.sha256
+.sha512
+
+# Make signature files
+.sig
+.signature
+
+# Make checksum files
+.checksum
+
+# Make archive files
+.7z
+.rar
+.tar
+.tar.gz
+.tgz
+.zip
+
+# Make patch files
+.diff
+.patch

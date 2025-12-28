@@ -1,0 +1,43 @@
+# Template from gitignores.com - Online .gitignore generator
+# GitLab CI/CD Platform
+# Patterns for GitLab CI pipelines, artifacts, and automation
+
+# GitLab CI Configuration
+.gitlab-ci.yml
+.gitlab/ci/
+
+# GitLab Templates and Configuration
+.gitlab/merge_request_templates/
+.gitlab/issue_templates/
+.gitlab/CODEOWNERS
+.gitlab/security/
+
+# GitLab Artifacts and Cache
+.gitlab/artifacts/
+.gitlab/cache/
+
+# GitLab Pages and Deployment
+.gitlab/pages/
+
+# GitLab Runners and Infrastructure
+.gitlab/runners/
+
+# GitLab Registries
+.gitlab/container_registry/
+.gitlab/package_registry/
+
+# GitLab Infrastructure as Code
+.gitlab/terraform/
+
+# GitLab Variables and Configuration
+.gitlab/variables/
+.gitlab/triggers/
+.gitlab/schedules/
+
+# Notes:
+# GitLab CI configuration (.gitlab-ci.yml) defines CI/CD pipelines
+# This file should typically be tracked in version control
+# Artifacts, cache, and registry directories contain generated files
+# Templates and configuration files should be tracked
+# Runner configurations and variables may contain sensitive information
+

@@ -1,0 +1,57 @@
+# Template from gitignores.com - Online .gitignore generator
+# Spring Boot Framework
+# Compiled class files
+*.class
+*.ctxt
+
+# Package files
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+# Build and distribution directories
+**/target/
+**/test-output/
+**/test-results/
+build/
+target/
+
+# Log files
+heapdump.hprof
+hs_err_pid*
+logs/
+
+# Build tool files
+.factorypath
+.gradle/
+.mtj.tmp/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.spring-devtools.properties
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+
+# Spring Boot configuration files
+**/application-*.properties
+**/application-*.yml
+**/application.properties
+**/application.yml
+
+# Exceptions (files that should NOT be ignored)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Framework-specific patterns
+# Spring Boot Actuator: health check endpoints and metrics
+# Spring Boot DevTools: development tools configuration
+# Spring Boot Logging: logback configuration and logs
+# Spring Boot Test: test output and results
+# Spring Boot Packaging: executable JAR/WAR files

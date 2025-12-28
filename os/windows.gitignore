@@ -1,0 +1,24 @@
+# Template from gitignores.com - Online .gitignore generator
+# Windows Operating System
+# Windows thumbnail cache files
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# Windows system files and directories
+$RECYCLE.BIN/
+[Dd]esktop.ini
+
+# Windows installer and package files
+*.cab
+*.lnk
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows error reporting and dump files
+*.stackdump
+*.wdget
+WerFault*.dmp

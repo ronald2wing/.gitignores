@@ -1,0 +1,87 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Drupal CMS - Comprehensive .gitignore template
+
+# Drupal files directories (user-generated content)
+!sites/*/files/.gitkeep
+sites/*/files/
+
+# Drupal private files directory
+sites/*/private/
+
+# Drupal configuration files
+sites/*/settings.local.php
+sites/*/settings.php
+
+# Drupal temporary directories
+sites/*/tmp/
+
+# Drupal cache directories
+sites/*/cache/
+
+# Drupal log files
+*.log
+sites/*/logs/
+
+# Drupal backup files
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Drupal development artifacts
+*.code-workspace
+*.sublime-*
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Drupal compiled assets
+css/
+js/
+libraries/
+
+# Drupal vendor directories (if using Composer)
+vendor/
+
+# Drupal test coverage
+coverage/
+
+# Drupal temporary files
+*.temp
+*.tmp
+.tmp/
+temp/
+
+# PHP-specific patterns (since Drupal is PHP-based)
+.cache/
+.env
+.env.*.local
+.env.local
+.env.production
+.pdepend/
+.php-built-in-web-server.pid
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+behat.yml
+composer.phar
+docs/
+php_errors.log
+phpdoc/
+sess_*
+uploads/
+xdebug.log

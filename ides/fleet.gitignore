@@ -1,0 +1,30 @@
+# Template from gitignores.com - Online .gitignore generator
+# Fleet IDE
+# Patterns for Fleet IDE configuration files and workspace data
+
+# Fleet IDE Configuration
+.fleet/
+
+# Fleet Workspace and Cache
+.fleet/workspace/
+.fleet/cache/
+
+# Fleet Configuration Files
+.fleet/settings.json
+.fleet/workspace.json
+
+# Fleet Extensions and Plugins
+.fleet/extensions/
+.fleet/plugins/
+
+# Fleet Logs and Diagnostics
+.fleet/logs/
+.fleet/diagnostics/
+
+# Notes:
+# Fleet is a lightweight IDE from JetBrains
+# Configuration files contain workspace settings and preferences
+# Cache directories contain generated data for performance
+# Extensions and plugins are installed per-user
+# Logs and diagnostics are temporary debugging information
+

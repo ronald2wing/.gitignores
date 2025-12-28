@@ -1,0 +1,67 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# TurboRepo - High-performance build system for JavaScript/TypeScript monorepos
+# https://turbo.build/repo
+
+# Turbo cache directory
+.turbo/
+
+# Turbo build outputs
+build/
+dist/
+out/
+
+# Node.js dependencies
+node_modules/
+
+# Turbo debug logs
+*.log
+turbo-*.log
+
+# Turbo temporary files
+*.temp
+*.tmp
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Turbo remote cache
+# Note: Remote cache configuration should be committed
+# but cache artifacts should not
+
+# Monorepo package manager files
+# (lock files should be committed for reproducible builds)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test coverage
+.nyc_output/
+coverage/
+
+# Runtime data
+*.pid
+*.pid.lock
+*.seed
+pids
+
+# Turbo specific patterns
+# These are common patterns for monorepos using Turbo

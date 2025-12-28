@@ -1,0 +1,60 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Bun - Fast all-in-one JavaScript runtime
+# https://bun.sh/
+
+# Bun cache directory
+.bun/
+
+# Bun install directory
+node_modules/
+
+# Bun lock file (optional - can be committed for reproducible builds)
+# bun.lockb
+
+# Bun build output
+build/
+dist/
+out/
+
+# Bun test coverage
+.nyc_output/
+coverage/
+
+# Bun debug logs
+*.log
+lerna-debug.log*
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.pid
+*.pid.lock
+*.seed
+pids
+
+# Temporary files
+*.temp
+*.tmp
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

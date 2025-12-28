@@ -1,0 +1,43 @@
+# Template from gitignores.com - Online .gitignore generator
+# Compiled output
+# Precompiled headers
+# Assembly output
+# Debug files
+# Kernel Module Compile Results
+# Temporary files
+# Core dumps
+# Shell history files
+# Shell configuration backups
+*.cmd
+*.core
+*.dSYM/
+*.elf
+*.gch
+*.idb
+*.ko
+*.mod*
+*.o
+*.obj
+*.pch
+*.pdb
+*.s
+*.S
+*.su
+*.swo
+*.swp
+*.temp
+*.tmp
+*~
+.bash_history
+.bashrc~
+.history
+.profile~
+.tmp_versions/
+.zsh_history
+.zshrc~
+core
+core.*
+dkms.conf
+Mkfile.old
+Module.symvers
+modules.order

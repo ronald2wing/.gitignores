@@ -1,0 +1,211 @@
+# Template from gitignores.com - Online .gitignore generator
+# Angular Framework
+# Based on official Angular .gitignore: https://github.com/angular/angular
+
+# ============================================================================
+# ANGULAR-SPECIFIC PATTERNS
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# System Files
+# ----------------------------------------------------------------------------
+# Operating system files and metadata
+.DS_STORE
+
+# ----------------------------------------------------------------------------
+# Build Output
+# ----------------------------------------------------------------------------
+# Angular build outputs and compilation artifacts
+/dist/
+/bazel-out
+/integration/bazel/bazel-*
+
+# ----------------------------------------------------------------------------
+# Dependency Directories
+# ----------------------------------------------------------------------------
+# Angular dependency directories and package management
+node_modules/
+modules/ssr-benchmarks/node_modules/
+
+# ----------------------------------------------------------------------------
+# Log Files
+# ----------------------------------------------------------------------------
+# Angular application and build logs
+*.log
+
+# ----------------------------------------------------------------------------
+# IDE Files
+# ----------------------------------------------------------------------------
+# IDE and development environment configurations
+.c9
+.idea/
+.devcontainer/*
+!.devcontainer/README.md
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+.settings/
+.vscode/settings.json
+
+# ----------------------------------------------------------------------------
+# Editor Files
+# ----------------------------------------------------------------------------
+# Text editor and IDE temporary files
+*.swo
+*.swp
+modules/.settings
+modules/.vscode
+.vimrc
+.nvimrc
+
+# ----------------------------------------------------------------------------
+# Secret Files
+# ----------------------------------------------------------------------------
+# Configuration files containing secrets
+*secret.js
+
+# ----------------------------------------------------------------------------
+# Debug Logs
+# ----------------------------------------------------------------------------
+# Package manager debug and error logs
+npm-debug.log
+yarn-error.log
+
+# ----------------------------------------------------------------------------
+# Build Analytics
+# ----------------------------------------------------------------------------
+# Build performance analytics data
+.build-analytics
+
+# ----------------------------------------------------------------------------
+# Rollup Test Output
+# ----------------------------------------------------------------------------
+# Rollup bundler test outputs
+/modules/rollup-test/dist/
+
+# ----------------------------------------------------------------------------
+# User-Specific Configuration
+# ----------------------------------------------------------------------------
+# User-specific development configurations
+.bazelrc.user
+.ng-dev.user*
+.notes.md
+
+# ----------------------------------------------------------------------------
+# Test Baselines
+# ----------------------------------------------------------------------------
+# Test baseline comparison files
+baseline.json
+
+# ----------------------------------------------------------------------------
+# VSCode Local History
+# ----------------------------------------------------------------------------
+# Visual Studio Code local history
+.history
+
+# ----------------------------------------------------------------------------
+# Husky Git Hooks
+# ----------------------------------------------------------------------------
+# Husky git hooks configuration
+.husky/_/
+
+# ----------------------------------------------------------------------------
+# Angular CLI Cache
+# ----------------------------------------------------------------------------
+# Angular CLI build and compilation cache
+.angular/
+
+# ----------------------------------------------------------------------------
+# Additional Angular Patterns
+# ----------------------------------------------------------------------------
+# Additional Angular-specific patterns
+pubspec.lock
+
+# ----------------------------------------------------------------------------
+# TypeScript Build Info
+# ----------------------------------------------------------------------------
+# TypeScript build information files
+*.tsbuildinfo
+
+# ----------------------------------------------------------------------------
+# Cache Directories
+# ----------------------------------------------------------------------------
+# Build system and development cache directories
+.cache/
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_*/
+
+# ----------------------------------------------------------------------------
+# Test Coverage
+# ----------------------------------------------------------------------------
+# Test coverage reports and outputs
+coverage/
+
+# ----------------------------------------------------------------------------
+# Environment Files
+# ----------------------------------------------------------------------------
+# Environment configuration files
+.env
+.env.local
+.env.production
+
+# ----------------------------------------------------------------------------
+# Package Manager Files
+# ----------------------------------------------------------------------------
+# Package manager cache and configuration
+# Note: package-lock.json, yarn.lock, and pnpm-lock.yaml should be tracked for reproducible builds
+.npm/
+.yarn/
+
+# ----------------------------------------------------------------------------
+# Build Artifacts
+# ----------------------------------------------------------------------------
+# General build artifacts and outputs
+build/
+out/
+target/
+.next/
+.nuxt/
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# For comprehensive coverage, consider combining this template with common patterns:
+
+# 1. Security and environment files:
+#    cat common/security.gitignore frameworks/angular.gitignore > .gitignore
+
+# 2. Dependency management:
+#    cat common/dependencies.gitignore frameworks/angular.gitignore > .gitignore
+
+# 3. Build artifacts:
+#    cat common/build.gitignore frameworks/angular.gitignore > .gitignore
+
+# 4. Testing and quality tools:
+#    cat common/testing.gitignore frameworks/angular.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL):
+#    cat ides/vscode.gitignore frameworks/angular.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files:
+#    cat common/logs.gitignore frameworks/angular.gitignore > .gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on official Angular .gitignore: https://github.com/angular/angular
+# Additional patterns from Angular CLI and community best practices
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses on Angular-specific patterns
+# - Common patterns (node_modules/, dist/, .env, etc.) are included for convenience
+# - For production projects, combine with appropriate common patterns
+# - Always review and customize for your specific project needs
+# - Build output directories (dist/, .angular/) should be ignored
+# - Dependency directories (node_modules/) should always be ignored
+# - Environment files (.env, .env.*) should be ignored as they may contain secrets
+# - IDE configurations (.vscode/, .idea/) can be ignored to avoid sharing personal settings
+# - Lock files (package-lock.json, yarn.lock) should generally be tracked for reproducible builds

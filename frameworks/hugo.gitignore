@@ -1,0 +1,67 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Hugo build output
+docs/_build/
+docs/_site/
+public/
+
+# Hugo cache and temporary files
+*.temp
+*.tmp
+.cache/
+resources/
+
+# Hugo logs
+hugo.log
+hugo_stats.json
+
+# Hugo configuration backups
+.backup/
+.bak/
+config.json.bak
+config.toml.bak
+config.yaml.bak
+config.yml.bak
+hugo.json.bak
+hugo.toml.bak
+hugo.yaml.bak
+hugo.yml.bak
+
+# Hugo generated files
+archetypes/__generated__/
+assets/__generated__/
+assets/css/__generated__/
+assets/images/__generated__/
+assets/js/__generated__/
+content/__generated__/
+data/__generated__/
+layouts/__generated__/
+static/__generated__/
+
+# Hugo modules cache
+_modules/
+
+# Hugo themes (downloaded)
+themes/*/
+
+# Hugo environment files
+.env
+.env.development
+.env.production
+
+# Hugo deployment files
+.deploy/
+.deployment/
+
+# Hugo test and benchmark files
+benchmark/
+benchmarks/
+test/
+tests/
+
+# Hugo example and documentation files
+example/
+examples/
+
+# Hugo node modules (if using Node.js with Hugo)
+node_modules/

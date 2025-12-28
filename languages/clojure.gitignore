@@ -1,0 +1,51 @@
+# Template from gitignores.com - Online .gitignore generator
+# Clojure Programming Language
+
+# Leiningen
+.lein-deps-sum
+.lein-failures
+.lein-plugins/
+.lein-repl-history
+
+# Boot
+.boot-cache/
+.boot/
+
+# Maven
+pom.xml
+pom.xml.asc
+
+# Gradle
+.gradle/
+
+# IntelliJ
+*.class
+*.jar
+
+# Cursive
+# Note: .calva/ is for VS Code Calva extension, not Cursive
+
+# Shadow CLJS
+.shadow-cljs/
+
+# Clojure CLI
+.cpcache/
+
+# Calva
+.calva/
+
+# Clojure build artifacts
+build/
+checkouts/
+classes/
+lib/
+target/
+
+# Clojure tools and utilities
+.clj-kondo/
+.cljstyle/
+.lsp/
+.nrepl-port
+
+# Logs
+log/

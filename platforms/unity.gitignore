@@ -1,0 +1,108 @@
+# Template from gitignores.com - Online .gitignore generator
+# Unity Game Engine
+# Patterns for Unity game development, including build artifacts, project files, and development tools
+
+# Build Outputs and Distribution Files
+*.aab
+*.apk
+*.app
+*.appimage
+*.dmg
+*.exe
+*.ipa
+*.msi
+*.x86
+*.x86_64
+build/
+Build/
+WebGL/
+WebGLBuild/
+
+# Library and Cache Directories
+.cache/
+library/
+Library/
+PackageCache/
+
+# Logs and Temporary Files
+*.temp
+*.tmp
+Logs/
+Temp/
+
+# User Preferences and Settings
+*.user
+*.userprefs
+EditorUserSettings.asset
+ProjectSettings.asset
+UserSettings/
+
+# Project Configuration
+packages/
+Packages/
+ProjectSettings/
+
+# Asset Store and External Assets
+Asset\ Store/
+AssetStore/
+
+# Generated Project Files
+*.csproj
+*.sln
+*.suo
+*.unityproj
+obj/
+
+# Platform-Specific Generated Files
+*.keystore
+*.xcode
+*.xcodeproj
+*.xcworkspace
+
+# Asset Management
+AddressableAssetsData/
+addressables/
+AssetBundles/
+assetbundles/
+StreamingAssets/
+streamingassets/
+
+# Localization and Analytics
+Analytics/
+analytics/
+Localization/
+localization/
+
+# Diagnostics and Performance
+CrashReports/
+crashreports/
+memorysnapshots/
+MemorySnapshots/
+performancereports/
+PerformanceReports/
+ProfilerData/
+profilerdata/
+
+# Backup and Version Control
+.backup/
+.bak/
+.vc/
+.version/
+
+# Collaboration and Cloud Services
+CloudBuild/
+cloudbuild/
+Collaborate/
+collaborate/
+
+# Multiplayer and Networking
+multiplayer/
+Multiplayer/
+Netcode/
+netcode/
+
+# Testing and Quality Assurance
+coveragereports/
+CoverageReports/
+TestResults/
+testresults/

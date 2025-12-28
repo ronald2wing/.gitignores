@@ -1,0 +1,113 @@
+# Template from gitignores.com - Online .gitignore generator
+# JavaScript Development
+# Patterns for JavaScript projects, including Node.js and browser-based development
+
+# ============================================================================
+# JAVASCRIPT-SPECIFIC PATTERNS
+# ============================================================================
+# This template contains JavaScript-specific patterns. For comprehensive coverage,
+# combine with appropriate common patterns from the common/ directory.
+
+# ----------------------------------------------------------------------------
+# JavaScript Runtime and Development Artifacts
+# ----------------------------------------------------------------------------
+# JavaScript-specific runtime files and development artifacts
+.node_repl_history
+.tern-port
+.vscode-test/
+lib-cov/
+pids/
+typings/
+
+# ----------------------------------------------------------------------------
+# JavaScript-Specific Build Outputs
+# ----------------------------------------------------------------------------
+# JavaScript-specific build directories and outputs
+build/Release/
+public/
+
+# ----------------------------------------------------------------------------
+# JavaScript Tool Configuration and Cache
+# ----------------------------------------------------------------------------
+# JavaScript development tool configuration and cache files
+.eslintcache
+.grunt
+.lock-wscript
+.stylelintcache
+
+# ----------------------------------------------------------------------------
+# Framework-Specific Development Artifacts
+# ----------------------------------------------------------------------------
+# Common JavaScript framework build and cache directories
+# Next.js: Build output and cache directories
+# Nuxt.js: Build and generate output
+# Gatsby: Build files and cache
+# Storybook: Build outputs
+# Docusaurus: Build outputs
+# Serverless: Deployment artifacts
+# DynamoDB: Local development files
+# FuseBox: Build system cache
+# TernJS: JavaScript analysis
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# IMPORTANT: This template focuses ONLY on JavaScript-specific patterns.
+# For comprehensive coverage, ALWAYS combine with appropriate common patterns:
+
+# 1. Security and environment files (CRITICAL for security):
+#    cat common/security.gitignore languages/javascript.gitignore > .gitignore
+
+# 2. Dependency management (ESSENTIAL for all JavaScript projects):
+#    cat common/dependencies.gitignore languages/javascript.gitignore > .gitignore
+
+# 3. Build artifacts (IMPORTANT for build outputs):
+#    cat common/build.gitignore languages/javascript.gitignore > .gitignore
+
+# 4. Testing and quality tools (RECOMMENDED for test outputs):
+#    cat common/testing.gitignore languages/javascript.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL for editor files):
+#    cat ides/vscode.gitignore languages/javascript.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files (RECOMMENDED for application logs):
+#    cat common/logs.gitignore languages/javascript.gitignore > .gitignore
+
+# Recommended comprehensive setup for JavaScript projects:
+# cat common/security.gitignore common/dependencies.gitignore common/build.gitignore languages/javascript.gitignore > .gitignore
+
+# ============================================================================
+# PATTERNS REMOVED TO COMMON FILES
+# ============================================================================
+# The following patterns have been moved to common files to avoid duplication:
+# - node_modules/, .npm, .pnp.*, .yarn/* → common/dependencies.gitignore
+# - .next/, .nuxt/, .storybook-out/, storybook-static/ → common/dependencies.gitignore
+# - .docusaurus, dist/, out/ → common/dependencies.gitignore
+# - .cache/, .fusebox/, .nyc_output/, .parcel-cache/ → common/dependencies.gitignore
+# - .rpt2_cache/, .rts2_cache_*, .serverless/ → common/dependencies.gitignore
+# - bower_components/, jspm_packages/ → common/dependencies.gitignore
+# - *.lcov, *.pid, *.pid.lock, *.seed, *.tgz, *.tsbuildinfo → common/logs.gitignore
+# - lerna-debug.log*, npm-debug.log*, yarn-debug.log*, yarn-error.log* → common/logs.gitignore
+# - coverage/ → common/testing.gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on JavaScript community best practices and official package manager documentation
+# Additional patterns from popular JavaScript framework repositories
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses EXCLUSIVELY on JavaScript-specific patterns
+# - Common patterns are now in the common/ directory to avoid duplication
+# - ALWAYS combine with appropriate common patterns for your project
+# - Review and customize for your specific project needs
+
+# IMPORTANT BEST PRACTICES:
+# - Lock files (package-lock.json, yarn.lock, pnpm-lock.yaml) SHOULD be tracked
+# - Environment files (.env, .env.*) MUST be ignored (contain secrets)
+# - Build artifacts should be regenerated from source, not versioned
+# - Dependency directories can be reinstalled from package manager files
+# - Test outputs and coverage reports can be regenerated

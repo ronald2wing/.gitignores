@@ -1,0 +1,25 @@
+# Template from gitignores.com - Online .gitignore generator
+# Vite Build Tool
+
+# Vite-specific directories and files
+.vite/
+node_modules/.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Vite cache directories
+.cache/
+
+# Temporary files
+*.temp
+*.tmp
+
+# TypeScript build information
+*.tsbuildinfo
+
+# Note: Vite is a modern build tool for web development
+# For framework-specific patterns, see the respective framework templates
+# For package manager patterns, see npm.gitignore and yarn.gitignore
+# For build output patterns (build/, dist/, lib/, etc.), see framework or build tool templates
+# For dependency directories (node_modules/), see npm.gitignore or yarn.gitignore
+# For lock files (package-lock.json, yarn.lock, etc.), these should be tracked, not ignored

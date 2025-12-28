@@ -1,0 +1,91 @@
+# Template from gitignores.com - Online .gitignore generator
+# Next.js Framework
+# Based on official Next.js .gitignore: https://github.com/vercel/next.js
+
+# Build output
+dist/
+.next/
+target/
+packages/next/wasm/@next/
+tarballs/
+packages/**/*.tgz
+.errors/
+
+# Rust compiler crashes
+rustc-ice-*.txt
+
+# Dependencies
+node_modules/
+!/yarn.lock
+test/node_modules/
+.pnpm-store/
+.github/**/node_modules/
+
+# Logs and process IDs
+*.log
+pids/
+*.cpuprofile
+*.heapsnapshot
+
+# Test coverage
+.nyc_output/
+coverage/
+
+# Test output
+test/**/out/*
+test/**/next-env.d.ts
+test/**/.next*
+.DS_Store
+/e2e-tests
+test/tmp/**
+test/.trace
+test/traces
+
+# IDE files
+**/.idea
+**/.#*
+.nvmrc
+
+# Examples
+examples/**/out/*
+examples/**/.env*.local
+
+# Performance and timing files
+pr-stats.md
+test-timings.json
+
+# Vercel deployment
+.vercel
+.now
+
+# Cache directories
+*.tsbuildinfo
+.swc/
+.turbo
+
+# Storybook
+*storybook.log
+
+# Additional Next.js patterns
+# Environment files
+.env
+.env.local
+.env.production
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager files
+pnpm-lock.yaml
+.npm/
+.yarn/
+
+# Build artifacts
+build/
+out/
+public/
+
+# Additional common patterns (available in common/ directory):
+# - System files: Thumbs.db, desktop.ini
+# - Temporary files: *.temp, *.tmp, temp/, tmp/
+# - Cache directories: .cache/, .eslintcache, .fusebox/, .grunt, .lock-wscript, .node_repl_history, .parcel-cache, .rpt2_cache/, .rts2_cache_*/, .serverless/, .tern-port, .vscode-test/

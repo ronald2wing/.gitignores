@@ -1,0 +1,51 @@
+# Template from gitignores.com - Online .gitignore generator
+# Haskell Programming Language
+
+# Compiled files
+*.aux
+*.hi
+*.hp
+*.o
+*.p_hi
+*.p_o
+*.prof
+
+# Stack build artifacts
+.stack-work/
+.stack/
+
+# GHC files
+*.eventlog
+.ghc.environment.*
+
+# cabal-install files
+*.cabal
+.cabal-sandbox/
+.cabal/
+cabal-dev/
+cabal.config
+cabal.project.local
+cabal.project.local~
+cabal.sandbox.config
+dist-newstyle/
+dist/
+
+# Stack files
+# Note: Stack build artifacts are already covered in "Stack build artifacts" section
+
+# Hpack files
+hpack-*.yaml
+package.yaml.orig
+
+# Haskell IDE Engine
+.hie/
+
+# Haskell Language Server
+.hls/
+
+# Intero
+.intero/
+
+# Haskell tools and utilities
+.hpc/
+.hsenv/

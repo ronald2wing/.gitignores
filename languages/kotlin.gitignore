@@ -1,0 +1,85 @@
+# Template from gitignores.com - Online .gitignore generator
+# Kotlin Language
+
+# Compiled class files and archives
+*.ap_
+*.apk
+*.class
+*.ctxt
+*.dex
+*.ear
+*.hprof
+*.jar
+*.keystore
+*.kotlin_module
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+# Build directories and artifacts
+.externalNativeBuild
+.gradle/
+.kapt/
+.kotlin/
+.ktor/
+.mtj.tmp/
+.navigation/
+bin/
+build/
+gen/
+out/
+target/
+
+# IDE and development files
+.idea_modules/
+atlassian-ide-plugin.xml
+captures/
+vcs.xml
+
+# Build tool configuration files
+.factorypath
+buildNumber.properties
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+crashlytics.properties
+dependency-reduced-pom.xml
+fabric.properties
+freeline.py
+freeline/
+freeline_project_description.json
+google-services.json
+local.properties
+output.json
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+
+# Maven and Gradle files
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Log files
+hs_err_pid*
+
+# Kotlin coroutines
+kotlinx-coroutines-core/
+
+# Lint directories
+lint/generated/
+lint/intermediates/
+lint/outputs/
+lint/tmp/
+
+# Fastlane files
+fastlane/Preview.html
+fastlane/readme.md
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Exceptions (files that should NOT be ignored)
+!gradle/wrapper/gradle-wrapper.jar

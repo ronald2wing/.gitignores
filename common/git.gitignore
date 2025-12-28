@@ -1,0 +1,144 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# GIT METADATA GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding Git metadata and temporary files.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# GIT METADATA AND TEMPORARY FILES
+# ----------------------------------------------------------------------------
+
+# Git directory
+.git/
+
+# Git hooks directory (except sample hooks)
+.git/hooks/
+!.git/hooks/*.sample
+
+# Git information files
+.git/description
+.git/HEAD
+.git/ORIG_HEAD
+.git/FETCH_HEAD
+.git/MERGE_HEAD
+.git/CHERRY_PICK_HEAD
+.git/REBASE_HEAD
+.git/BISECT_LOG
+.git/refs/stash
+
+# Git index and staging area
+.git/index
+.git/index.lock
+
+# Git objects (except packed objects)
+.git/objects/
+!.git/objects/pack/
+
+# Git logs and reflogs
+.git/logs/
+.git/info/
+.git/info/exclude
+.git/info/refs
+.git/info/grafts
+
+# Git configuration
+.git/config
+.git/config.lock
+.git/attributes
+.git/modules/
+
+# Git worktrees
+.git/worktrees/
+
+# Git garbage collection
+.git/gc.*
+.git/packed-refs
+.git/packed-refs.new
+
+# Git bisect
+.git/BISECT_*
+.git/bisect/
+
+# Git cherry-pick and merge
+.git/CHERRY_PICK_*
+.git/MERGE_*
+.git/MERGE_MSG
+.git/MERGE_MODE
+
+# Git rebase
+.git/REBASE_*
+.git/rebase-*/
+.git/rebase-merge/
+.git/rebase-apply/
+
+# Git stash
+.git/refs/stash
+.git/stash
+
+# Git temporary files
+.git/*.lock
+.git/*.tmp
+.git/*.temp
+.git/*.bak
+.git/*.backup
+
+# Git submodules
+.gitmodules
+.git/modules/
+
+# Git LFS
+.git/lfs/
+.git/lfs/objects/
+.git/lfs/tmp/
+.git/lfs/*.lock
+
+# Git large file storage
+.git/lfs/
+
+# Git notes
+.git/notes/
+.git/refs/notes/
+
+# Git shallow clone
+.git/shallow
+
+# Git commit message templates
+.git/COMMIT_EDITMSG
+.git/MERGE_MSG
+.git/TAG_EDITMSG
+
+# ============================================================================
+# GIT METADATA MANAGEMENT NOTES
+# ============================================================================
+
+# GIT DIRECTORY:
+# - The .git directory contains all version control metadata
+# - This should never be included in another Git repository
+# - Git manages its own metadata internally
+
+# TEMPORARY FILES:
+# - Git creates temporary files during operations (merge, rebase, etc.)
+# - These files are automatically managed by Git
+# - Excluding them prevents conflicts and confusion
+
+# SECURITY CONSIDERATIONS:
+# - Git metadata may contain sensitive commit history
+# - Configuration files might have credentials (though not recommended)
+# - Always keep .git directory private and secure
+
+# PERFORMANCE OPTIMIZATION:
+# - Excluding Git metadata reduces repository size
+# - Prevents nested Git repositories within projects
+# - Improves clone and fetch performance
+
+# BEST PRACTICES:
+# - Never commit .git directory to another repository
+# - Use .gitignore to exclude Git metadata from build artifacts
+# - Keep Git configuration separate from project files
+
+# ============================================================================
+# END OF GIT METADATA PATTERNS
+# ============================================================================
+

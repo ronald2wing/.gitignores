@@ -1,0 +1,136 @@
+# Template from gitignores.com - Online .gitignore generator
+# Sphinx Documentation Generator
+
+# Sphinx build output
+_build/
+build/
+docs/_build/
+docs/build/
+doctrees/
+epub/
+html/
+latex/
+man/
+texinfo/
+
+# Sphinx cache
+.cache/
+.sphinx/
+
+# Sphinx temporary files
+*.temp
+*.tmp
+
+# Sphinx logs
+sphinx.log
+
+# Sphinx configuration backups
+conf.json.bak
+conf.py.bak
+conf.yaml.bak
+conf.yml.bak
+
+# Sphinx generated documentation
+genindex.html
+genindex.txt
+objects.inv
+search.html
+search.txt
+
+# Sphinx autodoc generated files
+_attributes/
+_classes/
+_functions/
+_methods/
+_modules/
+
+# Sphinx extensions cache
+_extensions/
+extensions/
+
+# Sphinx theme files
+_theme/
+themes/
+
+# Sphinx static files (generated)
+_static/__generated__/
+static/__generated__/
+
+# Sphinx template files (generated)
+_templates/__generated__/
+templates/__generated__/
+
+# Sphinx source files (generated)
+source/__generated__/
+
+# Sphinx environment files
+.bash
+.env
+.env.docs
+.env.sphinx
+.fish
+.sh
+.zsh
+
+# Sphinx deployment files
+.deploy/
+.deployment/
+
+# Sphinx backup files
+.backup/
+.bak/
+
+# Sphinx test files
+test/
+tests/
+
+# Sphinx example files
+example/
+examples/
+
+# Sphinx demo files
+demo/
+demos/
+
+# Sphinx package files
+package/
+packages/
+
+# Sphinx lock files
+.lock
+.lockfile
+
+# Sphinx state files
+.state
+.status
+
+# Sphinx timestamp files
+.timestamp
+.timestamps
+
+# Sphinx hash files
+.hash
+.hashes
+.md5
+.sha1
+.sha256
+.sha512
+
+# Sphinx signature files
+.sig
+.signature
+
+# Sphinx checksum files
+.checksum
+
+# Sphinx archive files
+.7z
+.rar
+.tar
+.tar.gz
+.tgz
+.zip
+
+# Sphinx patch files
+.diff
+.patch

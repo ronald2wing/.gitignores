@@ -1,0 +1,33 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Gulp cache and temporary files
+*.temp
+*.tmp
+.gulp-cache/
+.tmp/
+
+# Gulp logs
+gulpfile.log
+
+# Gulp configuration backups
+gulpfile.babel.js~
+gulpfile.js~
+
+# Gulp-specific directories
+!tasks/.gitkeep
+plugins/
+tasks/
+
+# Gulp test coverage (if Gulp is configured to run tests)
+.nyc_output
+coverage/
+
+# TypeScript build info (if using TypeScript with Gulp)
+*.tsbuildinfo
+
+# Note: Gulp is a JavaScript task runner and build system
+# For framework-specific patterns, see the respective framework templates
+# For package manager patterns, see npm.gitignore and yarn.gitignore
+# For build output patterns (build/, dist/, lib/, etc.), see framework or build tool templates
+# For dependency directories (node_modules/), see npm.gitignore or yarn.gitignore
+# For lock files (package-lock.json, yarn.lock, etc.), these should be tracked, not ignored

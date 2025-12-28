@@ -1,0 +1,18 @@
+# Template from gitignores.com - Online .gitignore generator
+# Travis CI Continuous Integration Platform
+# Patterns for Travis CI configurations and build artifacts
+
+# Travis CI Configuration
+.travis.yml
+.travis/
+
+# Alternative Travis CI Configuration
+travis.yml
+travis/
+
+# Notes:
+# Travis CI configuration (.travis.yml) defines CI/CD pipelines
+# This file should typically be tracked in version control
+# Travis CI directories contain build artifacts and cache
+# Build outputs and logs are generated during CI execution
+

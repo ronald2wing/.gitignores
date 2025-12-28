@@ -1,0 +1,46 @@
+# Template from gitignores.com - Online .gitignore generator
+# Nuxt.js Framework
+# Nuxt.js specific patterns
+.nuxt/
+.nuxt/dist/
+.nuxt/generate/
+.nuxt/server-middleware/
+.nuxt/static/
+.nuxt/telemetry/
+
+# Dependencies and package management
+.npm
+.yarn-integrity
+node_modules/
+
+# Build and distribution directories
+dist/
+
+# Cache directories
+.cache/
+.eslintcache
+.node_repl_history
+.parcel-cache/
+.stylelintcache
+
+# Log files
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment configuration files
+.env
+.env*.local
+.env.test
+
+# Process ID directories
+pids/
+
+# Framework-specific patterns
+# Nuxt.js telemetry: .nuxt/telemetry/
+# Parcel bundler cache: .parcel-cache

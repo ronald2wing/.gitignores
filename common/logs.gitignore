@@ -1,0 +1,177 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# LOGS GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding log files.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# LOG FILES
+# ----------------------------------------------------------------------------
+
+# General log files
+*.log
+logs/
+*.pid
+*.pid.lock
+*.lock
+
+# Application-specific log files
+*.app.log
+*.application.log
+*.server.log
+*.client.log
+*.error.log
+*.access.log
+*.debug.log
+*.info.log
+*.warn.log
+*.warning.log
+*.trace.log
+*.fatal.log
+*.critical.log
+
+# Web server logs
+access.log
+error.log
+access_log
+error_log
+nginx-access.log
+nginx-error.log
+apache-access.log
+apache-error.log
+httpd-access.log
+httpd-error.log
+
+# Database logs
+*.dblog
+*.db.log
+mysql.log
+postgresql.log
+mongodb.log
+redis.log
+*.binlog
+*.relaylog
+*.slowlog
+*.query.log
+
+# Runtime and process logs
+*.out
+*.stdout
+*.stderr
+*.console
+*.console.log
+*.service.log
+*.daemon.log
+*.process.log
+*.thread.log
+
+# Crash and dump files
+*.core
+*.core.*
+*.dump
+*.crash
+*.crashdump
+*.minidump
+*.hdmp
+*.mdmp
+*.dmp
+
+# Performance and monitoring logs
+*.perf
+*.performance.log
+*.metric.log
+*.monitor.log
+*.telemetry.log
+*.analytics.log
+*.audit.log
+*.audit
+
+# Session and temporary logs
+*.session.log
+*.temp.log
+*.tmp.log
+*.cache.log
+
+# Backup log files
+*.log.bak
+*.log.backup
+*.log.old
+*.log.prev
+*.log.prev*
+
+# Rotated log files
+*.log.*
+*.log.[0-9]*
+*.log.[0-9][0-9]*
+*.log.gz
+*.log.bz2
+*.log.xz
+*.log.zip
+*.log.tar
+*.log.tar.gz
+
+# Directory for logs
+log/
+var/log/
+tmp/log/
+temp/log/
+cache/log/
+
+# Package Manager Logs
+.npm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+npm-debug.log*
+
+# Application and Framework Logs
+django.log
+rails.log
+laravel.log
+spring.log
+flask.log
+express.log
+next.log
+nuxt.log
+gatsby.log
+
+# Process and Runtime Logs
+celerybeat.pid
+celerybeat-schedule
+horizon.pid
+octane-state.json
+puma.pid
+unicorn.pid
+sidekiq.pid
+
+# ============================================================================
+# LOG MANAGEMENT NOTES
+# ============================================================================
+
+# LOG FILES:
+# - Log files can grow large and contain sensitive information
+# - Application logs often contain debugging information and error details
+# - Web server logs may contain user IP addresses and request details
+
+# SECURITY CONSIDERATIONS:
+# - Log files may contain sensitive data (passwords, API keys in error messages)
+# - Access logs can reveal user behavior and system usage patterns
+# - Error logs may expose system vulnerabilities and configuration details
+
+# STORAGE MANAGEMENT:
+# - Log files can consume significant disk space over time
+# - Consider implementing log rotation and retention policies
+# - Use centralized logging solutions for production environments
+
+# DEVELOPMENT PRACTICES:
+# - Log files are regenerated during application execution
+# - Different environments may produce different log contents
+# - Test logs often contain temporary data and debugging information
+
+# ============================================================================
+# END OF LOGS PATTERNS
+# ============================================================================
+

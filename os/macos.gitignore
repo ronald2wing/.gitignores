@@ -1,0 +1,27 @@
+# Template from gitignores.com - Online .gitignore generator
+# macOS Operating System
+# macOS system files, metadata, and Finder artifacts
+
+# Finder Metadata and Desktop Services
+.DS_Store
+.DS_Store?
+._*
+.apdisk
+.Icon
+
+# Apple System Files and Directories
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# System Temporary and Trash Directories
+Network\ Trash\ Folder/
+Temporary\ Items/

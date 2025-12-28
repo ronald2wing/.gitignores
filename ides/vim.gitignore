@@ -1,0 +1,95 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Vim swap files
+*.swo
+*.swp
+.*.swo
+.*.swp
+
+# Vim temporary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.spl
+*.toc
+
+# Vim backup files
+*.back
+*.backup
+*.bak
+*.un~
+*~
+
+# Vim session files
+*.viminfo
+*.viminfo~
+Session.vim
+Sessionx.vim
+
+# Vim undo files
+*.undo
+
+# Vim netrw bookmarks
+.netrwhist
+
+# Vim vimball files
+*.vba
+*.vba.gz
+
+# Vim spell files
+*.sug
+
+# Vim temporary directories
+.temp/
+.tmp/
+
+# Vim configuration files
+.exrc
+.gvimrc
+.vimrc
+
+# Vim plugin manager files
+.dein/
+.pathogen/
+.plug/
+.vim-plugins/
+.vim/
+.vundle/
+
+# Vim coc.nvim
+.coc/
+
+# Vim ale
+ale_linter_cache/
+
+# Vim YouCompleteMe
+.ycm_extra_conf.py
+.ycm_extra_conf.pyc
+
+# Vim tagbar
+.tagbar
+
+# Vim ctags
+.tags
+.tags_sorted_by_file
+doc/tags
+tags
+
+# Vim gutentags
+gutentags/
+
+# Vim vimtex
+# Note: LaTeX temporary files are already covered in "Vim temporary files" section
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

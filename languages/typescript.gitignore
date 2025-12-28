@@ -1,0 +1,119 @@
+# Template from gitignores.com - Online .gitignore generator
+# TypeScript Language
+# Patterns for TypeScript projects, including compiled JavaScript and type definitions
+
+# ============================================================================
+# TYPESCRIPT-SPECIFIC PATTERNS
+# ============================================================================
+# This template contains TypeScript-specific patterns. For comprehensive coverage,
+# combine with appropriate common patterns from the common/ directory.
+
+# ----------------------------------------------------------------------------
+# TypeScript Compilation Outputs
+# ----------------------------------------------------------------------------
+# TypeScript compiled JavaScript files and source maps
+*.cjs.map
+*.js
+*.js.map
+*.mjs.map
+*.tsbuildinfo
+.tscache/
+
+# ----------------------------------------------------------------------------
+# TypeScript Declaration Files
+# ----------------------------------------------------------------------------
+# TypeScript type declaration files
+# Note: .d.ts files should typically be committed for library projects
+# but ignored for application projects. Adjust based on your project type.
+# Remove or comment out this pattern if you want to commit .d.ts files
+*.d.ts
+
+# ----------------------------------------------------------------------------
+# TypeScript Development Tools
+# ----------------------------------------------------------------------------
+# TypeScript-specific development tool directories
+.jest/
+.ts-jest/
+.ts-node/
+
+# ----------------------------------------------------------------------------
+# TypeScript-Specific Build Outputs
+# ----------------------------------------------------------------------------
+# TypeScript-specific build directories
+lib/
+
+# ----------------------------------------------------------------------------
+# TypeScript Test Outputs
+# ----------------------------------------------------------------------------
+# TypeScript-specific test output directories
+coverage-reports
+spec-reports
+test-reports
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# IMPORTANT: This template focuses ONLY on TypeScript-specific patterns.
+# For comprehensive coverage, ALWAYS combine with appropriate common patterns:
+
+# 1. Security and environment files (CRITICAL for security):
+#    cat common/security.gitignore languages/typescript.gitignore > .gitignore
+
+# 2. Dependency management (ESSENTIAL for all TypeScript projects):
+#    cat common/dependencies.gitignore languages/typescript.gitignore > .gitignore
+
+# 3. Build artifacts (IMPORTANT for build outputs):
+#    cat common/build.gitignore languages/typescript.gitignore > .gitignore
+
+# 4. Testing and quality tools (RECOMMENDED for test outputs):
+#    cat common/testing.gitignore languages/typescript.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL for editor files):
+#    cat ides/vscode.gitignore languages/typescript.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files (RECOMMENDED for application logs):
+#    cat common/logs.gitignore languages/typescript.gitignore > .gitignore
+
+# Recommended comprehensive setup for TypeScript projects:
+# cat common/security.gitignore common/dependencies.gitignore common/build.gitignore languages/typescript.gitignore > .gitignore
+
+# ============================================================================
+# PATTERNS REMOVED TO COMMON FILES
+# ============================================================================
+# The following patterns have been moved to common files to avoid duplication:
+# - .cache/, .eslintcache, .fusebox/, .grunt, .lock-wscript, .node_repl_history → common/dependencies.gitignore
+# - .npm, .nyc_output/, .parcel-cache, .pnp.*, .rpt2_cache/, .rts2_cache_* → common/dependencies.gitignore
+# - .serverless/, .storybook-out/, .stylelintcache, .temp/, .tern-port, .vscode-test/ → common/dependencies.gitignore
+# - .yarn-integrity, .yarn/* → common/dependencies.gitignore
+# - .docusaurus, .dynamodb/, .next/, .nuxt/ → common/dependencies.gitignore
+# - .env, .env.*.local, .env.local, .env.production → common/environment.gitignore
+# - *.lcov, *.pid, *.pid.lock, *.seed, *.temp, *.tgz, *.tmp → common/logs.gitignore
+# - lerna-debug.log*, npm-debug.log*, yarn-debug.log*, yarn-error.log* → common/logs.gitignore
+# - bower_components/, jspm_packages/, node_modules/, web_modules/ → common/dependencies.gitignore
+# - build/, build/Release/, dist/, out/, public/, storybook-static/, target/ → common/dependencies.gitignore
+# - coverage/ → common/testing.gitignore
+# - pids/, temp/, tmp/ → common/logs.gitignore
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on TypeScript community best practices and official documentation
+# Additional patterns from popular TypeScript framework repositories
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses EXCLUSIVELY on TypeScript-specific patterns
+# - Common patterns are now in the common/ directory to avoid duplication
+# - ALWAYS combine with appropriate common patterns for your project
+# - Review and customize for your specific project needs
+
+# IMPORTANT BEST PRACTICES:
+# - Lock files (package-lock.json, yarn.lock, pnpm-lock.yaml) SHOULD be tracked
+# - Type declaration files (.d.ts) decision depends on project type:
+#   - Library projects: SHOULD commit .d.ts files (remove this pattern)
+#   - Application projects: CAN ignore .d.ts files (keep this pattern)
+# - Environment files (.env, .env.*) MUST be ignored (contain secrets)
+# - Build artifacts should be regenerated from source, not versioned
+# - Dependency directories can be reinstalled from package manager files

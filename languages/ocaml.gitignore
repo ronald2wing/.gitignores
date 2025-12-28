@@ -1,0 +1,63 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# OCaml - General-purpose industrial-strength programming language
+# https://ocaml.org/
+
+# OCaml compiled files
+*.a
+*.byte
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.cmxs
+*.native
+*.o
+*.so
+
+# OCaml build directories
+.merlin
+_build/
+
+# OCaml package manager (opam)
+_opam/
+~/.opam/
+
+# OCaml dune build system
+*.install
+
+# OCaml test outputs
+*.log
+*.out
+
+# OCaml temporary files
+*.temp
+*.tmp
+
+# OCaml backup files
+*.backup
+*.bak
+*~
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDE/Editor files
+*.swo
+*.swp
+.idea/
+.vscode/
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# OCaml specific patterns
+# These are common patterns for OCaml projects using dune or opam

@@ -1,0 +1,46 @@
+# Template from gitignores.com - Online .gitignore generator
+# Jenkins workspace
+# Jenkins builds
+# Jenkins logs
+# Jenkins plugins
+# Jenkins user content
+# Jenkins fingerprints
+# Jenkins updates
+# Jenkins nodes
+# Jenkins secrets
+# Jenkins jobs
+# Jenkins users
+# Jenkins war
+# Jenkins CLI
+# Jenkins configuration
+# Jenkins credentials (may contain secrets)
+# Jenkins slave agent files
+# Jenkins pipeline files
+# Jenkins Blue Ocean
+# Jenkins X
+*.war
+.jenkins-blueocean/
+.jenkins-x/
+builds/
+config.xml
+credentials.xml
+fingerprints/
+hudson.model.UpdateCenter.xml
+jenkins-cli.jar
+jenkins.CLI.xml
+jenkins.model.JenkinsLocationConfiguration.xml
+jenkins.security.QueueItemAuthenticatorConfiguration.xml
+jenkins.security.UpdateSiteWarningsConfiguration.xml
+Jenkinsfile
+jobs/
+logs/
+nodes/
+org.jenkinsci.plugins.ghprb.GhprbTrigger.xml
+org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+plugins/
+secrets/
+slave-agent.jnlp
+updates/
+userContent/
+users/
+workspace/

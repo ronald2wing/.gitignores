@@ -1,0 +1,42 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Nano backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+
+# Nano swap files
+*.swn
+*.swo
+*.swp
+
+# Nano temporary files
+*.temp
+*.tmp
+*~
+
+# Nano configuration backups
+.nanorc.bak
+.nanorc~
+
+# Nano history files
+.nano_history
+.nano_history.*
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary directories
+.temp/
+.tmp/

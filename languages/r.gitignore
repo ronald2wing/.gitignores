@@ -1,0 +1,41 @@
+# Template from gitignores.com - Online .gitignore generator
+# RStudio files
+# R package build artifacts
+# Temporary files
+# Output files
+# Data files
+# Cache files
+# Package documentation
+# Test output
+*.csv
+*.docx
+*.html
+*.pdf
+*.pptx
+*.Rcheck/
+*.rda
+*.RData
+*.rdb
+*.rds
+*.rdx
+*.Rproj
+*.Rswp
+*.Rtmp
+*.tar.gz
+*.tgz
+*.tsv
+*.xlsx
+*~
+.cache/
+.Rapp.history
+.Rbuildignore
+.Rcache/
+.RData
+.Rhistory
+.Rproj.user/
+.Ruserdata
+man/*.Rd
+tests/testthat/_output/
+tests/testthat/_plots/
+vignettes/*.html
+vignettes/*.pdf

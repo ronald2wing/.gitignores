@@ -1,0 +1,42 @@
+# Template from gitignores.com - Online .gitignore generator
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, etc.)
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# IDE workspace and configuration files
+*.iws
+.idea/
+.idea_modules/
+atlassian-ide-plugin.xml
+cmake-build-*/
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+crashlytics.properties
+fabric.properties
+out/
+
+# .idea directory contents (specific patterns)
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dataSources/
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/shelf
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+.idea/caches/build_file_checksums.ser
+.idea/httpRequests
+.idea/replstate.xml
+.idea/sonarlint/
+
+# Note: This template covers common JetBrains IDE patterns including:
+# - IntelliJ IDEA project files
+# - PyCharm Python development files
+# - WebStorm web development files
+# - Android Studio mobile development files
+# - Rider .NET development files
+# - DataGrip database development files

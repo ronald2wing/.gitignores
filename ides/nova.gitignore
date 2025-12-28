@@ -1,0 +1,34 @@
+# Template from gitignores.com - Online .gitignore generator
+# Nova Code Editor
+# Patterns for Nova code editor configuration files and workspace data
+
+# Nova IDE Configuration
+.nova/
+
+# Nova Workspace and Cache
+.nova/workspace/
+.nova/cache/
+
+# Nova Configuration Files
+.nova/settings.json
+.nova/workspace.json
+
+# Nova Extensions and Plugins
+.nova/extensions/
+.nova/plugins/
+
+# Nova Logs and Diagnostics
+.nova/logs/
+.nova/diagnostics/
+
+# Nova Project Files
+.nova/project.json
+
+# Notes:
+# Nova is a modern code editor for macOS
+# Configuration files contain workspace settings and preferences
+# Cache directories contain generated data for performance
+# Extensions and plugins are installed per-user
+# Logs and diagnostics are temporary debugging information
+# Project files contain editor-specific project configuration
+

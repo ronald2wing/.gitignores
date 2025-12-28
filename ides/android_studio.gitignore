@@ -1,0 +1,55 @@
+# Template from gitignores.com - Online .gitignore generator
+# Android Studio IDE
+# Patterns for Android Studio IDE configuration files and project metadata
+
+# Android Studio IDE Configuration
+.AndroidStudio*/
+.gradle/
+.idea/
+local.properties
+*.iml
+*.iws
+*.ipr
+
+# Android Studio Build and Cache
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.native/
+.gradleDaemon/
+
+# Android Studio User Settings
+.android/
+.AndroidStudioSettings/
+
+# Android Studio IDE Directories
+.idea/libraries/
+.idea/runConfigurations/
+.idea/caches/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/.name
+.idea/copyright/
+.idea/scopes/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+
+# Notes:
+# Android Studio is based on IntelliJ IDEA with Android-specific features
+# IDE configuration files contain personal workspace settings
+# Build directories contain generated artifacts and should be excluded
+# Gradle wrapper files should typically be tracked for reproducible builds
+# Local properties may contain machine-specific paths and should not be shared
+

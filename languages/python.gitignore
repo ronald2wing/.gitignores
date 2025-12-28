@@ -1,0 +1,144 @@
+# Template from gitignores.com - Online .gitignore generator
+# Python Development
+# Patterns for Python projects, including web frameworks, data science, and general development
+
+# ============================================================================
+# PYTHON-SPECIFIC PATTERNS
+# ============================================================================
+# This template contains Python-specific patterns. For comprehensive coverage,
+# combine with appropriate common patterns from the common/ directory.
+
+# ----------------------------------------------------------------------------
+# Python Byte-compiled Files
+# ----------------------------------------------------------------------------
+# Python bytecode and compiled files
+# Note: Most bytecode patterns are in common/build.gitignore
+# These are Python-specific bytecode patterns
+
+# ----------------------------------------------------------------------------
+# Python Package Distribution Artifacts
+# ----------------------------------------------------------------------------
+# Python package build and distribution outputs
+*.manifest
+*.pot
+*.spec
+.installed.cfg
+MANIFEST
+pip-delete-this-directory.txt
+pip-log.txt
+
+# ----------------------------------------------------------------------------
+# Python Testing and Quality Tools
+# ----------------------------------------------------------------------------
+# Python-specific test outputs and quality tool artifacts
+nosetests.xml
+
+# ----------------------------------------------------------------------------
+# Python Development Tools and Cache
+# ----------------------------------------------------------------------------
+# Python-specific development tool cache and configuration
+.dmypy.json
+cython_debug/
+dmypy.json
+instance/
+profile_default/
+
+# ----------------------------------------------------------------------------
+# Python Virtual Environments
+# ----------------------------------------------------------------------------
+# Python virtual environment directories
+# Note: Common virtual environment patterns are in common/dependencies.gitignore
+# These are Python-specific virtual environment patterns
+.pybuilder/
+.Python
+docs/_build/
+
+# ----------------------------------------------------------------------------
+# Python Framework-Specific Patterns
+# ----------------------------------------------------------------------------
+# Django: Database migrations and static files
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask: Instance directories and configuration
+# Scrapy: Crawler output and logs
+# Celery: Task scheduling and worker files
+# SageMath: Parsed mathematical files
+
+# ----------------------------------------------------------------------------
+# Interactive Python and Jupyter
+# ----------------------------------------------------------------------------
+# Jupyter notebook and interactive Python configuration
+ipython_config.py
+
+# ============================================================================
+# COMMON PATTERNS REFERENCE
+# ============================================================================
+# IMPORTANT: This template focuses ONLY on Python-specific patterns.
+# For comprehensive coverage, ALWAYS combine with appropriate common patterns:
+
+# 1. Security and environment files (CRITICAL for security):
+#    cat common/security.gitignore languages/python.gitignore > .gitignore
+
+# 2. Dependency management (ESSENTIAL for all Python projects):
+#    cat common/dependencies.gitignore languages/python.gitignore > .gitignore
+
+# 3. Build artifacts (IMPORTANT for Python build outputs):
+#    cat common/build.gitignore languages/python.gitignore > .gitignore
+
+# 4. Testing and quality tools (RECOMMENDED for Python test outputs):
+#    cat common/testing.gitignore languages/python.gitignore > .gitignore
+
+# 5. IDE configurations (OPTIONAL for editor files):
+#    cat ides/vscode.gitignore languages/python.gitignore > .gitignore
+#    (or use other specific IDE templates from ides/ directory)
+
+# 6. Log files (RECOMMENDED for application logs):
+#    cat common/logs.gitignore languages/python.gitignore > .gitignore
+
+# Recommended comprehensive setup for Python projects:
+# cat common/security.gitignore common/dependencies.gitignore common/build.gitignore languages/python.gitignore > .gitignore
+
+# ============================================================================
+# PATTERNS REMOVED TO COMMON FILES
+# ============================================================================
+# The following patterns have been moved to common files to avoid duplication:
+
+# Byte-compiled files moved to common/build.gitignore:
+# - *$py.class, *.py[cod], *.pyc, *.pyd, *.pyo, *.sage.py
+
+# Package distribution artifacts moved to common/build.gitignore:
+# - *.cover, *.py,cover, sdist/, share/python-wheels/
+
+# Testing and quality tools moved to common/testing.gitignore:
+# - cover/, htmlcov/
+
+# Development tools and cache moved to common/dependencies.gitignore:
+# - .hypothesis/, .ipynb_checkpoints/, .pytest_cache/, .webassets-cache/
+
+# Virtual environments moved to common/dependencies.gitignore:
+# - .venv, env.bak/, ENV/, env/, venv.bak/, venv/, .nox/, .tox/
+# - downloads/, eggs/, lib/, lib64/, parts/, site/
+
+# ============================================================================
+# OFFICIAL SOURCES
+# ============================================================================
+# Based on official Python .gitignore patterns from community best practices
+# Additional patterns from Django, Flask, and other Python framework documentation
+
+# ============================================================================
+# USAGE NOTES
+# ============================================================================
+# - This template focuses EXCLUSIVELY on Python-specific patterns
+# - Common patterns are now in the common/ directory to avoid duplication
+# - ALWAYS combine with appropriate common patterns for your project
+# - Review and customize for your specific project needs
+
+# IMPORTANT BEST PRACTICES:
+# - Lock files (requirements.txt, Pipfile.lock, poetry.lock) SHOULD be tracked
+# - Virtual environment directories (.venv/, venv/, env/) should be ignored
+# - Python bytecode files (*.pyc, *.pyo) are generated automatically and should be ignored
+# - Environment files (.env, .env.*) MUST be ignored (contain secrets)
+# - Build artifacts should be regenerated from source, not versioned
+# - Dependency directories can be reinstalled from package manager files

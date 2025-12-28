@@ -1,0 +1,157 @@
+# Template from gitignores.com - Online .gitignore generator
+# ============================================================================
+# BACKUP GITIGNORE TEMPLATE
+# ============================================================================
+# For excluding backup and temporary copy files.
+# Combine with other templates as needed.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# BACKUP AND TEMPORARY COPY FILES
+# ----------------------------------------------------------------------------
+
+# Common backup file extensions
+*.bak
+*.backup
+*.back
+*.old
+*.prev
+*.previous
+*.orig
+*.original
+*.save
+*.sav
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*~
+
+# Versioned backup files
+*~
+.*~
+#*
+.#*
+*.un~
+*.un~
+*.swp
+*.swo
+Session.vim
+.netrwhist
+
+# Editor backup files
+*.sublime-*
+*.sublime-cache
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+sftp-settings.json
+.atom/
+.atomic-writes
+.blink*
+.storage/
+*.cson
+*.coffee
+*.map
+.apm/
+.compile-cache/
+.dev/
+.node-gyp/
+.npm/
+.save-*
+
+# IDE backup files
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/.name
+.idea/copyright/
+.idea/scopes/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Operating system backup files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Database backup files
+*.sql.bak
+*.sql.backup
+*.db.bak
+*.db.backup
+*.sqlite.bak
+*.sqlite.backup
+dump.sql
+backup.sql
+*.dump
+*.export
+
+# Application backup files
+config.backup.*
+settings.backup.*
+*.config.bak
+*.settings.bak
+*.yml.bak
+*.yaml.bak
+*.json.bak
+*.xml.bak
+*.ini.bak
+*.conf.bak
+
+# Temporary directories
+temp/
+tmp/
+.tmp/
+_temp/
+_tmp/
+cache/
+.cache/
+
+# Patch and diff files
+*.rej
+*.patch
+*.diff
+*.patch.*
+
+# ============================================================================
+# BACKUP MANAGEMENT NOTES
+# ============================================================================
+
+# BACKUP FILES:
+# - Backup files are temporary copies created by editors and tools
+# - These files are regenerated and should not be versioned
+# - Different developers may have different backup file patterns
+
+# VERSION CONTROL BEST PRACTICES:
+# - Use Git for version control, not backup files
+# - Temporary files clutter repositories and slow down operations
+# - Configure editors to store backup files outside project directories
+
+# SECURITY CONSIDERATIONS:
+# - Backup files may contain sensitive information
+# - Temporary files can expose development patterns and configurations
+# - Always exclude backup files from version control
+
+# DEVELOPMENT WORKFLOW:
+# - Use proper version control workflows instead of manual backups
+# - Implement automated backup systems for critical data
+# - Store backups in dedicated backup systems, not in source code
+
+# ============================================================================
+# END OF BACKUP PATTERNS
+# ============================================================================
+

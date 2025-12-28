@@ -1,0 +1,70 @@
+# Template from gitignores.com - Online .gitignore generator
+
+# Joomla CMS - Comprehensive .gitignore template
+
+# Joomla cache directories
+administrator/cache/
+cache/
+media/cache/
+tmp/
+
+# Joomla log directories
+administrator/logs/
+logs/
+
+# Joomla configuration files
+configuration.php
+
+# Joomla backup files
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Joomla development artifacts
+*.code-workspace
+*.sublime-*
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Joomla temporary files
+*.temp
+*.tmp
+.tmp/
+temp/
+
+# PHP-specific patterns (since Joomla is PHP-based)
+.cache/
+.env
+.env.*.local
+.env.local
+.env.production
+.pdepend/
+.php-built-in-web-server.pid
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+behat.yml
+composer.phar
+coverage/
+docs/
+php_errors.log
+phpdoc/
+sess_*
+uploads/
+vendor/
+xdebug.log

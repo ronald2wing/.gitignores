@@ -1,0 +1,99 @@
+# Template from gitignores.com - Online .gitignore generator
+# Kubernetes Container Orchestration
+
+# Kubernetes configuration files that may contain secrets
+*.env
+*.secret
+*.secret.json
+*.secret.yaml
+*.secret.yml
+
+# Kubeconfig files (may contain credentials)
+*.kubeconfig
+.kube/
+kubeconfig
+kubeconfig-*
+
+# Helm charts
+*.tgz
+charts/
+
+# Minikube
+.minikube/
+
+# Kind
+.kind/
+
+# K3d
+.k3d/
+
+# K3s
+var/lib/rancher/k3s/
+
+# Rancher
+.rancher/
+
+# Kubectl
+.kubectl/
+
+# Kustomize
+kustomization.yaml
+kustomization.yml
+kustomize/
+
+# Skaffold
+.skaffold/
+
+# Tilt
+.tilt/
+
+# DevSpace
+.devspace/
+
+# Garden
+.garden/
+
+# Telepresence
+.telepresence/
+
+# Okteto
+.okteto/
+
+# Lens
+.lens/
+
+# K9s
+.k9s/
+
+# Popeye
+.popeye/
+
+# Stern
+.stern/
+
+# Krew
+.krew/
+
+# Kubeval
+.kubeval/
+
+# Conftest
+.conftest/
+
+# Kube-score
+.kube-score/
+
+# Kube-linter
+.kube-linter/
+
+# Checkov
+.checkov/
+
+# Trivy
+.trivy/
+
+# Grype
+.grype/
+
+# Syft
+.syft/

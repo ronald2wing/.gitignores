@@ -1,0 +1,77 @@
+# Template from gitignores.com - Online .gitignore generator
+# Vue.js Framework
+# Based on official Vue.js .gitignore: https://github.com/vuejs/vue
+
+# System files
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Log files
+*.log
+
+# Vue.js specific files
+explorations
+TODOs.md
+RELEASE_NOTE*.md
+
+# Build output
+dist/
+temp/
+
+# TypeScript declarations
+types/v3-generated.d.ts
+
+# Vue.js server renderer build files
+packages/server-renderer/basic.js
+packages/server-renderer/build.dev.js
+packages/server-renderer/build.prod.js
+packages/server-renderer/server-plugin.js
+packages/server-renderer/client-plugin.js
+
+# Vue.js template compiler build files
+packages/template-compiler/build.js
+packages/template-compiler/browser.js
+
+# IDE files
+.vscode/
+
+# Additional Vue.js patterns
+# Vue CLI projects
+.vue-cli/
+.vuepress/.cache
+.vuepress/.temp
+.vuepress/dist
+
+# Nuxt.js projects
+.nuxt/
+
+# Vite build cache
+.cache/
+.parcel-cache
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Package manager files
+# Note: package-lock.json, yarn.lock, and pnpm-lock.yaml should be tracked for reproducible builds
+
+# Additional common patterns (available in common/ directory):
+# - Build artifacts: build/, out/, public/, .next/
+# - Cache directories: .eslintcache, .fusebox/, .grunt, .lock-wscript, .node_repl_history, .nyc_output/, .rpt2_cache/, .rts2_cache_*/, .serverless/, .tern-port, .vscode-test/
+# - System files: Thumbs.db, desktop.ini
+# - Temporary files: *.temp, *.tmp, temp/, tmp/
