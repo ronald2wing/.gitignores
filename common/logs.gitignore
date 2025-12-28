@@ -1,0 +1,142 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Logs
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CATEGORY-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.analytics.log
+*.app.log
+*.application.log
+*.audit
+*.audit.log
+*.binlog
+*.cache.log
+*.client.log
+*.console
+*.console.log
+*.core
+*.core.*
+*.crash
+*.crashdump
+*.critical.log
+*.daemon.log
+*.db.log
+*.dblog
+*.debug.log
+*.dmp
+*.dump
+*.error.log
+*.fatal.log
+*.hdmp
+*.info.log
+*.lock
+*.log
+*.log.*
+*.log.[0-9]*
+*.log.[0-9][0-9]*
+*.log.backup
+*.log.bak
+*.log.bz2
+*.log.gz
+*.log.old
+*.log.prev
+*.log.prev*
+*.log.tar
+*.log.tar.gz
+*.log.xz
+*.log.zip
+*.mdmp
+*.metric.log
+*.minidump
+*.monitor.log
+*.out
+*.perf
+*.performance.log
+*.pid
+*.pid.lock
+*.process.log
+*.query.log
+*.relaylog
+*.server.log
+*.service.log
+*.session.log
+*.slowlog
+*.stderr
+*.stdout
+*.telemetry.log
+*.thread.log
+*.trace.log
+*.warn.log
+*.warning.log
+.npm-debug.log*
+.pnpm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+access.log
+access_log
+apache-access.log
+apache-error.log
+cache/log/
+celerybeat-schedule
+celerybeat.pid
+django.log
+error.log
+error_log
+express.log
+flask.log
+gatsby.log
+horizon.pid
+httpd-access.log
+httpd-error.log
+laravel.log
+lerna-debug.log*
+log/
+logs/
+mongodb.log
+mysql.log
+next.log
+nginx-access.log
+nginx-error.log
+npm-debug.log*
+nuxt.log
+octane-state.json
+postgresql.log
+puma.pid
+rails.log
+redis.log
+sidekiq.pid
+spring.log
+unicorn.pid
+var/log/
+var/run/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)*.access.log
+
+# Additional log patterns
+

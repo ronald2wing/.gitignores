@@ -1,0 +1,85 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Git
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CATEGORY-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!.git/objects/pack/
+.git/
+.git/*.backup
+.git/*.bak
+.git/*.lock
+.git/attributes
+.git/bisect/
+.git/BISECT_*
+.git/BISECT_LOG
+.git/CHERRY_PICK_*
+.git/CHERRY_PICK_HEAD
+.git/COMMIT_EDITMSG
+.git/config
+.git/config.lock
+.git/description
+.git/FETCH_HEAD
+.git/gc.*
+.git/HEAD
+.git/hooks/
+.git/index
+.git/index.lock
+.git/info/
+.git/info/exclude
+.git/info/grafts
+.git/info/refs
+.git/lfs/
+.git/lfs/*.lock
+.git/lfs/objects/
+.git/logs/
+.git/MERGE_*
+.git/MERGE_HEAD
+.git/MERGE_MODE
+.git/MERGE_MSG
+.git/modules/
+.git/notes/
+.git/objects/
+.git/ORIG_HEAD
+.git/packed-refs
+.git/packed-refs.new
+.git/rebase-*/
+.git/rebase-apply/
+.git/rebase-merge/
+.git/REBASE_*
+.git/REBASE_HEAD
+.git/refs/notes/
+.git/refs/stash
+.git/shallow
+.git/stash
+.git/TAG_EDITMSG
+.git/worktrees/
+.gitmodules
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)!.git/hooks/*.sample

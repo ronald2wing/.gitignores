@@ -1,0 +1,167 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Security
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: PROTECT SENSITIVE DATA FROM ACCIDENTAL COMMITS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Always review and customize based on your project's security requirements
+
+# ENVIRONMENT VARIABLES & CONFIGURATION FILES
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+
+# SECRETS & CREDENTIALS FILES
+.secret
+.secret.*
+.secrets
+.secrets.*
+authorized_keys
+credentials.json
+credentials.yaml
+credentials.yml
+secrets.json
+secrets.yaml
+secrets.yml
+
+# DATABASE & BACKUP FILES
+*.accdb
+*.backup
+*.bak
+*.db
+*.db-journal
+*.dump
+*.frm
+*.ibd
+*.mdb
+*.myd
+*.myi
+*.sql
+*.sql.bz2
+*.sql.gz
+*.sql.xz
+*.sqlite
+
+# CRYPTOGRAPHIC KEYS & CERTIFICATES
+*.asc
+*.auth
+*.authz
+*.cer
+*.cert
+*.crt
+*.csr
+*.der
+*.gpg
+*.jks
+*.key
+*.keystore
+*.p12
+*.p7b
+*.p7c
+*.passwd
+*.password
+*.pem
+*.pfx
+*.pgp
+*.priv
+*.private
+*.pub
+*.pwd
+*.req
+*.secret
+*.secrets
+*.spc
+*.token
+*.truststore
+
+# SSH & AUTHENTICATION FILES
+.ssh/
+.ssh/authorized_keys
+.ssh/config
+.ssh/id_*
+.ssh/known_hosts
+id_dsa
+id_ecdsa
+id_ed25519
+id_rsa
+known_hosts
+ssh_config
+ssh_known_hosts
+
+# CLOUD PROVIDER CONFIGURATION
+.aws/
+.aws/credentials
+.azure/
+.confidential*
+.config
+.config.*
+.credential*
+.gcloud/
+.gcp/
+.local
+.local.*
+.local.config.*
+.local_*
+.private*
+aws.config
+aws.json
+aws.yaml
+aws.yml
+azure.config
+azure.json
+azure.yaml
+azure.yml
+gcloud.config
+gcloud.json
+gcloud.yaml
+gcloud.yml
+local-*
+local.*
+
+# CONTAINER & DOCKER CONFIGURATION
+*.dockercfg
+*.dockerconfig
+
+# API KEYS & TOKENS
+*.apikey
+*.apisecret
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)

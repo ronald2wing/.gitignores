@@ -1,0 +1,224 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Django
+# website: https://www.djangoproject.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.p12
+*.pem
+*.pfx
+*.pub
+*.secret
+*.token
+*.truststore
+*password*
+*private*
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IMPORTANT: Dependency directories and package manager cache
+
+bower_components/
+ENV/
+env/
+jspm_packages/
+venv/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled code, build outputs, and distribution packages
+
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.lib
+*.manifest
+*.nupkg
+*.o
+*.obj
+*.so
+*.spec
+*.tar.gz
+*.tgz
+*.whl
+*.zip
+.docusaurus
+.next/
+.nuxt/
+.serverless/
+.storybook-out/
+build/
+dist/
+docs/_build/
+lib/
+out/
+public/
+sdist/
+storybook-static/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools cache, runtime data, and temporary files
+
+*.log
+*.log.*
+.cache/
+.nyc_output/
+.pnpm-debug.log*
+.stylelintcache
+.vscode-test/
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Test outputs, coverage reports, and quality tool artifacts
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.hypothesis/
+cover/
+junit.xml
+test-output/
+test-reports/
+test-results/
+testng-results.xml
+tests/.coverage*
+tests/coverage_html/
+tests/report/
+tests/screenshots/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+
+*.cer
+*.csr
+*.der
+*.jks
+*.p7b
+*.p7c
+*.pid
+*.pid.lock
+*.pot
+*.py[co]
+*.pyc
+*.pyd
+*.pyo
+*_keys
+*_secrets
+*_tokens
+*credentials*
+*secret*
+.dmypy.json
+.eggs/
+.fusebox/
+.installed.cfg
+.ipynb_checkpoints
+.ipynb_checkpoints/
+.mypy_cache/
+.nox/
+.parcel-cache
+.parcel-cache/
+.pdm-build/
+.pdm.toml
+.pip-wheel-metadata/
+.pnp.*
+.pybuilder/
+.pyre/
+.pytest_cache/
+.Python
+.python-eggs/
+.python-version
+.pytype/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.scrapy
+.tox/
+.venv
+__pycache__/
+__pypackages__/
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+docs/locale/
+downloads/
+eggs/
+env.bak/
+htmlcov/
+instance/
+ipython_config.py
+lib64/
+local_settings.py
+MANIFEST
+media/
+nosetests.xml
+npm-debug.log*
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+profile_default/
+share/python-wheels/
+staticfiles/
+var/
+venv.bak/
+web_modules/
+wheels/
+
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

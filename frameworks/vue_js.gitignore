@@ -1,0 +1,174 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Vue.js
+# website: https://vuejs.org/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cer
+*.cjs.map
+*.crt
+*.csr
+*.d.ts
+*.der
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.jks
+*.js
+*.js.map
+*.key
+*.keystore
+*.lib
+*.log
+*.log.*
+*.mjs.map
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pem
+*.pfx
+*.pid
+*.pid.lock
+*.pub
+*.secret
+*.so
+*.tar.gz
+*.tgz
+*.token
+*.truststore
+*.tsbuildinfo
+*.whl
+*.zip
+*_keys
+*_secrets
+*_tokens
+*credentials*
+*password*
+*private*
+*secret*
+.cache/
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.docusaurus
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+.eslintcache
+.fusebox/
+.grunt
+.jest/
+.lock-wscript
+.next/
+.node_repl_history
+.npm
+.npm-debug.log*
+.nuxt/
+.nyc_output/
+.parcel-cache
+.parcel-cache/
+.pnp.*
+.pnpm-debug.log*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.stylelintcache
+.tern-port
+.ts-jest/
+.ts-node/
+.tscache/
+.vscode-test/
+.vue-cli/
+.vuepress/.cache
+.vuepress/.temp
+.vuepress/dist
+.yarn-integrity
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/versions/
+bower_components/
+build/
+build/Release/
+cover/
+coverage-reports
+dist/
+explorations
+htmlcov/
+id_dsa
+id_rsa
+jspm_packages/
+junit.xml
+lib-cov/
+lib/
+node_modules/
+npm-debug.log*
+out/
+packages/server-renderer/basic.js
+packages/server-renderer/build.dev.js
+packages/server-renderer/build.prod.js
+packages/server-renderer/client-plugin.js
+packages/server-renderer/server-plugin.js
+packages/template-compiler/browser.js
+packages/template-compiler/build.js
+pids/
+public/
+RELEASE_NOTE*.md
+spec-reports
+storybook-static/
+test-output/
+test-reports
+test-reports/
+test-results/
+testng-results.xml
+TODOs.md
+types/v3-generated.d.ts
+typings/
+web_modules/
+yarn-debug.log*
+yarn-error.log*
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

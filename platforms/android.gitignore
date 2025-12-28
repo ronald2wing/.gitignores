@@ -1,0 +1,99 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# PLATFORM-SPECIFIC TEMPLATE for Android
+# website: https://developer.android.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: PLATFORM-SPECIFIC TEMPLATE
+# PLATFORM-SPECIFIC PATTERNS
+# • COMBINATION: Combine with language and framework templates as needed
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PLATFORM-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.aab
+*.aar
+*.ap_
+*.apk
+*.avd
+*.iml
+*.obb
+*.qcow2
+.amazonappstore/
+.appgallery/
+.applinks/
+.appstore/
+.assetpacks/
+.avd/
+.backup/
+.bak/
+.bundle/
+.cache/
+.deeplinks/
+.deploy/
+.deployment/
+.device/
+.devices/
+.dynamicfeatures/
+.firebase/
+.galaxystore/
+.getapps/
+.googleplay/
+.gradle/
+.instantapps/
+.libs/
+.ndk/
+.nyc_output/
+.signing/
+.universallinks/
+amazonappstore/
+androidTest-results/
+appgallery/
+applinks/
+appstore/
+assetpacks/
+build.gradle.bak
+build.gradle.kts.bak
+build/
+bundle/
+coverage/
+deeplinks/
+dynamicfeatures/
+firebase/
+galaxystore/
+getapps/
+googleplay/
+gradle.properties.bak
+gradle/wrapper/gradle-wrapper.properties
+instantapps/
+lint-report.html
+lint-results/
+lint/
+local.properties
+local.properties.bak
+logs/
+obj/
+signing/
+test-results/
+universallinks/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)*.jks

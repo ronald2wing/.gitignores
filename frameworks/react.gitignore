@@ -1,0 +1,201 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for React
+# website: https://reactjs.org/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.p12
+*.pem
+*.pfx
+*.pub
+*.secret
+*.token
+*.truststore
+*password*
+*private*
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IMPORTANT: Dependency directories and package manager cache
+
+.pnp.*
+.yarn-integrity
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/versions/
+bower_components/
+jspm_packages/
+node_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled code, build outputs, and distribution packages
+
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.lib
+*.nupkg
+*.o
+*.obj
+*.so
+*.tar.gz
+*.tgz
+*.whl
+*.zip
+.docusaurus
+.fusebox/
+.nuxt/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+build/
+build/Release/
+dist/
+lib/
+out/
+public/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools cache, runtime data, and temporary files
+
+*.log
+*.log.*
+.cache/
+.circleci/
+.eslintcache
+.fleet/
+.github/
+.gitlab/
+.grunt
+.jenkins/
+.lock-wscript
+.node_repl_history
+.nova/
+.npm
+.npm-debug.log*
+.nyc_output/
+.parcel-cache
+.pnpm-debug.log*
+.stylelintcache
+.tern-port
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Test outputs, coverage reports, and quality tool artifacts
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.jest/
+cover/
+coverage-reports
+coverage/
+htmlcov/
+junit.xml
+spec-reports
+test-output/
+test-reports/
+test-results/
+testng-results.xml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+
+*.cer
+*.cjs.map
+*.csr
+*.d.ts
+*.der
+*.jks
+*.js
+*.js.map
+*.mjs.map
+*.p7b
+*.p7c
+*.pid
+*.pid.lock
+*.tsbuildinfo
+*_keys
+*_secrets
+*_tokens
+*credentials*
+*secret*
+.next/
+.storybook-out/
+.ts-jest/
+.ts-node/
+.tscache/
+.vscode-test/
+.web_modules/
+/.changelog
+lib-cov/
+my-app*
+npm-debug.log*
+pids/
+storybook-static/
+template/src/__tests__/__snapshots__/
+test-reports
+typings/
+web_modules/
+
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

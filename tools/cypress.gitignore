@@ -1,0 +1,65 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Cypress
+# website: https://www.cypress.io/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# TOOL-SPECIFIC PATTERNS
+# • COMBINATION: Combine with language and framework templates as needed
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+cypress.config.ts.bak
+cypress.json.bak
+cypress/.cache/
+cypress/.nyc_output/
+cypress/__mocks__/__generated__/
+cypress/__snapshots__/
+cypress/artifacts/
+cypress/cache/
+cypress/cookies/
+cypress/coverage/
+cypress/database/
+cypress/db/
+cypress/fixtures/__generated__/
+cypress/fixtures/__output__/
+cypress/logs/
+cypress/mocks/__generated__/
+cypress/parallel/
+cypress/performance/
+cypress/plugins/__generated__/
+cypress/reporters/
+cypress/reports/
+cypress/sessions/
+cypress/snapshots/
+cypress/storage/
+cypress/support/__generated__/
+cypress/support/commands/__generated__/
+cypress/test-results/
+cypress/types/__generated__/
+cypress/visual-regression/
+cypress/visual/
+cypress/workers/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)cypress.config.js.bak

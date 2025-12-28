@@ -1,0 +1,73 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for Cpp
+# website: https://isocpp.org/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# LANGUAGE-SPECIFIC PATTERNS
+# • COMBINATION: Combine with framework and common templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# LANGUAGE-SPECIFIC PATTERNS
+# # Customize these based on your technology's documentation
+
+*.gcda
+*.gch
+*.gcno
+*.gcov
+*.njsproj
+*.pch
+*.profraw
+*.qm
+*.qm.bak
+*.qmlc
+*.sln
+*.ui.bak
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.catkin_tools/
+.catkin_workspace/
+.ros/
+.rosinstall
+catkin_ws/
+cmake-build-*/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+devel/
+doxygen/
+industrial_ci/
+install/
+install_manifest.txt
+log/
+Makefile
+Makefile*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+x64/
+x86/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Appropriate framework template (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)
+#   - IDE template for your editor (ides/*.gitignore)
+#   - OS template for your system (os/*.gitignore)

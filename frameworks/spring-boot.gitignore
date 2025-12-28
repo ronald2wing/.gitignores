@@ -1,0 +1,163 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Spring Boot
+# website: https://spring.io/projects/spring-boot
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!gradle/wrapper/gradle-wrapper.jar
+**/application-*.properties
+**/application-*.yml
+**/application.properties
+**/application.yml
+**/target/
+**/test-output/
+**/test-results/
+*.cer
+*.class
+*.crt
+*.csr
+*.ctxt
+*.der
+*.dll
+*.ear
+*.exe
+*.jar
+*.jks
+*.key
+*.keystore
+*.lib
+*.log
+*.log.*
+*.nar
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pem
+*.pfx
+*.pid
+*.pid.lock
+*.pub
+*.rar
+*.secret
+*.tar.gz
+*.tgz
+*.token
+*.truststore
+*.war
+*.whl
+*.zip
+*_keys
+*_secrets
+*_tokens
+*credentials*
+*password*
+*private*
+*secret*
+.cache/
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.docusaurus
+.DS_Store
+.DS_Store?
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+.factorypath
+.fleet/
+.fusebox/
+.gradle/
+.mtj.tmp/
+.mvn/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.next/
+.nova/
+.nuxt/
+.nyc_output/
+.parcel-cache
+.parcel-cache/
+.pnp.*
+.pnpm-debug.log*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.Spotlight-V100
+.spring-devtools.properties
+.storybook-out/
+.stylelintcache
+.Trashes
+.vscode-test/
+bower_components/
+build/
+buildNumber.properties
+cover/
+dependency-reduced-pom.xml
+heapdump.hprof
+hs_err_pid*
+htmlcov/
+id_dsa
+id_rsa
+jspm_packages/
+junit.xml
+logs/
+npm-debug.log*
+out/
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+public/
+release.properties
+storybook-static/
+target/
+test-output/
+test-reports/
+test-results/
+testng-results.xml
+Thumbs.db
+web_modules/
+yarn-debug.log*
+yarn-error.log*
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

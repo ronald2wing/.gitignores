@@ -1,0 +1,169 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Flask
+# website: https://flask.palletsprojects.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cer
+*.crt
+*.csr
+*.der
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.jks
+*.key
+*.keystore
+*.lib
+*.log
+*.log.*
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pem
+*.pfx
+*.pid
+*.pid.lock
+*.pub
+*.py[co]
+*.pyc
+*.pyo
+*.secret
+*.so
+*.tar.gz
+*.tgz
+*.token
+*.truststore
+*.whl
+*.zip
+*_keys
+*_secrets
+*_tokens
+*credentials*
+*password*
+*private*
+*secret*
+.cache/
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.dmypy.json
+.docusaurus
+.eggs/
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+.flask-debug
+.flaskenv
+.fusebox/
+.installed.cfg
+.ipynb_checkpoints
+.mypy_cache/
+.next/
+.nuxt/
+.nyc_output/
+.parcel-cache
+.parcel-cache/
+.pdm.toml
+.pnp.*
+.pnpm-debug.log*
+.pybuilder/
+.pytest_cache/
+.Python
+.python-version
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.stylelintcache
+.tox/
+.venv
+.vscode-test/
+.webassets-cache
+bower_components/
+build/
+cover/
+cython_debug/
+develop-eggs/
+dist/
+dmypy.json
+docs/_build/
+downloads/
+eggs/
+env.bak/
+ENV/
+env/
+htmlcov/
+id_dsa
+id_rsa
+instance/
+ipython_config.py
+jspm_packages/
+junit.xml
+lib/
+lib64/
+MANIFEST
+nosetests.xml
+npm-debug.log*
+out/
+parts/
+pip-wheel-metadata/
+profile_default/
+public/
+sdist/
+share/python-wheels/
+storybook-static/
+test-output/
+test-reports/
+test-results/
+testng-results.xml
+var/
+venv.bak/
+venv/
+web_modules/
+wheels/
+yarn-debug.log*
+yarn-error.log*
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

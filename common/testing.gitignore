@@ -1,0 +1,147 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Testing
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits
+# # Always review and customize based on your project's security requirements
+
+.secrets/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled code, build outputs, and distribution packages
+
+target/failsafe-reports/
+target/surefire-reports/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools cache, runtime data, and temporary files
+
+playwright/.cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Test outputs, coverage reports, and quality tool artifacts
+
+*.coverage
+*.coveragexml
+.coverage.xml
+.coverage_html/
+.nyc_output/
+.pytest_cache/
+coverage.xml
+coverage/
+load-test-results/
+pitest-reports/
+stress-test-results/
+test-reports/
+test-results/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CATEGORY-SPECIFIC PATTERNS
+# # Customize these based on your technology's documentation
+
+*.cover
+*.exec
+*.lcov
+*.py,cover
+*.snap
+*.trx
+*.VisualState.xml
+.codeclimate.yml
+.codeclimate/
+.coverage
+.coverage.*
+.doctest/
+.grype/
+.nox/
+.nunit/
+.perf/
+.pitest/
+.scannerwork/
+.snapshots/
+.sonar/
+.sonarlint/
+.syft/
+.tox/
+.trivy/
+.vstest/
+__diff_output__/
+__image_snapshots__/
+__screenshots__/
+__snapshots__/
+allure-results/
+benchmark-results/
+benchmark/
+benchmark_results/
+benchmarks/
+cover/
+coverage.cobertura.xml
+coverage.opencover.xml
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+doctest-output/
+e2e-test/
+e2e-tests/
+e2e/
+e2e_test/
+e2e_tests/
+failsafe-reports/
+htmlcov/
+integration-test/
+integration-tests/
+integration/
+integration_test/
+integration_tests/
+jacoco.exec
+jacoco.xml
+junit.xml
+lcov.info
+load_test_results/
+mutation-testing-reports/
+mutation-testing/
+performance-reports/
+performance_results/
+playwright-report/
+secret-scans/
+security-scans/
+snapshots/
+sonar-project.properties
+stress_test_results/
+surefire-reports/
+test-output.xml
+test-output/
+test-report.xml
+test-results.xml
+testng-results.xml
+TestResult.xml
+tests/Browser/console/
+tests/Browser/screenshots/
+tests/Browser/source/
+# Additional testing patterns
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)

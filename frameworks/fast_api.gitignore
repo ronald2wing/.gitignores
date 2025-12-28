@@ -1,0 +1,116 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for FastAPI
+# website: https://fastapi.tiangolo.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cover
+*.egg
+*.egg-info/
+*.key
+*.log
+*.manifest
+*.mo
+*.pem
+*.pot
+*.py,cover
+*.sage.py
+*.spec
+.cache
+.codspeed
+.coverage
+.coverage*
+.coverage.*
+.dmypy.json
+.DS_Store
+.eggs/
+.env
+.env.local
+.env.production
+.hypothesis/
+.idea
+.ipynb_checkpoints
+.mypy_cache
+.pybuilder/
+.pyre/
+.pytest_cache
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.secret
+.spyderproject
+.spyproject
+.tox/
+.venv
+.vscode
+.webassets-cache
+/site
+__pypackages__/
+archive.zip
+build/
+celerybeat-schedule
+celerybeat.pid
+coverage.xml
+coverage/
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dist
+dmypy.json
+docs.zip
+docs/_build/
+docs_build
+eggs/
+env.bak/
+ENV/
+env/
+env3.*
+htmlcov
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+log.txt
+nosetests.xml
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+Pipfile.lock
+profile_default/
+sdist/
+share/python-wheels/
+site
+site_build
+test.db
+uv.lock
+var/
+venv.bak/
+venv/
+wheels/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

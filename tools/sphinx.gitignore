@@ -1,0 +1,108 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Sphinx
+# website: https://www.sphinx-doc.org/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# TOOL-SPECIFIC PATTERNS
+# • COMBINATION: Combine with language and framework templates as needed
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.backup/
+.bak/
+.bash
+.cache/
+.checksum
+.deploy/
+.deployment/
+.diff
+.fish
+.hash
+.hashes
+.lock
+.lockfile
+.md5
+.patch
+.rar
+.sh
+.sha1
+.sha256
+.sha512
+.sig
+.signature
+.sphinx/
+.state
+.status
+.tar
+.tar.gz
+.tgz
+.timestamp
+.timestamps
+.zip
+.zsh
+_attributes/
+_build/
+_classes/
+_extensions/
+_functions/
+_methods/
+_modules/
+_static/__generated__/
+_templates/__generated__/
+_theme/
+build/
+conf.json.bak
+conf.py.bak
+conf.yaml.bak
+conf.yml.bak
+demo/
+demos/
+docs/_build/
+docs/build/
+doctrees/
+epub/
+example/
+examples/
+extensions/
+genindex.html
+genindex.txt
+html/
+latex/
+man/
+objects.inv
+package/
+packages/
+search.html
+search.txt
+source/__generated__/
+sphinx.log
+static/__generated__/
+templates/__generated__/
+test/
+tests/
+texinfo/
+themes/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore).7z

@@ -1,0 +1,128 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Cache
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD & DEPENDENCY CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Build system cache and dependency cache directories
+
+.babel-cache/
+.bun/
+.cache-*
+.cache.*
+.cache/
+.cargo/
+.cargo/git/
+.cargo/registry/
+.cmake-build-*/
+.cmake/
+.eslintcache
+.less-cache/
+.next/cache/
+.npm/
+.npminstall/
+.nuxt/dist/
+.nx/
+.nx/cache/
+.parcel-cache/
+.pnp.cjs
+.pnp.js
+.pnp.loader.mjs
+.pnp/
+.pnpm-store/
+.postcss-cache/
+.prettiercache
+.rollup.cache/
+.sass-cache/
+.stylelintcache
+.stylus-cache/
+.swiftpm/
+.tsbuildinfo
+.tsbuildinfo.*
+.turbo/
+.vite/
+.webassets-cache
+.webpack/
+.xcodebuild/
+.yarn-cache/
+.yarn/
+build-*/
+cache-*
+cache.*
+cache/
+cmake-build-*/
+composer-cache/
+go/pkg/mod/
+gradle-cache/
+ivy-cache/
+maven-repo/
+out-*/
+pip-cache/
+sbt-cache/
+target-*/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# EDITOR & IDE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Editor and IDE cache files and directories
+
+.atom-cache/
+.browser-cache/
+.chrome-cache/
+.emacs.d/auto-save-list/
+.emacs.d/backup/
+.firefox-cache/
+.safari-cache/
+.sublime-cache/
+.vim-cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TEMPORARY FILES & LOCK FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Temporary files, lock files, and process files
+
+*.cache
+*.lck
+*.lock
+*.pid
+*.pid.lock
+*.session
+*.state
+*.temp
+*.tmp
+.temp/
+.tmp/
+/private/var/tmp/
+/tmp/
+/var/cache/
+/var/tmp/
+temp/
+tmp/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)
+

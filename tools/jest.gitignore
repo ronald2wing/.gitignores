@@ -1,0 +1,64 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Jest
+# website: https://jestjs.io/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# TOOL-SPECIFIC PATTERNS
+# • COMBINATION: Combine with language and framework templates as needed
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.jest-cache/
+.jest/
+.nyc_output/
+__tests__/__mocks__/__generated__/
+__tests__/__output__/
+__tests__/__snapshots__/
+__tests__/__types__/
+__tests__/artifacts/
+__tests__/benchmarks/
+__tests__/fixtures/__generated__/
+__tests__/fixtures/__output__/
+__tests__/fixtures/output/
+__tests__/mocks/__generated__/
+__tests__/parallel/
+__tests__/performance/
+__tests__/reporters/
+__tests__/reports/
+__tests__/screenshots/
+__tests__/types/
+__tests__/visual/
+__tests__/workers/
+coverage/
+jest-debug.log
+jest.config.js.bak
+jest.config.json.bak
+jest.config.ts.bak
+jest.log
+jest.setup.js.bak
+jest.setup.ts.bak
+test-results/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)*.snap

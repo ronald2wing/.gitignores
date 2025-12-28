@@ -1,0 +1,104 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# PLATFORM-SPECIFIC TEMPLATE for Unity
+# website: https://unity.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: PLATFORM-SPECIFIC TEMPLATE
+# PLATFORM-SPECIFIC PATTERNS
+# • COMBINATION: Combine with language and framework templates as needed
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PLATFORM-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.apk
+*.app
+*.appimage
+*.csproj
+*.dmg
+*.exe
+*.ipa
+*.msi
+*.sln
+*.suo
+*.unityproj
+*.user
+*.userprefs
+*.x86
+*.x86_64
+*.xcode
+*.xcodeproj
+*.xcworkspace
+.backup/
+.bak/
+.cache/
+.vc/
+.version/
+AddressableAssetsData/
+addressables/
+Analytics/
+analytics/
+Asset\ Store/
+AssetBundles/
+assetbundles/
+AssetStore/
+Build/
+build/
+CloudBuild/
+cloudbuild/
+Collaborate/
+collaborate/
+CoverageReports/
+coveragereports/
+CrashReports/
+crashreports/
+EditorUserSettings.asset
+Library/
+library/
+Localization/
+localization/
+Logs/
+MemorySnapshots/
+memorysnapshots/
+Multiplayer/
+multiplayer/
+Netcode/
+netcode/
+obj/
+PackageCache/
+Packages/
+packages/
+PerformanceReports/
+performancereports/
+ProfilerData/
+profilerdata/
+ProjectSettings.asset
+ProjectSettings/
+StreamingAssets/
+streamingassets/
+TestResults/
+testresults/
+UserSettings/
+WebGL/
+WebGLBuild/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)*.aab

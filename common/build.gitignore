@@ -1,0 +1,171 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Build
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Note: Lock files should generally be tracked for reproducible builds
+
+.pnpm-store/
+.yarn/
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+node_modules/.cache/
+node_modules/.pnpm-store/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & COMPILED OUTPUTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled binaries, libraries, and build artifacts
+
+*$py.class
+*.7z
+*.a
+*.apk
+*.app
+*.appx
+*.bz2
+*.class
+*.deb
+*.dll
+*.dmg
+*.dylib
+*.ear
+*.egg
+*.exe
+*.gz
+*.ilk
+*.ipa
+*.jar
+*.ko
+*.lib
+*.msi
+*.nupkg
+*.o
+*.obj
+*.pdb
+*.pkg
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.rar
+*.rpm
+*.sage.py
+*.so
+*.tar.bz2
+*.tar.gz
+*.tar.xz
+*.war
+*.whl
+*.xz
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD DIRECTORIES & OUTPUT PATHS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Build output directories and temporary build locations
+
+.build-*/
+.build.*/
+.build/
+.build_*/
+.dist-*/
+.dist.*/
+.dist/
+.dist_*/
+.docusaurus/
+.fusebox/
+.gatsby/
+.next/
+.nuxt/
+.out-*/
+.out.*/
+.out/
+.out_*/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.target-*/
+.target.*/
+.target/
+.target_*/
+_build-*/
+_build.*/
+_build/
+_build_*/
+_dist-*/
+_dist.*/
+_dist/
+_dist_*/
+_out-*/
+_out.*/
+_out/
+_out_*/
+_site/
+_target-*/
+_target.*/
+_target/
+_target_*/
+build-*/
+build.*/
+build/
+build_*/
+develop-eggs/
+dist-*/
+dist.*/
+dist/
+dist_*/
+downloads/
+eggs/
+lib/
+lib64/
+libs/
+out-*/
+out.*/
+out/
+out_*/
+parts/
+public/
+sdist/
+share/python-wheels/
+site/
+storybook-static/
+target-*/
+target.*/
+target/
+target_*/
+wheels/
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)

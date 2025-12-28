@@ -1,0 +1,85 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Docusaurus
+# website: https://docusaurus.io/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.css.map
+*.js.map
+*.key
+*.less.map
+*.parcel.js
+*.parcel.js.map
+*.pem
+*.postcss.map
+*.rollup.js
+*.rollup.js.map
+*.sass.map
+*.scss.map
+*.styl.map
+*.temp
+*.tmp
+*.ts.js
+*.ts.map
+*.vite.js
+*.vite.js.map
+*.webpack.js
+*.webpack.js.map
+.backup/
+.bak/
+.cache/
+.deploy/
+.deployment/
+.docusaurus/
+.env
+.env.development
+.env.production
+.nyc_output/
+.secret
+__tests__/
+blog/__generated__/
+build/
+coverage/
+docs/__generated__/
+docusaurus.config.js.bak
+docusaurus.config.json.bak
+docusaurus.config.ts.bak
+docusaurus.log
+i18n/__generated__/
+sidebars.js.bak
+sidebars.json.bak
+sidebars.ts.bak
+src/.cache/
+src/.docusaurus/
+src/components/__generated__/
+src/pages/__generated__/
+src/theme/__generated__/
+static/__generated__/
+static/assets/__generated__/
+static/css/__generated__/
+static/img/__generated__/
+static/js/__generated__/
+tests/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

@@ -1,0 +1,110 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for Python
+# website: https://www.python.org/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# LANGUAGE-SPECIFIC PATTERNS
+# • COMBINATION: Combine with framework and common templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# COMPILED CODE, BUILD OUTPUTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled Python code, build outputs, and distribution packages
+
+*.egg
+*.egg-info/
+.dmypy.json
+.pdm-build/
+dist/
+dmypy.json
+docs/_build/
+lib/
+sdist/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TEST OUTPUTS, COVERAGE REPORTS & QUALITY TOOL ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Python test outputs, coverage reports, and quality tool artifacts
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.pytest_cache/
+__pycache__/
+cover/
+htmlcov/
+nosetests.xml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PYTHON-SPECIFIC DEVELOPMENT & DEPENDENCY PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Python-specific development, dependency, and virtual environment patterns
+
+*.manifest
+*.pot
+*.py[co]
+*.pyc
+*.pyd
+*.pyo
+*.so
+*.spec
+.eggs/
+.hypothesis/
+.installed.cfg
+.ipynb_checkpoints/
+.mypy_cache/
+.nox/
+.pdm.toml
+.pip-wheel-metadata/
+.pybuilder/
+.pyre/
+.Python
+.python-eggs/
+.python-version
+.pytype/
+.scrapy
+.tox/
+.venv
+__pypackages__/
+cython_debug/
+develop-eggs/
+downloads/
+eggs/
+env.bak/
+ENV/
+env/
+instance/
+ipython_config.py
+lib64/
+MANIFEST
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+profile_default/
+share/python-wheels/
+venv.bak/
+venv/
+wheels/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Appropriate framework template (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)
+#   - IDE template for your editor (ides/*.gitignore)
+#   - OS template for your system (os/*.gitignore)

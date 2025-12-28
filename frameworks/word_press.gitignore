@@ -1,0 +1,119 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for WordPress
+# website: https://wordpress.org/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!wp-content/.gitkeep
+!wp-content/index.php
+!wp-content/uploads/.gitkeep
+!wp-content/uploads/index.php
+*.code-workspace
+*.key
+*.log
+*.pem
+*.sql
+*.sql.gz
+*.sublime-*
+*.tar
+*.tar.gz
+*.temp
+*.tmp
+*.zip
+.cache/
+.DS_Store
+.env
+.env.*.local
+.env.local
+.env.production
+.pdepend/
+.php-built-in-web-server.pid
+.php_cs.cache
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan.cache
+.phpstan/
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+.psalm/
+.secret
+.tmp/
+behat.yml
+composer.phar
+coverage/
+debug.log
+docs/
+error_log
+index.php
+license.txt
+php_errors.log
+phpdoc/
+readme.html
+sess_*
+temp/
+Thumbs.db
+tmp/
+uploads/
+vendor/
+wp-activate.php
+wp-admin/
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-content/
+wp-content/backup-db/
+wp-content/backup/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/plugins/*/build/
+wp-content/plugins/*/dist/
+wp-content/plugins/*/vendor/
+wp-content/plugins/hello.php
+wp-content/themes/*/build/
+wp-content/themes/*/dist/
+wp-content/themes/*/vendor/
+wp-content/themes/twenty*/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/uploads/sites/
+wp-cron.php
+wp-includes/
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xdebug.log
+xmlrpc.php
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

@@ -1,0 +1,314 @@
+# ============================================================================
+# GITIGNORE REFERENCE TEMPLATE - Standard Implementation
+# ============================================================================
+# This template demonstrates the recommended structure and organization for all
+# .gitignore templates in this repository. Use as a reference when creating or
+# modifying templates.
+#
+# PURPOSE: Quality benchmark and implementation guide
+# USAGE: Reference for template creation, not for direct project use
+# UPDATED: January 2026
+
+# IMPORTANT: For comprehensive documentation, refer to:
+# - README.md (user documentation)
+# - CONTRIBUTING.md (contributor guidelines)
+# - AGENTS.md (maintainer documentation)
+
+# CORE DESIGN PRINCIPLES:
+# 1. Security-first: Security patterns always placed first
+# 2. Organized: Logical grouping with descriptive section headers
+# 3. Consistent: Alphabetical sorting within sections
+# 4. Comprehensive: Include patterns for relevant categories
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# SECURITY & SENSITIVE DATA PROTECTION (CRITICAL SECTION)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ALWAYS PLACE SECURITY PATTERNS FIRST IN FRAMEWORK TEMPLATES
+# This protects sensitive data from accidental commits to version control
+
+# Environment Variables & Configuration Files
+.env
+.env.*
+.env.*.local
+.env.development
+.env.development.local
+.env.example
+.env.local
+.env.production
+.env.production.local
+.env.sample
+.env.staging
+.env.staging.local
+.env.template
+.env.test
+.env.test.local
+
+# Cryptographic Keys, Certificates & Security Tokens
+*.asc
+*.cer
+*.cert
+*.crt
+*.csr
+*.der
+*.gpg
+*.jks
+*.key
+*.keystore
+*.p12
+*.p7b
+*.p7c
+*.pem
+*.pfx
+*.pgp
+*.pub
+*.spc
+*.token
+*.truststore
+
+# SSH Keys & Authentication Files
+.ssh/
+.ssh/authorized_keys
+.ssh/config
+.ssh/id_*
+.ssh/known_hosts
+authorized_keys
+id_dsa
+id_ecdsa
+id_ed25519
+id_rsa
+known_hosts
+ssh_config
+ssh_known_hosts
+
+# Application Secrets & Credentials
+*password*
+*private*
+*secret*
+*_tokens
+.config
+.config.*
+.local
+.local.*
+.secret
+.secret.*
+.secrets
+.secrets.*
+apikeys.*
+credentials
+credentials.*
+credentials.local.*
+passwords/
+private/
+secrets.json
+secrets.yaml
+secrets.yml
+secrets/
+tokens.*
+
+# Cloud Provider Credentials
+.aws/
+.aws/credentials
+.azure/
+.gcloud/
+.gcp/
+aws.config
+aws.json
+aws.yaml
+aws.yml
+azure.config
+azure.json
+azure.yaml
+azure.yml
+gcloud.config
+gcloud.json
+gcloud.yaml
+gcloud.yml
+
+# Container & Docker Configuration
+*.dockercfg
+*.dockerconfig
+
+# API Keys & Tokens
+*.apikey
+*.apisecret
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# VERSION CONTROL & REPOSITORY MANAGEMENT
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Version control system files and directories
+
+# Git Repository Files
+.git/
+.git-crypt/
+.git-rewrite/
+.gitattributes
+.gitconfig
+.gitcredentials
+.gitignore
+.gitkeep
+.gitmodules
+.gitreview
+
+# Other Version Control Systems
+.hg/
+.svn/
+CVS/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# IMPORTANT: Lock files (package-lock.json, yarn.lock, etc.) should generally
+# be tracked for reproducible builds. Only exclude them if you have specific reasons.
+
+# Node.js / JavaScript
+.bower-cache/
+.bower-components/
+.bower-registry/
+.bower-tmp/
+jspm_packages/
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+.eggs/
+.installed.cfg
+.Python
+.pip-wheel-metadata/
+.python-eggs/
+.python-version
+__pycache__/
+__pypackages__/
+develop-eggs/
+dist/
+downloads/
+eggs/
+env/
+env.bak/
+ENV/
+lib64/
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+sdist/
+share/python-wheels/
+venv/
+venv.bak/
+wheels/
+
+# Ruby
+.bundle/
+.ruby-version
+vendor/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+
+# Java / JVM Languages
+.gradle/
+.idea/
+.mvn/
+target/
+
+# Rust
+/target/
+
+# Go
+vendor/
+
+# PHP
+vendor/
+composer.lock
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Compiled code, build outputs, and distribution packages
+
+# Compiled Binaries & Libraries
+*.a
+*.app
+*.bin
+*.class
+*.dll
+*.dylib
+*.egg
+*.egg-info/
+*.exe
+*.jar
+*.lib
+*.manifest
+*.nupkg
+*.o
+*.obj
+*.py[co]
+*.pyc
+*.pyd
+*.pyo
+*.so
+*.spec
+*.tar.gz
+*.tgz
+*.whl
+*.zip
+
+# Modern Web Framework Build Outputs
+.next/
+.nuxt/
+.serverless/
+.storybook-out/
+.turbo/
+.vite/
+build/
+dist/
+docs/_build/
+lib/
+out/
+public/
+storybook-static/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Development tools cache, runtime data, and temporary files
+
+# Log Files
+*.log
+*.log.*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache Directories
+.cache/
+.eslintcache
+.fusebox/
+.mypy_cache/
+.nyc_output/
+.parcel-cache
+.parcel-cache/
+.pnp.*
+.pytest_cache/
+.pyre/
+.pytype/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.stylelintcache
+.vscode-test/
+
+# Temporary Files
+*.pid
+*.pid.lock
+*.pot
+*.tmp
+.tmp/
+.tmp*/
+
+# ============================================================================
+# END OF REFERENCE TEMPLATE
+# ============================================================================

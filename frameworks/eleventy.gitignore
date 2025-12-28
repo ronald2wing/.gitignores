@@ -1,0 +1,79 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Eleventy
+# website: https://www.11ty.dev/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.js.map
+*.key
+*.pem
+*.temp
+*.tmp
+*.ts.js
+*.ts.map
+.11ty-cache/
+.backup/
+.bak/
+.cache/
+.dependencies/
+.deploy/
+.deployment/
+.eleventy.config.js.bak
+.eleventy.config.json.bak
+.eleventy.config.ts.bak
+.eleventy.js.bak
+.eleventy.js.cache
+.eleventy.js/filters/__generated__/
+.eleventy.js/plugins/__generated__/
+.eleventy.js/shortcodes/__generated__/
+.eleventy.js/transforms/__generated__/
+.eleventyignore.bak
+.env
+.env.development
+.env.production
+.secret
+_11ty/
+_collections/__generated__/
+_components/__generated__/
+_data/__generated__/
+_includes/__generated__/
+_layouts/__generated__/
+_site/
+assets/__generated__/
+assets/css/__generated__/
+assets/images/__generated__/
+assets/js/__generated__/
+benchmark/
+benchmarks/
+coverage/
+docs/_build/
+docs/_site/
+eleventy.log
+example/
+examples/
+static/__generated__/
+test/
+tests/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves

@@ -1,0 +1,80 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# IDE-SPECIFIC TEMPLATE for Emacs
+# website: https://www.gnu.org/software/emacs/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: IDE-SPECIFIC TEMPLATE
+# IDE-SPECIFIC PATTERNS
+# • COMBINATION: Combine with language and framework templates as needed
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IDE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*_archive
+. # *
+.\ # *
+.cask/
+.dir-locals.el
+.doom-emacs/
+.doom.d/
+.DS_Store
+.DS_Store?
+.lsp/
+.projectile
+.spacemacs
+.Spotlight-V100
+.Trashes
+\ # *\#
+auto-complete/
+auto-save-list
+Cask
+company/
+counsel/
+custom.el
+Eask
+Eask-file
+eglot/
+el-get/
+elpa/
+evil/
+flycheck/
+flycheck_*
+flymake/
+helm/
+ivy/
+lsp-mode/
+magit/
+network-security.data
+org-id-locations
+projectile/
+quelpa/
+straight/
+swiper/
+Thumbs.db
+tramp
+treemacs/
+use-package/
+which-key/
+yasnippet/
+
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common patterns (common/*.gitignore)*.elc

@@ -1,0 +1,139 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# CATEGORY TEMPLATE for Backup
+# website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: CATEGORY TEMPLATE
+# • DESIGN PHILOSOPHY: Cross-cutting concerns for all project types
+# • COMBINATION: Combine with language and framework templates for comprehensive coverage
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Dependency directories and package manager cache
+# # Note: Lock files should generally be tracked for reproducible builds
+
+.npm/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled code, build outputs, and distribution packages
+
+$RECYCLE.BIN/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools cache, runtime data, and temporary files
+
+*.swo
+*.swp
+*~
+.*~
+.cache/
+.tmp/
+_temp/
+_tmp/
+temp/
+tmp/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CATEGORY-SPECIFIC PATTERNS
+# # Customize these based on your technology's documentation
+
+*.back
+*.backup
+*.bak
+*.coffee
+*.conf.bak
+*.config.bak
+*.cson
+*.db.backup
+*.db.bak
+*.diff
+*.dump
+*.export
+*.ini.bak
+*.json.bak
+*.map
+*.old
+*.orig
+*.original
+*.patch
+*.patch.*
+*.prev
+*.previous
+*.rej
+*.sav
+*.save
+*.settings.bak
+*.sql.backup
+*.sql.bak
+*.sqlite.backup
+*.sqlite.bak
+*.sublime-*
+*.sublime-cache
+*.sublime-project
+*.sublime-workspace
+*.temp
+*.tmp
+*.un~
+*.xml.bak
+*.yaml.bak
+*.yml.bak
+. # *
+._*
+.apm/
+.atom/
+.atomic-writes
+.blink*
+.compile-cache/
+.dev/
+.DS_Store
+.DS_Store?
+.idea/.name
+.idea/copyright/
+.idea/dataSources.xml
+.idea/datasources.xml
+.idea/dictionaries/
+.idea/dynamic.xml
+.idea/jsLibraryMappings.xml
+.idea/scopes/
+.idea/shelf/
+.idea/sqlDataSources.xml
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.netrwhist
+.node-gyp/
+.save-*
+.Spotlight-V100
+.storage/
+.Trashes
+backup.sql
+cache/
+config.backup.*
+desktop.ini
+dump.sql
+ehthumbs.db
+Session.vim
+settings.backup.*
+sftp-config.json
+sftp-settings.json
+Thumbs.db
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Language template for your project (languages/*.gitignore)
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Other common patterns as needed (common/*.gitignore)

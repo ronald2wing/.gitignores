@@ -1,0 +1,136 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Flutter
+# website: https://flutter.dev/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION: Can be used standalone without combining with other templates
+# • BEST PRACTICES: Follow security guidelines and pattern organization
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits
+# # Always review and customize based on your project's security requirements
+
+*.keystore
+*.pem
+.env
+.env.debug
+.env.flutter
+.env.profile
+.env.release
+.secret
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Dependency directories and package manager cache
+# # Note: Lock files should generally be tracked for reproducible builds
+
+android/.gradle/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled code, build outputs, and distribution packages
+
+android/app/build/
+build/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools cache, runtime data, and temporary files
+
+.cache/
+.temp/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Test outputs, coverage reports, and quality tool artifacts
+
+.coverage/
+.nyc_output/
+coverage/
+test-results/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FRAMEWORK-SPECIFIC PATTERNS
+# # Customize these based on your technology's documentation
+
+*.aab
+*.apk
+*.app
+*.AppImage
+*.dart.js
+*.dart.js.map
+*.deb
+*.dmg
+*.exe
+*.flatpak
+*.iml
+*.ipa
+*.js_
+*.js_.map
+*.msi
+*.part.js
+*.part.js.map
+*.rpm
+*.snap
+*.temp
+*.tmp
+.appgallery/
+.appstore/
+.backup/
+.bak/
+.dart_tool/
+.deploy/
+.deployment/
+.firebase/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies.bak
+.flutter-plugins.bak
+.flutter/
+.googleplay/
+.packages
+.pub-cache/
+.pub/
+.pwa/
+.signing/
+android/*.iml
+android/local.properties
+appgallery/
+appstore/
+firebase/
+flutter.log
+googleplay/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+ios/ServiceDefinitions.json
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+macos/Flutter/FlutterMacOS.framework
+macos/Flutter/GeneratedPluginRegistrant.swift
+pubspec.lock.bak
+pubspec.yaml.bak
+pwa/
+signing/
+web/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
