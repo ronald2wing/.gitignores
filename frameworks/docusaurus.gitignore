@@ -1,0 +1,114 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Docusaurus
+# Website: https://docusaurus.io/
+# Repository: https://github.com/facebook/docusaurus
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete Docusaurus framework patterns for documentation sites and build artifacts
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Docusaurus Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.key
+*.pem
+.env
+.env.development
+.env.production
+.secret
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/
+build/
+src/.cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.tmp
+docusaurus.log
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCUSAURUS-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.css.map
+*.js.map
+*.less.map
+*.parcel.js
+*.parcel.js.map
+*.postcss.map
+*.rollup.js
+*.rollup.js.map
+*.sass.map
+*.scss.map
+*.styl.map
+*.temp
+*.ts.js
+*.ts.map
+*.vite.js
+*.vite.js.map
+*.webpack.js
+*.webpack.js.map
+.backup/
+.bak/
+.deploy/
+.deployment/
+.docusaurus/
+__tests__/
+blog/__generated__/
+docs/__generated__/
+docusaurus.config.js.bak
+docusaurus.config.json.bak
+docusaurus.config.ts.bak
+i18n/__generated__/
+sidebars.js.bak
+sidebars.json.bak
+sidebars.ts.bak
+src/.docusaurus/
+src/components/__generated__/
+src/pages/__generated__/
+src/theme/__generated__/
+static/__generated__/
+static/assets/__generated__/
+static/css/__generated__/
+static/img/__generated__/
+static/js/__generated__/
+tests/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.nyc_output/
+coverage/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR DOCUSAURUS PROJECT:
+# cp frameworks/docusaurus.gitignore .gitignore

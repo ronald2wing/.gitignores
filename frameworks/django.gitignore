@@ -1,0 +1,257 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Django
+# Website: https://www.djangoproject.com/
+# Repository: https://github.com/django/django
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete Django patterns with security, build, and development artifacts
+# • DESIGN PHILOSOPHY: Self-contained with security, build, and development patterns
+# • COMBINATION GUIDANCE: Use standalone; optionally add IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for production
+# • BEST PRACTICES: Use as standalone template, review security patterns, test with your setup
+# • OFFICIAL SOURCES: Django documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.pem
+*.secret
+*.token
+*_keys
+*_secrets
+*_tokens
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.lib
+*.so
+*.tar.gz
+*.whl
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/
+.eggs/
+.pdm-build/
+.pybuilder/
+.venv
+__pycache__/
+build/
+dist/
+docs/_build/
+env.bak/
+ENV/
+sdist/
+venv.bak/
+venv/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+*.log.*
+.mypy_cache/
+.parcel-cache/
+.pnpm-debug.log*
+.pytest_cache/
+.rpt2_cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DJANGO-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cer
+*.csr
+*.der
+*.jks
+*.manifest
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pfx
+*.pid
+*.pid.lock
+*.pot
+*.pub
+*.py[co]
+*.pyc
+*.pyd
+*.pyo
+*.spec
+*.tgz
+*.truststore
+.dmypy.json
+.docusaurus
+.fusebox/
+.installed.cfg
+.ipynb_checkpoints
+.ipynb_checkpoints/
+.next/
+.nox/
+.nuxt/
+.parcel-cache
+.pdm.toml
+.pip-wheel-metadata/
+.pnp.*
+.pyre/
+.Python
+.python-eggs/
+.python-version
+.pytype/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.scrapy
+.serverless/
+.storybook-out/
+.stylelintcache
+.tox/
+.vscode-test/
+__pypackages__/
+bower_components/
+cover/
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+docs/locale/
+downloads/
+eggs/
+instance/
+ipython_config.py
+jspm_packages/
+lib/
+lib64/
+local_settings.py
+MANIFEST
+media/
+nosetests.xml
+out/
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+profile_default/
+public/
+share/python-wheels/
+staticfiles/
+storybook-static/
+test-output/
+test-reports/
+testng-results.xml
+tests/report/
+tests/screenshots/
+var/
+web_modules/
+wheels/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.hypothesis/
+.nyc_output/
+htmlcov/
+junit.xml
+test-results/
+tests/.coverage*
+tests/coverage_html/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# RECOMMENDED USAGE PATTERNS:
+# ============================
+
+# BASIC USAGE (STANDALONE):
+# -------------------------
+# cp frameworks/django.gitignore .gitignore
+
+# WITH IDE SUPPORT (TEAM DEVELOPMENT):
+# ------------------------------------
+# cat frameworks/django.gitignore \
+#     ides/visual-studio-code.gitignore \
+#     ides/pycharm.gitignore > .gitignore
+
+# CROSS-PLATFORM DEVELOPMENT:
+# ---------------------------
+# cat frameworks/django.gitignore \
+#     os/linux.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore
+
+# WITH DATABASE & CACHE MANAGEMENT:
+# ---------------------------------
+# cat frameworks/django.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore > .gitignore
+
+# ENTERPRISE SETUP WITH DOCKER:
+# -----------------------------
+# cat frameworks/django.gitignore \
+#     tools/docker.gitignore \
+#     tools/postgresql.gitignore \
+#     common/cache.gitignore > .gitignore
+
+# IMPORTANT NOTES:
+# ================
+# 1. This template is self-contained and includes security patterns
+# 2. No need to add common/security.gitignore separately
+# 3. Test with `git status --ignored` to ensure proper coverage
+# 4. Remove any patterns that conflict with your project structure
+# 5. Consider your team's development tools when adding IDE templates

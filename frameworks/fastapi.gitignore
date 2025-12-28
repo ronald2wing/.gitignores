@@ -1,0 +1,149 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for FastAPI
+# Website: https://fastapi.tiangolo.com/
+# Repository: https://github.com/tiangolo/fastapi
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete FastAPI framework patterns for Python web applications and development artifacts
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Fast_Api Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.key
+*.pem
+.env
+.env.local
+.env.production
+.secret
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.egg
+*.egg-info/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache
+.eggs/
+.pybuilder/
+.venv
+build/
+dist
+docs/_build/
+docs_build
+env.bak/
+ENV/
+env3.*
+sdist/
+site_build
+venv.bak/
+venv/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# FAST API-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cover
+*.manifest
+*.mo
+*.pot
+*.py,cover
+*.sage.py
+*.spec
+.codspeed
+.dmypy.json
+.DS_Store
+.idea
+.ipynb_checkpoints
+.mypy_cache
+.pyre/
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tox/
+.vscode
+.webassets-cache
+/site
+__pypackages__/
+archive.zip
+celerybeat-schedule
+celerybeat.pid
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+docs.zip
+eggs/
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+log.txt
+nosetests.xml
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+Pipfile.lock
+profile_default/
+share/python-wheels/
+site
+test.db
+uv.lock
+var/
+wheels/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage*
+.coverage.*
+.hypothesis/
+.pytest_cache
+coverage.xml
+coverage/
+htmlcov
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR FAST API PROJECT:
+# cp frameworks/fast_api.gitignore .gitignore

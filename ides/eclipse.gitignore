@@ -1,0 +1,74 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# IDE/EDITOR TEMPLATE for Eclipse
+# Website: https://www.eclipse.org/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: IDE/EDITOR TEMPLATE
+# • PURPOSE: Eclipse IDE/editor patterns for configuration files, cache, and workspace settings
+# • DESIGN PHILOSOPHY: Editor/IDE-specific patterns
+# • COMBINATION GUIDANCE: Combine with language or framework templates
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language or framework templates, customize based on team preferences, update for new IDE versions
+# • OFFICIAL SOURCES: Eclipse Editor/IDE official documentation, community configurations, and development workflow guides
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.buildpath
+.target/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IDE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.bak
+*.launch
+.classpath
+.cproject
+.DS_Store
+.DS_Store?
+.metadata/
+.metadata/.plugins/org.eclipse.core.resources/.history/
+.metadata/.plugins/org.eclipse.equinox.p2.repository/
+.project
+.pydevproject
+.recommenders/
+.remote/
+.settings/
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.Spotlight-V100
+.Trashes
+org.eclipse.jdt.core.prefs
+Thumbs.db
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     ides/eclipse.gitignore \
+#     common/cache.gitignore > .gitignore

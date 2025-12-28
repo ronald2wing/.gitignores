@@ -1,0 +1,124 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# PLATFORM-SPECIFIC TEMPLATE for Android
+# Website: https://www.android.com/
+# Repository: https://github.com/android
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: PLATFORM-SPECIFIC TEMPLATE
+# • PURPOSE: Android platform patterns for build artifacts, Gradle cache, and Android Studio files
+# • DESIGN PHILOSOPHY: Development platform-specific patterns
+# • COMBINATION GUIDANCE: Combine with language templates for specific development workflows
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language templates for platform development, test with your SDK versions, review for platform-specific requirements
+# • OFFICIAL SOURCES: Android Platform SDK documentation, development guides, and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.aab
+*.aar
+*.ap_
+*.apk
+*.avd
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/
+.gradle/
+build.gradle.bak
+build.gradle.kts.bak
+build/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+logs/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PLATFORM-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.iml
+*.obb
+*.qcow2
+.amazonappstore/
+.appgallery/
+.applinks/
+.appstore/
+.assetpacks/
+.avd/
+.backup/
+.bak/
+.bundle/
+.deeplinks/
+.deploy/
+.deployment/
+.device/
+.devices/
+.dynamicfeatures/
+.firebase/
+.galaxystore/
+.getapps/
+.googleplay/
+.instantapps/
+.libs/
+.ndk/
+.signing/
+.universallinks/
+amazonappstore/
+appgallery/
+applinks/
+appstore/
+assetpacks/
+bundle/
+deeplinks/
+dynamicfeatures/
+firebase/
+galaxystore/
+getapps/
+googleplay/
+gradle.properties.bak
+gradle/wrapper/gradle-wrapper.properties
+instantapps/
+lint-report.html
+lint-results/
+lint/
+local.properties
+local.properties.bak
+obj/
+signing/
+universallinks/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.nyc_output/
+androidTest-results/
+coverage/
+test-results/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     platforms/android.gitignore \
+#     common/cache.gitignore > .gitignore

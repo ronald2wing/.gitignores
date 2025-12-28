@@ -1,0 +1,110 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Gatsby
+# Website: https://www.gatsbyjs.com/
+# Repository: https://github.com/gatsbyjs/gatsby
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete Gatsby framework patterns for React-based static sites and build artifacts
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Gatsby Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.key
+*.pem
+.env
+.env.test
+.secret
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.tsbuildinfo
+.cache/
+.vuepress/dist
+.yarn/build-state.yml
+build/Release
+dist/
+node_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.parcel-cache/
+.rpt2_cache/
+.yarn/cache/
+lerna-debug.log*
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# GATSBY-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.lcov
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+.dynamodb/
+.eslintcache
+.fusebox/
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+.nuxt
+.pnp.*
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.tern-port
+.vscode-test
+.yarn-integrity
+.yarn/install-state.gz
+.yarn/unplugged
+bower_components
+jspm_packages/
+lib-cov/
+pids/
+public/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+web_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.nyc_output
+coverage/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR GATSBY PROJECT:
+# cp frameworks/gatsby.gitignore .gitignore

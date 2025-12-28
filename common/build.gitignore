@@ -1,0 +1,194 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Build
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Build system patterns for compilation outputs, distribution packages, and build artifacts
+# • DESIGN PHILOSOPHY: Modular - combine with language or framework templates
+# • COMBINATION GUIDANCE: Combine with language or framework templates as needed
+# • SECURITY CONSIDERATIONS: Security template includes comprehensive security patterns
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Development best practices, build system documentation, and community consensus
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled binaries, libraries, and distribution packages
+
+*.a
+*.apk
+*.app
+*.appx
+*.dll
+*.dylib
+*.ear
+*.egg
+*.exe
+*.gz
+*.jar
+*.lib
+*.so
+*.tar.bz2
+*.tar.gz
+*.tar.xz
+*.tsbuildinfo
+*.war
+*.whl
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD SYSTEM OUTPUTS & INTERMEDIATE FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Build system outputs, intermediate files, and compilation artifacts
+
+*$py.class
+*.7z
+*.bz2
+*.class
+*.deb
+*.dmg
+*.ilk
+*.ipa
+*.ko
+*.msi
+*.nupkg
+*.o
+*.obj
+*.pdb
+*.pkg
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.rar
+*.rpm
+*.sage.py
+*.xz
+.bazel-bin/
+.bazel-out/
+.bazel-testlogs/
+.bazel/
+.buck-out/
+.dist-newstyle/
+.docusaurus/
+.elm-stuff/
+.fusebox/
+.gatsby/
+.next/
+.nuxt/
+.nx/
+.nx/cache/
+.out-*/
+.out.*/
+.out/
+.out_*/
+.pkg/
+.pnpm-store/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.turbo/
+.yarn/
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+_out-*/
+_out.*/
+_out/
+_out_*/
+_site/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+libs/
+out-*/
+out.*/
+out/
+out_*/
+parts/
+public/
+share/python-wheels/
+site/
+storybook-static/
+wheels/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Build dependency directories and package cache locations
+
+.build-*/
+.build.*/
+.build/
+.build_*/
+.dist-*/
+.dist.*/
+.dist/
+.dist_*/
+.target-*/
+.target.*/
+.target/
+.target_*/
+.yarn/build-state.yml
+_build-*/
+_build.*/
+_build/
+_build_*/
+_dist-*/
+_dist.*/
+_dist/
+_dist_*/
+_target-*/
+_target.*/
+_target/
+_target_*/
+build-*/
+build.*/
+build/
+build_*/
+dist-*/
+dist.*/
+dist/
+dist_*/
+node_modules/.cache/
+node_modules/.pnpm-store/
+sdist/
+target-*/
+target.*/
+target/
+target_*/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tool cache and runtime artifacts
+
+.parcel-cache/
+.rpt2_cache/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION WITH BUILD PATTERNS:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/build.gitignore \
+#     common/cache.gitignore > .gitignore

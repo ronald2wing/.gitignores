@@ -1,0 +1,83 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for GitHub Actions
+# Website: https://github.com/features/actions
+# Repository: https://github.com/actions/toolkit
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: GitHub Actions-specific patterns for cache, artifacts, and temporary files
+# • DESIGN PHILOSOPHY: Focus on CI/CD cache and artifact directories, not configuration files
+# • COMBINATION GUIDANCE: Combine with language templates for complete CI/CD workflow coverage
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Review patterns before use, test with your workflow, keep configuration files committed
+# • OFFICIAL SOURCES: GitHub Actions documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CACHE & TEMPORARY FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# GitHub Actions cache directories and temporary files
+
+.github/cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# ARTIFACTS & BUILD OUTPUTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Generated artifacts and build outputs (typically uploaded as workflow artifacts)
+
+.github/artifacts/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TEMPORARY WORKFLOW FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Temporary or generated workflow files (not main configuration)
+
+.github/workflows/*.bak
+.github/workflows/*.tmp
+.github/workflows/*-tmp*
+.github/workflows/tmp-*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDABOT & AUTOMATION CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Dependabot cache and temporary files
+
+.github/dependabot/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use - this template only ignores cache/artifact directories
+# 2. CUSTOMIZE: Add project-specific temporary file patterns as needed
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always combine with common/security.gitignore for credential protection
+# 5. UPDATE: Review periodically as GitHub Actions features evolve
+
+# IMPORTANT: This template does NOT ignore configuration files that should be committed:
+# - .github/workflows/*.yml and .github/workflows/*.yaml (main workflow files)
+# - .github/CODEOWNERS, .github/SECURITY.md, .github/SUPPORT.md
+# - .github/ISSUE_TEMPLATE/, .github/PULL_REQUEST_TEMPLATE/
+# - .github/dependabot.yml (configuration, not cache)
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION FOR CI/CD PROJECTS:
+# cat common/security.gitignore \
+#     tools/github-actions.gitignore \
+#     common/cache.gitignore > .gitignore
+#
+# For JavaScript/Node.js projects with GitHub Actions:
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/github-actions.gitignore \
+#     tools/npm.gitignore \
+#     common/cache.gitignore > .gitignore
+#
+# For Python projects with GitHub Actions:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     tools/github-actions.gitignore \
+#     common/cache.gitignore > .gitignore

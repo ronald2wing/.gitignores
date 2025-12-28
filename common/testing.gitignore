@@ -1,0 +1,160 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Testing
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Testing framework patterns for test outputs, coverage reports, and test artifacts
+# • DESIGN PHILOSOPHY: Modular - combine with language or framework templates
+# • COMBINATION GUIDANCE: Combine with language or framework templates as needed
+# • SECURITY CONSIDERATIONS: Security template includes comprehensive security patterns
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Testing framework documentation, development best practices, and community consensus
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.exec
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# COMMON-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cover
+*.lcov
+*.py,cover
+*.snap
+*.trx
+*.VisualState.xml
+.codeclimate.yml
+.codeclimate/
+.doctest/
+.grype/
+.nox/
+.nunit/
+.perf/
+.pitest/
+.scannerwork/
+.snapshots/
+.sonar/
+.sonarlint/
+.syft/
+.tox/
+.trivy/
+.vstest/
+__diff_output__/
+__image_snapshots__/
+__screenshots__/
+__snapshots__/
+allure-results/
+benchmark-results/
+benchmark/
+benchmark_results/
+benchmarks/
+cover/
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+doctest-output/
+e2e-test/
+e2e-tests/
+e2e/
+e2e_test/
+e2e_tests/
+failsafe-reports/
+integration-test/
+integration-tests/
+integration/
+integration_test/
+integration_tests/
+jacoco.exec
+jacoco.xml
+lcov.info
+load_test_results/
+mutation-testing-reports/
+mutation-testing/
+performance-reports/
+performance_results/
+pitest-reports/
+playwright-report/
+security-scans/
+snapshots/
+sonar-project.properties
+stress_test_results/
+surefire-reports/
+test-output.xml
+test-output/
+test-report.xml
+test-reports/
+testng-results.xml
+TestResult.xml
+tests/Browser/console/
+tests/Browser/screenshots/
+tests/Browser/source/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+playwright/.cache/
+target/failsafe-reports/
+target/surefire-reports/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.pytest_cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+.secrets/
+secret-scans/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.coverage
+*.coveragexml
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.nyc_output/
+coverage.cobertura.xml
+coverage.opencover.xml
+coverage.xml
+coverage/
+htmlcov/
+junit.xml
+load-test-results/
+stress-test-results/
+test-results.xml
+test-results/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION WITH TESTING PATTERNS:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/testing.gitignore \
+#     common/cache.gitignore > .gitignore

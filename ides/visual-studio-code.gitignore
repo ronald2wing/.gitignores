@@ -1,0 +1,58 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# IDE/EDITOR TEMPLATE for Visual Studio Code
+# Website: https://code.visualstudio.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: IDE/EDITOR TEMPLATE
+# • PURPOSE: Visual Studio Code IDE/editor patterns for configuration files, cache, and workspace settings
+# • DESIGN PHILOSOPHY: Editor/IDE-specific patterns for Visual Studio Code
+# • COMBINATION GUIDANCE: Combine with language or framework templates
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language or framework templates, customize based on team preferences, update for new IDE versions
+# • OFFICIAL SOURCES: Visual Studio Code official documentation, community configurations, and development workflow guides
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IDE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.code-workspace
+*.vsix
+.history/
+.vscode-cpptools/
+.vscode-insiders/
+.vscode-profile/
+.vscode-test/
+.vscodeignore
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# OPERATING SYSTEM & EDITOR FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/*
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     ides/visual-studio-code.gitignore \
+#     common/cache.gitignore > .gitignore

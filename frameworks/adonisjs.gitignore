@@ -1,0 +1,190 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for AdonisJS
+# Website: https://adonisjs.com/
+# Repository: https://github.com/adonisjs/core
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete AdonisJS framework patterns for Node.js web applications and development artifacts
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Adonis Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.pem
+*.secret
+*.token
+*_keys
+*_secrets
+*_tokens
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# ADONIS JS-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cer
+*.csr
+*.der
+*.jks
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pfx
+*.pid
+*.pid.lock
+*.pub
+*.seed
+*.temp
+*.tgz
+*.truststore
+.docusaurus
+.DS_Store
+.DS_Store?
+.eslintcache
+.fleet/
+.fusebox/
+.grunt
+.lock-wscript
+.next/
+.node_repl_history
+.nova/
+.npm
+.nuxt/
+.out/
+.parcel-cache
+.pnp.*
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.Spotlight-V100
+.storybook-out/
+.stylelintcache
+.tern-port
+.Trashes
+.vscode-test/
+.yarn-integrity
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/versions/
+bower_components/
+cover/
+database/database.sqlite
+jspm_packages/
+lib-cov/
+out/
+pids
+pids/
+public/
+storage/uploads/
+storybook-static/
+test-output/
+test-reports/
+testng-results.xml
+Thumbs.db
+tmp/
+typings/
+web_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.dll
+*.exe
+*.lib
+*.tar.gz
+*.whl
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/
+.yarn/build-state.yml
+build/
+build/Release/
+dist/
+node_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+*.log.*
+*.tmp
+.npm-debug.log*
+.parcel-cache/
+.pnpm-debug.log*
+.rpt2_cache/
+logs/
+npm-debug.log*
+temp/
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.nyc_output/
+coverage/
+htmlcov/
+junit.xml
+test-results/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR ADONIS JS PROJECT:
+# cp frameworks/adonisjs.gitignore .gitignore

@@ -1,0 +1,86 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Backup
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Backup file patterns for editor backups, temporary backups, and versioned backup files
+# • DESIGN PHILOSOPHY: Modular - combine with language or framework templates
+# • COMBINATION GUIDANCE: Combine with language or framework templates as needed
+# • SECURITY CONSIDERATIONS: Security template includes comprehensive security patterns
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Industry standards and community consensus patterns
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BACKUP FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.back
+*.backup
+*.bak
+*.config.bak
+*.db.backup
+*.db.bak
+*.diff
+*.dump
+*.export
+*.ini.bak
+*.json.bak
+*.old
+*.orig
+*.original
+*.patch
+*.patch.*
+*.prev
+*.previous
+*.rej
+*.sav
+*.save
+*.settings.bak
+*.sql.backup
+*.sql.bak
+*.sqlite.backup
+*.sqlite.bak
+*.temp
+*.un~
+*.xml.bak
+*.yaml.bak
+*.yml.bak
+._*
+backup.sql
+dump.sql
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TEMPORARY & EDITOR BACKUP FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.swo
+*.swp
+*~
+.*~
+.save-*
+Session.vim
+_tmp/
+tmp/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION WITH BACKUP PATTERNS:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/backup.gitignore \
+#     common/cache.gitignore > .gitignore

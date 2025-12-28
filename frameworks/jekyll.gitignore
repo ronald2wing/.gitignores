@@ -1,0 +1,102 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Jekyll
+# Website: https://jekyllrb.com/
+# Repository: https://github.com/jekyll/jekyll
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete Jekyll framework patterns for static site generation and build artifacts
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Jekyll Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.key
+*.pem
+.env
+.env.development
+.env.production
+.secret
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+vendor/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.tmp
+.jekyll-cache/
+.sass-cache/
+_sass/.sass-cache/
+_sass/.scss-cache/
+jekyll.log
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# JEKYLL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.gem
+*.temp
+.backup/
+.bak/
+.bundle/
+.bundle/config
+.deploy/
+.deployment/
+.gems/
+.jekyll-metadata
+.ruby-gems/
+.ruby-version
+.theme/
+.themes/
+_config.json.bak
+_config.toml.bak
+_config.yaml.bak
+_config.yml.bak
+_data/__generated__/
+_drafts/
+_includes/__generated__/
+_layouts/__generated__/
+_plugins/__generated__/
+_posts/draft/
+_posts/unpublished/
+_site/
+assets/__generated__/
+assets/css/__generated__/
+assets/images/__generated__/
+assets/js/__generated__/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+coverage/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR JEKYLL PROJECT:
+# cp frameworks/jekyll.gitignore .gitignore

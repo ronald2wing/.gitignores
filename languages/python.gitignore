@@ -1,0 +1,142 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for Python
+# Website: https://www.python.org/
+# Repository: https://github.com/python/cpython
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# • PURPOSE: Python development patterns for virtual environments, build artifacts, and cache files
+# • DESIGN PHILOSOPHY: Modular design focused on language-specific artifacts
+# • COMBINATION GUIDANCE: Must be combined with common/security.gitignore for protection
+# • SECURITY CONSIDERATIONS: No security patterns included - critical to add separately
+# • BEST PRACTICES: Combine with common/security.gitignore, test with your build tools
+# • OFFICIAL SOURCES: Python documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.egg
+*.egg-info/
+*.so
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.eggs/
+.pdm-build/
+.pybuilder/
+.venv
+__pycache__/
+dist/
+docs/_build/
+env.bak/
+ENV/
+sdist/
+venv.bak/
+venv/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.mypy_cache/
+.pytest_cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PYTHON VIRTUAL ENVIRONMENTS & DEPENDENCY MANAGEMENT
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.dmypy.json
+.pdm.toml
+.pip-wheel-metadata/
+.python-eggs/
+.python-version
+__pypackages__/
+develop-eggs/
+dmypy.json
+downloads/
+eggs/
+instance/
+ipython_config.py
+lib/
+lib64/
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+profile_default/
+share/python-wheels/
+wheels/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PYTHON BUILD & DISTRIBUTION ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.manifest
+*.pot
+*.py[co]
+*.pyc
+*.pyd
+*.pyo
+*.spec
+.installed.cfg
+MANIFEST
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PYTHON DEVELOPMENT TOOLS & CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.ipynb_checkpoints/
+.nox/
+.pyre/
+.Python
+.pytype/
+.scrapy
+.tox/
+cover/
+cython_debug/
+nosetests.xml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.hypothesis/
+htmlcov/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common security patterns (common/security.gitignore) - CRITICAL for protecting sensitive data
+#   - Common cache patterns (common/cache.gitignore)
+#   - Common build patterns (common/build.gitignore)
+#   - Common logs patterns (common/logs.gitignore)
+#   - IDE template for your editor (ides/*.gitignore)
+#   - OS template for your system (os/*.gitignore)
+
+# EXAMPLE COMBINATION FOR Python:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore \
+#     common/logs.gitignore \
+#     ides/visual-studio-code.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore

@@ -1,0 +1,184 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for JavaScript
+# Website: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+# Repository: https://github.com/tc39/ecma262
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# • PURPOSE: JavaScript development patterns for node_modules, build outputs, and dependency caches
+# • DESIGN PHILOSOPHY: Modular design focused on JavaScript-specific artifacts
+# • COMBINATION GUIDANCE: Must be combined with common/security.gitignore for protection
+# • SECURITY CONSIDERATIONS: No security patterns included - critical to add separately
+# • BEST PRACTICES: Combine with common/security.gitignore, review patterns, test with your setup
+# • OFFICIAL SOURCES: JavaScript documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# JavaScript package managers and dependency directories
+
+.bower-cache/
+.bower-components/
+.bower-registry/
+.bower-tmp/
+.bun/
+.deno/
+.jpm/
+.npm/
+.npmrc
+.pnp.*
+.pnpm-store/
+.turbo/
+.vite/
+.yarn-integrity
+.yarn/
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/unplugged/
+.yarn/versions/
+.yarnrc
+bower_components/
+jspm_packages/
+node_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & COMPILED OUTPUT
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Compiled JavaScript files and build artifacts
+
+*.cjs
+*.cjs.map
+*.js
+*.js.map
+*.mjs
+*.mjs.map
+build/
+build/Release/
+dist/
+lib-cov/
+lib/
+out/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools cache, logs, and runtime files
+
+*.log
+*.log.*
+*.pid
+*.pid.lock
+*.pkg
+*.seed
+.eslintcache
+.grunt
+.lock-wscript
+.node_repl_history
+.npm-debug.log*
+.pnpm-debug.log*
+.stylelintcache
+.tern-port
+.vscode-test/
+npm-debug.log*
+pids/
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# MODERN BUILD TOOLS & FRAMEWORK CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Modern JavaScript build tools and framework cache directories
+
+.next/
+.nuxt/
+.parcel-cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.storybook-static/
+.web_modules/
+public/
+storybook-static/
+web_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Test coverage reports and quality assurance outputs
+
+.coverage
+.coverage.*
+.nyc_output/
+coverage/
+test-output/
+test-reports/
+test-results/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# RECOMMENDED COMBINATIONS FOR DIFFERENT PROJECT TYPES:
+# =======================================================
+
+# EXAMPLE 1: NODE.JS BACKEND PROJECT
+# -----------------------------------
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/npm.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore \
+#     ides/visual-studio-code.gitignore > .gitignore
+
+# EXAMPLE 2: MODERN FRONTEND PROJECT (WITH BUILD TOOLS)
+# ------------------------------------------------------
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/webpack.gitignore \
+#     tools/vite.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore \
+#     ides/visual-studio-code.gitignore > .gitignore
+
+# EXAMPLE 3: UNIVERSAL JAVASCRIPT PROJECT
+# ----------------------------------------
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/npm.gitignore \
+#     tools/jest.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore \
+#     common/testing.gitignore \
+#     os/linux.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore
+
+# EXAMPLE 4: ENTERPRISE PROJECT WITH DOCKER
+# ------------------------------------------
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/docker.gitignore \
+#     tools/npm.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore \
+#     common/logs.gitignore \
+#     common/backup.gitignore > .gitignore
+
+# IMPORTANT NOTES:
+# ================
+# 1. Framework templates (like react.gitignore, vue.gitignore) already include
+#    security patterns, so you don't need to add common/security.gitignore separately
+# 2. Always test your combined .gitignore file with `git status --ignored`
+# 3. Remove duplicate patterns when combining multiple templates
+# 4. Consider your team's development environment when choosing IDE/OS templates

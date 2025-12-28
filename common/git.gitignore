@@ -1,0 +1,95 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Git
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Git-specific patterns for Git metadata, hook scripts, and Git workflow files
+# • DESIGN PHILOSOPHY: Modular - combine with language or framework templates
+# • COMBINATION GUIDANCE: Combine with language or framework templates as needed
+# • SECURITY CONSIDERATIONS: Security template includes comprehensive security patterns
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Git documentation, development best practices, and community consensus
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# COMMON-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!.git/objects/pack/
+.git/
+.git/*.backup
+.git/*.bak
+.git/*.lock
+.git/attributes
+.git/bisect/
+.git/BISECT_*
+.git/BISECT_LOG
+.git/CHERRY_PICK_*
+.git/CHERRY_PICK_HEAD
+.git/COMMIT_EDITMSG
+.git/config
+.git/config.lock
+.git/description
+.git/FETCH_HEAD
+.git/gc.*
+.git/HEAD
+.git/hooks/
+.git/index
+.git/index.lock
+.git/info/
+.git/info/exclude
+.git/info/grafts
+.git/info/refs
+.git/lfs/
+.git/lfs/*.lock
+.git/lfs/objects/
+.git/MERGE_*
+.git/MERGE_HEAD
+.git/MERGE_MODE
+.git/MERGE_MSG
+.git/modules/
+.git/notes/
+.git/objects/
+.git/ORIG_HEAD
+.git/packed-refs
+.git/packed-refs.new
+.git/rebase-*/
+.git/rebase-apply/
+.git/rebase-merge/
+.git/REBASE_*
+.git/REBASE_HEAD
+.git/refs/notes/
+.git/refs/stash
+.git/shallow
+.git/stash
+.git/TAG_EDITMSG
+.git/worktrees/
+.gitmodules
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.git/logs/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION WITH GIT PATTERNS:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/git.gitignore \
+#     common/cache.gitignore > .gitignore

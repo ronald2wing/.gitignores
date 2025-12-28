@@ -1,0 +1,69 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# IDE/EDITOR TEMPLATE for Xcode
+# Website: https://developer.apple.com/xcode/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: IDE/EDITOR TEMPLATE
+# • PURPOSE: Xcode IDE/editor patterns for configuration files, cache, and workspace settings
+# • DESIGN PHILOSOPHY: Editor/IDE-specific patterns
+# • COMBINATION GUIDANCE: Combine with language or framework templates
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language or framework templates, customize based on team preferences, update for new IDE versions
+# • OFFICIAL SOURCES: Xcode Editor/IDE official documentation, community configurations, and development workflow guides
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.xcodebuild/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IDE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcodeproj/
+*.xcscheme
+*.xcscmblueprint
+*.xcsettings
+*.xctestplan
+*.xcuserstate
+*.xcworkspace/
+.xcode/
+.xcodeproj.userdata/
+DerivedData/
+project.xcworkspace/
+xcschemes/
+xcshareddata/
+xcuserdata/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     ides/xcode.gitignore \
+#     common/cache.gitignore > .gitignore

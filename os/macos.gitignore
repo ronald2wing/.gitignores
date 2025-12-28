@@ -1,0 +1,57 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# OPERATING SYSTEM TEMPLATE for macOS
+# Website: https://www.apple.com/macos/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: OPERATING SYSTEM TEMPLATE
+# • PURPOSE: macOS system files, Spotlight indexes, and OS-specific artifacts
+# • DESIGN PHILOSOPHY: OS-specific patterns for macOS development
+# • COMBINATION GUIDANCE: Combine with language/framework templates as needed
+# • SECURITY CONSIDERATIONS: No security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language + security templates, test with your workflow
+# • OFFICIAL SOURCES: macOS documentation and community patterns
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# OS-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.DS_Store?
+.fseventsd
+.Icon
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Network\ Trash\ Folder/
+Temporary\ Items/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     os/macos.gitignore \
+#     common/cache.gitignore > .gitignore

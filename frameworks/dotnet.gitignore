@@ -1,0 +1,327 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for .NET
+# Website: https://dotnet.microsoft.com/
+# Repository: https://github.com/dotnet/core
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete .NET framework patterns for C# applications and development artifacts
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Dot_Net Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.pem
+*.secret
+*.token
+*_keys
+*_secrets
+*_tokens
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.appx
+*.appxbundle
+*.appxupload
+*.aps
+*.azurePubxml
+*.dll
+*.exe
+*.lib
+*.tar.gz
+*.whl
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!**/[Pp]ackages/build/
+*.build.csdef
+*.cachefile
+*.nuget.targets
+.builds
+.cache/
+DocProject/buildhelp/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+*.log.*
+*.tmp
+*.tmp_proj
+.parcel-cache/
+.pnpm-debug.log*
+.rpt2_cache/
+.sass-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOT NET-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!.axoCover/settings.json
+!?*.[Cc]ache/
+$tf/
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.HTMLClient/GeneratedArtifacts
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+**/[Pp]ackages/*
+*-\ [Bb]ackup\ ([0-9]).rdl
+*-\ [Bb]ackup\ ([0-9][0-9]).rdl
+*-\ [Bb]ackup.rdl
+*.[Cc]ache
+*.[Pp]ublish.xml
+*.[Rr]e[Ss]harper
+*.bim.layout
+*.bim_*.settings
+*.binlog
+*.btm.cs
+*.btp.cs
+*.cer
+*.csproj.user
+*.csr
+*.dbmdl
+*.dbproj.schemaview
+*.der
+*.dotCover
+*.DotSettings.user
+*.e2e
+*.fsproj.user
+*.GhostDoc.xml
+*.gpState
+*.ilk
+*.iobj
+*.ipdb
+*.jfm
+*.jks
+*.jmconfig
+*.ldf
+*.mdf
+*.meta
+*.mm.*
+*.ncb
+*.ndf
+*.nuget.props
+*.nupkg
+*.o
+*.obj
+*.odx.cs
+*.opendb
+*.opensdf
+*.opt
+*.p12
+*.p7b
+*.p7c
+*.pch
+*.pdb
+*.pfx
+*.pgc
+*.pgd
+*.pid
+*.pid.lock
+*.pidb
+*.plg
+*.psess
+*.pub
+*.publishproj
+*.publishsettings
+*.pubxml
+*.rdl.data
+*.rptproj.bak
+*.rptproj.rsuser
+*.rsp
+*.sap
+*.sbr
+*.scc
+*.sdf
+*.sln.docstates
+*.sln.iml
+*.snupkg
+*.suo
+*.svclog
+*.tgz
+*.tlb
+*.tlh
+*.tli
+*.truststore
+*.tss
+*.user
+*.userosscache
+*.userprefs
+*.vbproj.user
+*.vbw
+*.VC.db
+*.VC.VC.opendb
+*.VisualState.xml
+*.vsp
+*.vspscc
+*.vspx
+*.vssscc
+*.xsd.cs
+*_h.h
+*_i.c
+*_p.c
+*_wpftmp.csproj
+.*crunch*.local.xml
+.axoCover/*
+.cr/personal
+.docusaurus
+.fake/
+.fusebox/
+.next/
+.nsight-gpu/
+.ntvs_analysis.dat
+.nuxt/
+.paket/paket.exe
+.parcel-cache
+.pnp.*
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.stylelintcache
+.vscode-test/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Bb]uild[Ll]og.*
+[Dd]ebug/
+[Dd]ebugPS/
+[Dd]ebugPublic/
+[Ee]xpress/
+[Ll]og/
+[Ll]ogs/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleasePS/
+[Rr]eleases/
+[Tt]est[Rr]esult*/
+[Ww][Ii][Nn]32/
+_Chutzpah*
+_NCrunch_*
+_pkginfo.txt
+_Pvt_Extensions
+_ReSharper*/
+_TeamCity*
+_UpgradeReport_Files/
+AppPackages/
+artifacts/
+ASALocalRun/
+AutoTest.Net/
+Backup*/
+BenchmarkDotNet.Artifacts/
+bld/
+bower_components/
+BundleArtifacts/
+ClientBin/
+csx/
+dlldata.c
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/*.HxC
+DocProject/Help/*.HxT
+DocProject/Help/html
+DocProject/Help/Html2
+ecf/
+FakesAssemblies/
+Generated\ Files/
+Generated_Code/
+ipch/
+jspm_packages/
+nCrunchTemp_*
+nunit-*.xml
+OpenCover/
+orleans.codegen.cs
+out/
+Package.StoreAssociation.xml
+paket-files/
+project.fragment.lock.json
+project.lock.json
+public/
+publish/
+PublishScripts/
+rcf/
+ScaffoldingReadMe.txt
+ServiceFabricBackup/
+storybook-static/
+StyleCopReport.xml
+test-output/
+test-reports/
+testng-results.xml
+TestResult.xml
+UpgradeLog*.htm
+UpgradeLog*.XML
+web_modules/
+x64/
+x86/
+~$*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.coverage
+*.coveragexml
+.nyc_output/
+coverage*.info
+coverage*.json
+coverage*.xml
+junit.xml
+test-results/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR DOT NET PROJECT:
+# cp frameworks/dot_net.gitignore .gitignore

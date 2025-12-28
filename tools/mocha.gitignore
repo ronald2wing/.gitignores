@@ -1,0 +1,90 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Mocha
+# Website: https://mochajs.org/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: Mocha-specific patterns for configuration, cache, logs, and development artifacts
+# • DESIGN PHILOSOPHY: Tool-specific patterns for development and deployment workflows
+# • COMBINATION GUIDANCE: Combine with language templates for specific development workflows
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with appropriate language and security templates, test with your development workflow, review for tool version compatibility
+# • OFFICIAL SOURCES: Mocha Tool official documentation, community guidelines, and integration best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+test/.cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+mocha-debug.log
+mocha.log
+test/cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.nyc_output/
+coverage/
+test-results/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.mocharc.json.bak
+.mocharc.ts.bak
+.mocharc.yaml.bak
+.mocharc.yml.bak
+mocha-output/
+mocha-results/
+test/__mocks__/__generated__/
+test/__output__/
+test/__snapshots__/
+test/artifacts/
+test/benchmarks/
+test/cookies/
+test/database/
+test/db/
+test/downloads/
+test/fixtures/__generated__/
+test/fixtures/__output__/
+test/fixtures/output/
+test/mocks/__generated__/
+test/parallel/
+test/performance/
+test/reporters/
+test/reports/
+test/screenshots/
+test/sessions/
+test/snapshots/
+test/uploads/
+test/visual/
+test/workers/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     tools/mocha.gitignore \
+#     common/cache.gitignore > .gitignore

@@ -1,0 +1,195 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Security
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Essential security patterns for protecting sensitive data, credentials, and configuration files
+# • DESIGN PHILOSOPHY: Modular security-first approach for all project types
+# • COMBINATION GUIDANCE: Must be combined with language templates; framework templates include security patterns
+# • SECURITY CONSIDERATIONS: Comprehensive coverage for credentials, certificates, secrets, and sensitive data
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Industry security standards, development best practices, and community consensus
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# ENVIRONMENT VARIABLES & CONFIGURATION FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect environment variables and configuration files from accidental commits
+
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+.local
+.local.*
+.local.config.*
+.local_*
+local-*
+local.*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CREDENTIALS & SECRETS MANAGEMENT
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Protect API keys, passwords, tokens, and other sensitive secrets
+
+*.apikey
+*.apisecret
+*.password
+*.private
+*.secret
+*.secrets
+*.token
+*_keys
+*_secrets
+*_tokens
+.credential*
+.private*
+.secret
+.secret.*
+.secrets
+.secrets.*
+credentials.json
+credentials.yaml
+credentials.yml
+secrets.json
+secrets.yaml
+secrets.yml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CERTIFICATES & CRYPTOGRAPHIC KEYS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Protect SSL/TLS certificates and cryptographic key files
+
+*.asc
+*.auth
+*.authz
+*.cer
+*.cert
+*.crt
+*.csr
+*.der
+*.gpg
+*.jks
+*.key
+*.keystore
+*.p12
+*.p7b
+*.p7c
+*.pem
+*.pfx
+*.pgp
+*.priv
+*.pub
+*.req
+*.spc
+*.truststore
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SSH KEYS & AUTHENTICATION FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Protect SSH keys and authentication configuration
+
+.ssh/
+.ssh/authorized_keys
+.ssh/config
+.ssh/id_*
+.ssh/known_hosts
+authorized_keys
+id_dsa
+id_ecdsa
+id_ed25519
+id_rsa
+known_hosts
+ssh_config
+ssh_known_hosts
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CLOUD PROVIDER CONFIGURATION
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Protect cloud provider credentials and configuration
+
+.aws/
+.aws/credentials
+.azure/
+.confidential*
+.config
+.config.*
+.gcloud/
+.gcp/
+aws.config
+aws.json
+aws.yaml
+aws.yml
+azure.config
+azure.json
+azure.yaml
+azure.yml
+gcloud.config
+gcloud.json
+gcloud.yaml
+gcloud.yml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DATABASE & DATA STORAGE FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Protect database files, backups, and sensitive data stores
+
+*.accdb
+*.backup
+*.bak
+*.db
+*.db-journal
+*.dockercfg
+*.dockerconfig
+*.dump
+*.frm
+*.ibd
+*.mdb
+*.myd
+*.myi
+*.passwd
+*.pwd
+*.sql
+*.sql.bz2
+*.sql.gz
+*.sql.xz
+*.sqlite
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. SECURITY FIRST: Always include security patterns in your projects
+# 2. REVIEW THOROUGHLY: Examine all patterns before use
+# 3. CUSTOMIZE CAREFULLY: Adapt to your project's specific structure
+# 4. TEST EXTENSIVELY: Use `git check-ignore` to verify patterns work correctly
+# 5. UPDATE REGULARLY: Review patterns periodically as technology evolves
+
+# ALWAYS combine security patterns with language or framework templates.
+# Framework templates already include security patterns, so you don't need to add this template separately.
+
+# EXAMPLE COMBINATION FOR LANGUAGE TEMPLATE:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore > .gitignore
+
+# EXAMPLE COMBINATION FOR FRAMEWORK TEMPLATE (no need to add security separately):
+# cat frameworks/django.gitignore \
+#     common/cache.gitignore > .gitignore

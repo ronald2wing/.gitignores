@@ -1,0 +1,98 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# IDE/EDITOR TEMPLATE for Vim
+# Website: https://www.vim.org/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: IDE/EDITOR TEMPLATE
+# • PURPOSE: Vim IDE/editor patterns for configuration files, cache, and workspace settings
+# • DESIGN PHILOSOPHY: Editor/IDE-specific patterns
+# • COMBINATION GUIDANCE: Combine with language or framework templates
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language or framework templates, customize based on team preferences, update for new IDE versions
+# • OFFICIAL SOURCES: Vim Editor/IDE official documentation, community configurations, and development workflow guides
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+ale_linter_cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# IDE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.back
+*.backup
+*.bak
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.spl
+*.sug
+*.toc
+*.undo
+*.un~
+*.vba
+*.vba.gz
+*.viminfo
+*.viminfo~
+.coc/
+.dein/
+.DS_Store
+.DS_Store?
+.exrc
+.gvimrc
+.netrwhist
+.pathogen/
+.plug/
+.Spotlight-V100
+.tagbar
+.tags
+.tags_sorted_by_file
+.Trashes
+.vim-plugins/
+.vim/
+.vimrc
+.vundle/
+.ycm_extra_conf.py
+.ycm_extra_conf.pyc
+doc/tags
+gutentags/
+Session.vim
+Sessionx.vim
+tags
+Thumbs.db
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# OPERATING SYSTEM & EDITOR FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.swo
+*.swp
+.*.swo
+.*.swp
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     ides/vim.gitignore \
+#     common/cache.gitignore > .gitignore

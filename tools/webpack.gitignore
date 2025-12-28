@@ -1,0 +1,81 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Webpack
+# Website: https://webpack.js.org/
+# Repository: https://github.com/webpack/webpack
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: Webpack bundler patterns for cache, build artifacts, and development outputs
+# • DESIGN PHILOSOPHY: Focused patterns for JavaScript/TypeScript bundling workflows
+# • COMBINATION GUIDANCE: Combine with JavaScript/TypeScript language templates for web projects
+# • SECURITY CONSIDERATIONS: No security patterns included - must add common/security.gitignore
+# • BEST PRACTICES: Always combine with security template, test patterns with your project structure
+# • OFFICIAL SOURCES: Webpack official documentation and JavaScript community patterns
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.tsbuildinfo
+.cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.webpack/cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.report.html
+.stats.json
+.webpack/
+.webpack/*
+.webpack/*/
+.webpack/manifest.json
+.webpack/stats.json
+webpack-assets.json
+webpack-bundle-analyzer-report.html
+webpack-bundle-analyzer-report.json
+webpack-stats.json
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Check patterns match your project structure and Webpack configuration
+# 2. CUSTOMIZE: Adjust for custom Webpack output paths or specific build configurations
+# 3. TEST: Use `git check-ignore -v` to verify .webpack/ and cache patterns work
+# 4. SECURE: Always combine with common/security.gitignore for credential protection
+# 5. UPDATE: Review when upgrading Webpack or changing build configuration
+
+# IMPORTANT NOTES FOR WEBPACK PROJECTS:
+# • Keep webpack.config.js and related configuration files committed to version control
+# • The .webpack/ directory should be ignored (contains build cache and artifacts)
+# • Consider your team's Webpack version and plugins when customizing patterns
+
+# RECOMMENDED COMBINATIONS FOR JAVASCRIPT PROJECTS:
+
+# BASIC JAVASCRIPT PROJECT WITH WEBPACK:
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/webpack.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore > .gitignore
+
+# TYPESCRIPT PROJECT WITH WEBPACK:
+# cat languages/typescript.gitignore \
+#     common/security.gitignore \
+#     tools/webpack.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore > .gitignore
+
+# REACT PROJECT WITH WEBPACK (using framework template):
+# cat frameworks/react.gitignore \
+#     tools/webpack.gitignore \
+#     common/cache.gitignore > .gitignore

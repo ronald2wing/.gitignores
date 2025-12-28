@@ -1,0 +1,112 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Composer
+# Website: https://getcomposer.org/
+# Repository: https://github.com/composer/composer
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: Composer dependency manager patterns for vendor directories, cache, and logs
+# • DESIGN PHILOSOPHY: Focused patterns for PHP package management workflows
+# • COMBINATION GUIDANCE: Combine with PHP language template for complete PHP project coverage
+# • SECURITY CONSIDERATIONS: No security patterns included - must add common/security.gitignore
+# • BEST PRACTICES: Always combine with security template, test patterns with your project structure
+# • OFFICIAL SOURCES: Composer official documentation and PHP community patterns
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/composer/
+.infection.cache
+.php-cs-fixer.cache
+.phpcpd.cache
+.phpcs.cache
+.phpdox.cache
+.phpinsights.cache
+.phploc.cache
+.phpmd.cache
+.phpstan.cache
+.phpunit.result.cache
+.psalm.cache
+vendor/
+vendor/autoload.php
+vendor/composer/
+vendor/composer/installed.json
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+composer.log
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+coverage/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Composer-specific directories, configuration backups, and development artifacts
+
+.bak/
+.composer/
+.coveralls.yml
+.deploy/
+.deployment/
+.infection/
+.phpcpd/
+.phpcs/
+.phpdox/
+.phpinsights/
+.phploc/
+.phpmd/
+.phpstan/
+.psalm/
+composer.json.backup
+composer.json.bak
+packages/
+tests/_output/
+tests/_support/_generated/
+~/.composer/
+~/.config/composer/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Check patterns match your project structure and Composer setup
+# 2. CUSTOMIZE: Adjust for custom vendor paths or specific PHP tool configurations
+# 3. TEST: Use `git check-ignore -v` to verify vendor/ and cache patterns work
+# 4. SECURE: Always combine with common/security.gitignore for credential protection
+# 5. UPDATE: Review when upgrading Composer or adding new PHP development tools
+
+# IMPORTANT NOTES FOR COMPOSER PROJECTS:
+# • Keep composer.json and composer.lock committed to version control
+# • The vendor/ directory should always be ignored (managed by Composer)
+# • Consider adding patterns for PHP-specific tools your team uses
+
+# RECOMMENDED COMBINATIONS FOR PHP PROJECTS:
+
+# BASIC PHP PROJECT WITH COMPOSER:
+# cat languages/php.gitignore \
+#     common/security.gitignore \
+#     tools/composer.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore > .gitignore
+
+# PHP WEB PROJECT WITH FRAMEWORK (e.g., Laravel, Symfony):
+# cat frameworks/laravel.gitignore \
+#     tools/composer.gitignore \
+#     common/cache.gitignore > .gitignore
+
+# PHP LIBRARY/PACKAGE DEVELOPMENT:
+# cat languages/php.gitignore \
+#     common/security.gitignore \
+#     tools/composer.gitignore \
+#     common/testing.gitignore \
+#     common/cache.gitignore > .gitignore

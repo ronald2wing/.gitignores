@@ -1,0 +1,81 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for Haskell
+# Website: https://www.haskell.org/
+# Repository: https://github.com/ghc/ghc
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# • PURPOSE: Haskell compilation patterns for build artifacts, stack/cabal cache, and generated files
+# • DESIGN PHILOSOPHY: Modular design for combination with common templates
+# • COMBINATION GUIDANCE: Combine with common templates for comprehensive coverage
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with common/security.gitignore for protection, test with your specific build tools, review for project-specific exclusions
+# • OFFICIAL SOURCES: Haskell Official language documentation, package manager guides, and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.hsenv/
+dist-newstyle/
+dist/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# LANGUAGE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cabal
+*.eventlog
+*.hi
+*.hp
+*.o
+*.p_hi
+*.p_o
+*.prof
+.cabal-sandbox/
+.cabal/
+.hie/
+.hls/
+.hpc/
+.intero/
+.stack-work/
+.stack/
+cabal-dev/
+cabal.config
+cabal.project.local
+cabal.project.local~
+cabal.sandbox.config
+hpack-*.yaml
+package.yaml.orig
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common security patterns (common/security.gitignore) - CRITICAL for protecting sensitive data
+#   - Common cache patterns (common/cache.gitignore)
+#   - Common build patterns (common/build.gitignore)
+#   - Common logs patterns (common/logs.gitignore)
+#   - IDE template for your editor (ides/*.gitignore)
+#   - OS template for your system (os/*.gitignore)
+
+# EXAMPLE COMBINATION FOR Haskell:
+# cat languages/haskell.gitignore \
+#     common/security.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore \
+#     common/logs.gitignore \
+#     ides/visual-studio-code.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore

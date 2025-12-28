@@ -1,0 +1,203 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Vue.js
+# Website: https://vuejs.org/
+# Repository: https://github.com/vuejs/vue
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete Vue.js framework patterns for build artifacts, dependency cache, and development files
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns, test with your setup
+# • OFFICIAL SOURCES: Vue.js documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.pem
+*.secret
+*.token
+*_keys
+*_secrets
+*_tokens
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.lib
+*.so
+*.tar.gz
+*.whl
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.tsbuildinfo
+.cache/
+.vuepress/.cache
+.vuepress/dist
+.yarn/build-state.yml
+build/
+build/Release/
+dist/
+node_modules/
+packages/server-renderer/build.dev.js
+packages/server-renderer/build.prod.js
+packages/template-compiler/build.js
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+*.log.*
+.npm-debug.log*
+.parcel-cache/
+.pnpm-debug.log*
+.rpt2_cache/
+.tscache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.nyc_output/
+coverage-reports
+htmlcov/
+junit.xml
+test-results/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# VUE JS-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cer
+*.cjs.map
+*.csr
+*.d.ts
+*.der
+*.jks
+*.js
+*.js.map
+*.mjs.map
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pfx
+*.pid
+*.pid.lock
+*.pub
+*.tgz
+*.truststore
+.docusaurus
+.eslintcache
+.fusebox/
+.grunt
+.jest/
+.lock-wscript
+.next/
+.node_repl_history
+.npm
+.nuxt/
+.parcel-cache
+.pnp.*
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.stylelintcache
+.tern-port
+.ts-jest/
+.ts-node/
+.vscode-test/
+.vue-cli/
+.vuepress/.temp
+.yarn-integrity
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/versions/
+bower_components/
+cover/
+explorations
+jspm_packages/
+lib-cov/
+lib/
+out/
+packages/server-renderer/basic.js
+packages/server-renderer/client-plugin.js
+packages/server-renderer/server-plugin.js
+packages/template-compiler/browser.js
+pids/
+public/
+RELEASE_NOTE*.md
+spec-reports
+storybook-static/
+test-output/
+test-reports
+test-reports/
+testng-results.xml
+types/v3-generated.d.ts
+typings/
+web_modules/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR VUE JS PROJECT:
+# cp frameworks/vue.gitignore .gitignore

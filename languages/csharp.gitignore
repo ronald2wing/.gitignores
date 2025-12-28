@@ -1,0 +1,102 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for C#
+# Website: https://docs.microsoft.com/en-us/dotnet/csharp/
+# Repository: https://github.com/dotnet/csharplang
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# • PURPOSE: C# development patterns for compiled assemblies, NuGet packages, and build outputs
+# • DESIGN PHILOSOPHY: Modular design for combination with common templates
+# • COMBINATION GUIDANCE: Combine with common templates for comprehensive coverage
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with common/security.gitignore for protection, test with your specific build tools, review for project-specific exclusions
+# • OFFICIAL SOURCES: Csharp Official language documentation, package manager guides, and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.appx
+*.appxbundle
+*.appxupload
+*.dll
+*.exe
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.cache
+*.nuget.targets
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# LANGUAGE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.binlog
+*.dotCover
+*.DotSettings.user
+*.gpState
+*.ilk
+*.iobj
+*.ipdb
+*.jmconfig
+*.nuget.props
+*.nupkg
+*.obj
+*.opensdf
+*.pch
+*.pdb
+*.sdf
+*.sln.iml
+*.suo
+*.user
+*.userosscache
+*.vspscc
+*.vssscc
+bin/
+Debug/
+obj/
+Release/
+TestResults/
+x64/
+x86/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.coverage
+*.coveragexml
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common security patterns (common/security.gitignore) - CRITICAL for protecting sensitive data
+#   - Common cache patterns (common/cache.gitignore)
+#   - Common build patterns (common/build.gitignore)
+#   - Common logs patterns (common/logs.gitignore)
+#   - IDE template for your editor (ides/*.gitignore)
+#   - OS template for your system (os/*.gitignore)
+
+# EXAMPLE COMBINATION FOR C#:
+# cat languages/c_sharp.gitignore \
+#     common/security.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore \
+#     common/logs.gitignore \
+#     ides/visual-studio-code.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore

@@ -1,0 +1,147 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Cache
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Cache directory patterns for dependency caches, build caches, and temporary cache files
+# • DESIGN PHILOSOPHY: Modular - combine with language or framework templates
+# • COMBINATION GUIDANCE: Combine with language or framework templates as needed
+# • SECURITY CONSIDERATIONS: Security template includes comprehensive security patterns
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Development best practices, tool documentation, and community consensus
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CACHE FILES & TEMPORARY LOCK FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Cache files, lock files, and temporary state files
+
+*.cache
+*.lck
+*.lock
+*.pid
+*.pid.lock
+*.session
+*.state
+*.temp
+*.tmp
+.cache-*
+.cache.*
+.cache/
+.temp/
+.tmp/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PACKAGE MANAGER & DEPENDENCY CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Package manager cache directories and dependency caches
+
+.bun/
+.cargo/
+.cargo/git/
+.cargo/registry/
+.node_modules/
+.npm/
+.npminstall/
+.pnp.cjs
+.pnp.js
+.pnp.loader.mjs
+.pnp/
+.pnpm-store/
+.swiftpm/
+.turbo/
+.vite/
+.yarn/
+.yarn/cache
+.yarn/unplugged
+go/pkg/mod/
+maven-repo/
+node_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD SYSTEM & COMPILER CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Build system cache directories and compiler intermediate files
+
+.cmake-build-*/
+.cmake/
+.nx/
+.nx/cache/
+.rollup.cache/
+.tsbuildinfo
+.tsbuildinfo.*
+.xcodebuild/
+build-*/
+cmake-build-*/
+target-*/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT TOOL CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tool cache directories and temporary files
+
+.atom-cache/
+.babel-cache/
+.browser-cache/
+.chrome-cache/
+.emacs.d/auto-save-list/
+.emacs.d/backup/
+.eslintcache
+.firefox-cache/
+.less-cache/
+.next/cache/
+.parcel-cache/
+.postcss-cache/
+.prettiercache
+.safari-cache/
+.sass-cache/
+.stylelintcache
+.stylus-cache/
+.sublime-cache/
+.vim-cache/
+.webassets-cache
+.webpack/
+.yarn-cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SYSTEM TEMPORARY DIRECTORIES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# System temporary directories and cache locations
+
+/private/var/tmp/
+/tmp/
+/var/cache/
+/var/tmp/
+cache-*
+cache.*
+cache/
+composer-cache/
+gradle-cache/
+ivy-cache/
+out-*/
+pip-cache/
+sbt-cache/
+temp/
+tmp/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION WITH CACHE PATTERNS:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore > .gitignore

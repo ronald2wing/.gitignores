@@ -1,0 +1,83 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Yarn
+# Website: https://yarnpkg.com/
+# Repository: https://github.com/yarnpkg/yarn
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: Yarn package manager patterns for cache, logs, and development artifacts
+# • DESIGN PHILOSOPHY: Focused patterns for JavaScript/Node.js package management
+# • COMBINATION GUIDANCE: Combine with Node.js language template for JavaScript projects
+# • SECURITY CONSIDERATIONS: No security patterns included - must add common/security.gitignore
+# • BEST PRACTICES: Always combine with security template, test patterns with your project structure
+# • OFFICIAL SOURCES: Yarn official documentation and JavaScript community patterns
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.yarn/build-state.yml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.yarn/cache/
+yarn-error.log*
+yarn.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TOOL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.yarn/install-state.gz
+.yarn/patches/
+.yarn/plugins/
+.yarn/releases/
+.yarn/sdks/
+.yarn/unplugged/
+.yarn/versions/
+.yarn/workspace/
+.yarnrc.yaml.bak
+.yarnrc.yml.bak
+~/.config/yarn/
+~/.yarn/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Check patterns match your project structure and Yarn setup
+# 2. CUSTOMIZE: Adjust for custom Yarn configurations or specific cache locations
+# 3. TEST: Use `git check-ignore -v` to verify .yarn/cache/ patterns work
+# 4. SECURE: Always combine with common/security.gitignore for credential protection
+# 5. UPDATE: Review when upgrading Yarn or changing package management approach
+
+# IMPORTANT NOTES FOR YARN PROJECTS:
+# • Keep package.json and yarn.lock committed to version control
+# • The .yarn/cache/ directory should be ignored (managed by Yarn)
+# • Consider your team's Yarn version and configuration when customizing
+
+# RECOMMENDED COMBINATIONS FOR JAVASCRIPT PROJECTS:
+
+# BASIC NODE.JS PROJECT WITH YARN:
+# cat languages/node.gitignore \
+#     common/security.gitignore \
+#     tools/yarn.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore > .gitignore
+
+# JAVASCRIPT WEB PROJECT WITH YARN:
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/yarn.gitignore \
+#     tools/webpack.gitignore \
+#     common/cache.gitignore > .gitignore
+
+# REACT PROJECT WITH YARN (using framework template):
+# cat frameworks/react.gitignore \
+#     tools/yarn.gitignore \
+#     common/cache.gitignore > .gitignore

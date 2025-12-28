@@ -1,0 +1,67 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# LANGUAGE-SPECIFIC TEMPLATE for Java
+# Website: https://www.java.com/
+# Repository: https://github.com/openjdk/jdk
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: LANGUAGE-SPECIFIC TEMPLATE
+# • PURPOSE: Core Java development patterns for build artifacts, dependencies, and runtime files
+# • DESIGN PHILOSOPHY: Modular design for combination with common templates
+# • COMBINATION GUIDANCE: Combine with common templates for comprehensive coverage
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with common/security.gitignore, review patterns, test with your setup
+# • OFFICIAL SOURCES: Java documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.gradle/
+.mvn/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# LANGUAGE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!mvn/wrapper/maven-wrapper.jar
+.jacoco/
+.sonar/
+checkstyle-result.xml
+hs_err_pid*
+javadoc/
+mvnw
+mvnw.cmd
+replay_pid*
+TEST-*.xml
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, consider combining with:
+#   - Framework template if applicable (frameworks/*.gitignore)
+#   - Common security patterns (common/security.gitignore) - CRITICAL for protecting sensitive data
+#   - Common cache patterns (common/cache.gitignore)
+#   - Common build patterns (common/build.gitignore)
+#   - Common logs patterns (common/logs.gitignore)
+#   - IDE template for your editor (ides/*.gitignore)
+#   - OS template for your system (os/*.gitignore)
+
+# EXAMPLE COMBINATION FOR Java:
+# cat languages/java.gitignore \
+#     common/security.gitignore \
+#     common/cache.gitignore \
+#     common/build.gitignore \
+#     common/logs.gitignore \
+#     ides/visual-studio-code.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore

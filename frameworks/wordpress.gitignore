@@ -1,0 +1,153 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for WordPress
+# Website: https://wordpress.org/
+# Repository: https://github.com/WordPress/WordPress
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete WordPress patterns for theme/plugin development and deployment artifacts
+# • DESIGN PHILOSOPHY: Self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns
+# • BEST PRACTICES: Use as standalone template, review security patterns for your project needs, test with your deployment setup
+# • OFFICIAL SOURCES: Wordpress Framework official documentation, community guidelines, and deployment best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.key
+*.pem
+.env
+.env.*.local
+.env.local
+.env.production
+.secret
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.tar
+*.tar.gz
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/
+.php_cs.cache
+.phpstan.cache
+.phpunit.cache/
+.phpunit.result.cache
+.psalm.cache
+vendor/
+wp-content/plugins/*/build/
+wp-content/plugins/*/dist/
+wp-content/plugins/*/vendor/
+wp-content/themes/*/build/
+wp-content/themes/*/dist/
+wp-content/themes/*/vendor/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.log
+*.tmp
+.tmp/
+debug.log
+php_errors.log
+temp/
+wp-content/cache/
+xdebug.log
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+coverage/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# WORD PRESS-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!wp-content/.gitkeep
+!wp-content/index.php
+!wp-content/uploads/.gitkeep
+!wp-content/uploads/index.php
+*.code-workspace
+*.sql
+*.sql.gz
+*.sublime-*
+*.temp
+.DS_Store
+.pdepend/
+.php-built-in-web-server.pid
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan/
+.psalm/
+behat.yml
+composer.phar
+docs/
+error_log
+index.php
+license.txt
+phpdoc/
+readme.html
+sess_*
+Thumbs.db
+tmp/
+uploads/
+wp-activate.php
+wp-admin/
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-content/
+wp-content/backup-db/
+wp-content/backup/
+wp-content/blogs.dir/
+wp-content/plugins/hello.php
+wp-content/themes/twenty*/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/uploads/sites/
+wp-cron.php
+wp-includes/
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR WORD PRESS PROJECT:
+# cp frameworks/word_press.gitignore .gitignore

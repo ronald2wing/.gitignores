@@ -1,0 +1,157 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMMON PATTERNS TEMPLATE for Logs
+# Website: https://gitignores.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMMON PATTERNS TEMPLATE
+# • PURPOSE: Log file patterns for application logs, error logs, and system log files
+# • DESIGN PHILOSOPHY: Modular - combine with language or framework templates
+# • COMBINATION GUIDANCE: Combine with language or framework templates as needed
+# • SECURITY CONSIDERATIONS: Security template includes comprehensive security patterns
+# • BEST PRACTICES: Always combine with language templates, review patterns for your specific use case
+# • OFFICIAL SOURCES: Development best practices, logging frameworks, and community consensus
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# APPLICATION LOG FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Application-specific log files and runtime logs
+
+*.analytics.log
+*.app.log
+*.application.log
+*.audit
+*.audit.log
+*.client.log
+*.console.log
+*.critical.log
+*.daemon.log
+*.db.log
+*.debug.log
+*.error.log
+*.fatal.log
+*.info.log
+*.log
+*.log.*
+*.log.[0-9]*
+*.log.[0-9][0-9]*
+*.log.backup
+*.log.bak
+*.log.bz2
+*.log.gz
+*.log.old
+*.log.prev
+*.log.prev*
+*.log.tar
+*.log.tar.gz
+*.log.xz
+*.log.zip
+*.metric.log
+*.monitor.log
+*.performance.log
+*.process.log
+*.query.log
+*.server.log
+*.service.log
+*.session.log
+*.telemetry.log
+*.thread.log
+*.trace.log
+*.warn.log
+*.warning.log
+access.log
+apache-access.log
+apache-error.log
+cache/log/
+django.log
+error.log
+express.log
+flask.log
+gatsby.log
+httpd-access.log
+httpd-error.log
+laravel.log
+logs/
+mongodb.log
+mysql.log
+next.log
+nginx-access.log
+nginx-error.log
+nuxt.log
+postgresql.log
+rails.log
+redis.log
+spring.log
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEBUG & DEVELOPMENT LOGS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Debug logs, package manager logs, and development tool logs
+
+*.cache.log
+.npm-debug.log*
+.pnpm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+lerna-debug.log*
+npm-debug.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SYSTEM & PROCESS LOGS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# System logs, process logs, and runtime artifacts
+
+*.binlog
+*.console
+*.core
+*.core.*
+*.crash
+*.crashdump
+*.dblog
+*.dmp
+*.dump
+*.hdmp
+*.lock
+*.mdmp
+*.minidump
+*.out
+*.perf
+*.pid
+*.pid.lock
+*.relaylog
+*.slowlog
+*.stderr
+*.stdout
+access_log
+celerybeat-schedule
+celerybeat.pid
+error_log
+horizon.pid
+log/
+octane-state.json
+puma.pid
+sidekiq.pid
+unicorn.pid
+var/log/
+var/run/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION WITH LOGS PATTERNS:
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     common/logs.gitignore \
+#     common/cache.gitignore > .gitignore

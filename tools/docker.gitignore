@@ -1,0 +1,230 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for Docker
+# Website: https://www.docker.com/
+# Repository: https://github.com/ronald2wing/.gitignores
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: Docker-specific patterns for configuration, cache, logs, and development artifacts
+# • DESIGN PHILOSOPHY: Tool-specific patterns for development and deployment workflows
+# • COMBINATION GUIDANCE: Combine with language templates for specific development workflows
+# • SECURITY CONSIDERATIONS: No security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Combine with language + security templates, test with your workflow
+# • OFFICIAL SOURCES: Docker documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER CONFIGURATION & CREDENTIAL FILES (SECURITY-SENSITIVE)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect Docker configuration and credential files from accidental commits
+
+.dockercfg
+.dockerconfig
+.dockerpass
+docker-auth.json
+docker-config.json
+docker-credentials.json
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER RUNTIME & ENVIRONMENT FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker runtime environment files and system artifacts
+
+.dockerenv
+docker-daemon.log
+docker-engine.log
+docker-environment.yml
+docker.env
+docker.log
+docker.pid
+docker.sock
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKERFILE & BUILD CONFIGURATION FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker build configuration files and related artifacts
+
+.dockerbuild
+.dockerfile
+.dockerignore
+Dockerfile
+Dockerfile.*
+Dockerfile.backup
+Dockerfile.bak
+Dockerfile.dev
+Dockerfile.prod
+Dockerfile.staging
+Dockerfile.test
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER COMPOSE & ORCHESTRATION FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker Compose and container orchestration configuration files
+
+docker-compose.*.yml
+docker-compose.dev.yml
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.staging.yml
+docker-compose.test.yml
+docker-compose.yml
+docker-compose.yml.backup
+docker-compose.yml.bak
+docker-orchestration.yml
+docker-stack.yml
+docker-swarm.yml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER VOLUMES & DATA MANAGEMENT
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker volume directories and data management files
+
+docker-data/
+docker-persistent/
+docker-storage/
+docker-volume-backup.*
+docker-volume-restore.*
+docker-volume-snapshot.*
+docker-volumes*/
+volumes/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER BUILD CACHE & CONTEXT DIRECTORIES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker build cache, context, and temporary directories
+
+.docker/
+.dockerbuild/
+.dockercache/
+.dockercontext/
+docker-build/
+docker-cache/
+docker-context/
+docker-temp/
+docker-tmp/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER NETWORK & SWARM CONFIGURATION
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker network, swarm, and cluster configuration files
+
+docker-cluster.yml
+docker-network.yml
+docker-networks.yml
+docker-node.yml
+docker-overlay.yml
+docker-swarm-config.yml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER SECRETS & CONFIG MANAGEMENT
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker secrets, configs, and sensitive management files
+
+.dockerconfigs/
+.dockersecrets/
+docker-config.*
+docker-configs.yml
+docker-secret.*
+docker-secrets.yml
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER PLUGINS & EXTENSIONS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker plugin directories and extension files
+
+.dockerplugins/
+docker-extension.*
+docker-plugin.*
+docker-plugins/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER BACKUP & MIGRATION FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker backup, migration, and export files
+
+docker-backup.*
+docker-checkpoint.*
+docker-export.*
+docker-import.*
+docker-migration.*
+docker-snapshot.*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER LOGS & DIAGNOSTIC FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker log files and diagnostic artifacts
+
+.dockerlogs/
+docker-debug.log
+docker-diagnostic.*
+docker-logs/
+docker-metrics.*
+docker-stats.*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DOCKER REGISTRY & IMAGE MANAGEMENT
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Docker registry configuration and image management files
+
+docker-image.*
+docker-images.yml
+docker-manifest.*
+docker-registry.yml
+docker-tags.yml
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. SECURITY FIRST: Always combine with common/security.gitignore for comprehensive protection
+# 2. PROJECT-SPECIFIC: Review and customize patterns based on your Docker usage
+# 3. TEST THOROUGHLY: Use `git check-ignore -v <file>` to verify patterns work correctly
+# 4. REGULAR UPDATES: Review Docker patterns periodically as technology evolves
+# 5. DOCUMENTATION: Add comments for project-specific patterns
+
+# RECOMMENDED COMBINATIONS:
+# =========================
+
+# EXAMPLE 1: DOCKER + NODE.JS PROJECT
+# ------------------------------------
+# cat languages/node.gitignore \
+#     common/security.gitignore \
+#     tools/docker.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore > .gitignore
+
+# EXAMPLE 2: DOCKER + PYTHON/DJANGO PROJECT
+# ------------------------------------------
+# cat frameworks/django.gitignore \
+#     tools/docker.gitignore \
+#     common/cache.gitignore > .gitignore
+
+# EXAMPLE 3: DOCKER + REACT PROJECT
+# ----------------------------------
+# cat frameworks/react.gitignore \
+#     tools/docker.gitignore \
+#     common/cache.gitignore > .gitignore
+
+# EXAMPLE 4: ENTERPRISE DOCKER SETUP
+# -----------------------------------
+# cat languages/python.gitignore \
+#     common/security.gitignore \
+#     tools/docker.gitignore \
+#     common/build.gitignore \
+#     common/cache.gitignore \
+#     common/logs.gitignore \
+#     common/backup.gitignore \
+#     os/linux.gitignore \
+#     os/macos.gitignore \
+#     os/windows.gitignore > .gitignore
+
+# IMPORTANT NOTES:
+# ================
+# 1. Framework templates (like django.gitignore, react.gitignore) already include
+#    security patterns, so you don't need to add common/security.gitignore separately
+# 2. Language templates (like python.gitignore, node.gitignore) do NOT include
+#    security patterns, so you MUST add common/security.gitignore
+# 3. Always test your combined .gitignore file with `git status` to ensure
+#    essential files are not accidentally excluded

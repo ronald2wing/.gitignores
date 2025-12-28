@@ -1,0 +1,442 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# REPOSITORY DEVELOPMENT TEMPLATE for gitignores Template Collection
+# Website: https://gitignores.com/
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: REPOSITORY DEVELOPMENT TEMPLATE
+# • DESIGN PHILOSOPHY: Repository-specific patterns for development only
+# • IMPORTANT: This file is NOT for user projects - it's for repository development
+# • USAGE: Patterns here are specific to this template repository's development
+# • UPDATED: January 2026 - Enhanced to follow comprehensive template standard
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# IMPORTANT DISCLAIMER
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# This file ignores development artifacts, editor files, and temporary files
+# for this template repository. It is NOT a template file itself.
+#
+# The templates in subdirectories (languages/, frameworks/, tools/, etc.) are
+# example .gitignore patterns for users to include in their own projects.
+# These patterns should NOT be included in user projects' .gitignore files.
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# OPERATING SYSTEM FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# macOS and Windows system files generated during development
+
+# macOS System Files
+.DS_Store
+.DS_Store?
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.Icon
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Network\\\\\\\\ Trash\\\\\\\\ Folder
+Temporary\\\\\\\\ Items/
+
+# Windows System Files
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.lnk
+*.msi
+*.msix
+*.msm
+*.msp
+*.stackdump
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# EDITORS & INTEGRATED DEVELOPMENT ENVIRONMENTS (IDEs)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Development tools used when working on this repository
+# Users should use ides/ directory templates for their projects
+
+# Visual Studio Code
+.history/
+.vscode/*
+.vscodeignore
+*.code-workspace
+*.vsix
+.vscode-cpptools/
+.vscode-insiders/
+.vscode-profile/
+.vscode-test/
+
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.metadata/
+.project
+.settings/
+
+# Vim and Neovim
+*~
+*.swp
+*.swo
+*.un~
+.session.vim
+.netrwhist
+tags
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+
+# Emacs
+\\\\#*
+.\\\\#*
+.*~
+*.elc
+auto-save-list
+tramp
+
+# Sublime Text
+*.sublime-*
+*.sublime-cache
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+sftp-settings.json
+
+# Atom
+.atom/
+.atomic-writes
+.blink*
+.storage/
+*.cson
+*.coffee
+*.map
+.apm/
+.compile-cache/
+.dev/
+.node-gyp/
+.npm/
+
+# Nano
+.save-*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# PYTHON DEVELOPMENT (Repository Tools)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# This repository includes Python tools for template validation and testing
+# These patterns ignore Python development artifacts
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#Pipfile.lock
+
+# poetry
+#poetry.lock
+
+# pdm
+#pdm.lock
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is already included above
+
+# VS Code
+#  VS Code specific template is already included above
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# REPOSITORY DEVELOPMENT ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Temporary files and logs generated during repository development
+
+# Log Files
+*.pid
+*.pid.lock
+*.seed
+*.temp
+*.tmp
+.pnpm-debug.log*
+.npm-debug.log*
+lerna-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TEST & COVERAGE OUTPUTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Test outputs and coverage reports generated when running Python tools
+
+# Test coverage
+.coverage.*.*
+.coverage_html/
+
+# pytest
+.pytest_cache/*
+!/.pytest_cache/.gitignore
+!/.pytest_cache/README.md
+
+# unittest
+test-results/
+test-reports/
+
+# mypy
+
+# Bandit security tool
+.bandit
+
+# Safety security tool
+.safety
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD & PACKAGE OUTPUTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Build artifacts from Python packaging
+
+# Python packaging
+*.whl
+*.tar.gz
+
+# Setuptools
+
+# pip
+pip-wheel-metadata/
+
+# Poetry
+poetry.lock
+
+# PDM
+pdm.lock
+.pdm-build/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT TOOL CONFIGURATIONS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Local development tool configurations (user-specific)
+
+# pre-commit
+.pre-commit-config.yaml.local
+
+# black
+.pyink_config
+
+# isort
+.isort.cfg
+
+# flake8
+.flake8
+
+# pylint
+.pylintrc.local
+
+# mypy
+.mypy.ini.local
+
+# VS Code workspace settings
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE REPOSITORY INFORMATION
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# This repository contains template .gitignore files in the following
+# subdirectories:
+#   - common/        (7 templates for common patterns)
+#   - languages/     (31 templates for programming languages)
+#   - frameworks/    (34 templates for web frameworks)
+#   - tools/         (37 templates for build tools and utilities)
+#   - ides/          (14 templates for code editors and IDEs)
+#   - os/            (3 templates for operating systems)
+#   - platforms/     (3 templates for development platforms)
+#
+# These template files are NOT for this repository itself. They are examples
+# for users to include in their own projects. The patterns in this file
+# (root .gitignore) are specifically for this repository's development.
+#
+# This repository should NOT contain:
+#   - Actual project dependencies (node_modules/, vendor/, etc.)
+#   - Framework-specific build directories (.next/, .nuxt/, etc.)
+#   - Application build outputs (build/, dist/, out/) from template examples
+#   - Real environment files with sensitive data (.env with actual secrets)
+#
+# If you find any of the above in this repository, they are likely development
+# artifacts that should be cleaned up, not template examples.
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# USER GUIDANCE & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# For users looking to create .gitignore files for their own projects:
+
+# 1. USE SPECIFIC TEMPLATE FILES FROM SUBDIRECTORIES:
+#    ```bash
+#    cp languages/python.gitignore .gitignore
+#    ```
+
+# 2. COMBINE MULTIPLE TEMPLATES:
+#    ```bash
+#    cat languages/python.gitignore common/security.gitignore > .gitignore
+#    ```
+
+# 3. USE COMMON PATTERNS FROM THE COMMON/ DIRECTORY:
+#    ```bash
+#    cat common/security.gitignore common/build.gitignore > .gitignore
+#    ```
+
+# 4. SEE README.MD FOR COMPREHENSIVE USAGE INSTRUCTIONS AND EXAMPLES.
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ENHANCED TEMPLATE STRUCTURE STANDARD
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# All templates in this repository follow this enhanced structure:
+#
+# 1. Header with source attribution and template type
+# 2. Template overview with design philosophy and usage notes
+# 3. Organized sections with fancy separators for clear visual hierarchy
+# 4. Technology-specific patterns organized by functional area
+# 5. Detailed comments explaining pattern purposes
+# 6. Template customization and best practices guidance
+# 7. Combination examples for comprehensive coverage
+#
+# This enhanced structure provides better readability, maintainability,
+# and user experience compared to the old common pattern structure.

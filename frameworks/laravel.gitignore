@@ -1,0 +1,221 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# COMPREHENSIVE FRAMEWORK TEMPLATE for Laravel
+# Website: https://laravel.com/
+# Repository: https://github.com/laravel/laravel
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: COMPREHENSIVE FRAMEWORK TEMPLATE
+# • PURPOSE: Complete Laravel framework patterns for PHP web applications and development artifacts
+# • DESIGN PHILOSOPHY: Comprehensive and self-contained with all necessary patterns
+# • COMBINATION GUIDANCE: Can be used standalone or combined with IDE/OS templates
+# • SECURITY CONSIDERATIONS: Includes comprehensive security patterns for sensitive data protection
+# • BEST PRACTICES: Use as standalone template, review security patterns, test with your setup
+# • OFFICIAL SOURCES: Laravel documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# SECURITY & SENSITIVE DATA PROTECTION (ALWAYS FIRST!)
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CRITICAL: Protect sensitive data from accidental commits to version control
+
+*.crt
+*.key
+*.keystore
+*.pem
+*.secret
+*.token
+*_keys
+*_secrets
+*_tokens
+.env
+.env.*
+.env.*.local
+.env.demo
+.env.demo.local
+.env.development
+.env.development.local
+.env.local
+.env.production
+.env.production.local
+.env.qa
+.env.qa.local
+.env.staging
+.env.staging.local
+.env.test
+.env.test.local
+id_dsa
+id_rsa
+storage/*.key
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION PACKAGES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.dll
+*.egg
+*.egg-info/
+*.exe
+*.lib
+*.so
+*.tar.gz
+*.whl
+*.zip
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.cache/
+.php_cs.cache
+.phpstan.cache
+.phpunit.cache
+.phpunit.result.cache
+.psalm.cache
+build/
+dist/
+public/build/
+vendor/encore/laravel-admin/
+vendor/frozennode/administrator/
+vendor/lacasts/generators/
+vendor/tcg/voyager/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+*.log
+*.log.*
+.parcel-cache/
+.pnpm-debug.log*
+.rpt2_cache/
+bootstrap/cache/
+npm-debug.log*
+php_errors.log
+var/cache/*
+var/logs/*
+xdebug.log
+yarn-debug.log*
+yarn-error.log*
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# LARAVEL-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+!var/cache
+!var/logs
+!var/sessions
+!var/sessions/.gitkeep
+*.cer
+*.com
+*.csr
+*.der
+*.jks
+*.nupkg
+*.o
+*.obj
+*.p12
+*.p7b
+*.p7c
+*.pfx
+*.pid
+*.pid.lock
+*.pub
+*.tgz
+*.truststore
+.docusaurus
+.fusebox/
+.next/
+.nuxt/
+.parcel-cache
+.pdepend/
+.php-built-in-web-server.pid
+.phpactor.json
+.phpcbf/
+.phpcpd/
+.phpcs/
+.phpdcd/
+.phploc/
+.phpmd/
+.phpmetrics/
+.phpstan/
+.phpstorm.meta.php
+.pnp.*
+.psalm/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.storybook-out/
+.stylelintcache
+.vapor/
+.vscode-test/
+_ide_helper.php
+_ide_helper_models.php
+auth.json
+behat.yml
+blueprint/
+bower_components/
+cover/
+docker-compose.override.yml
+docs/
+Homestead.json
+Homestead.yaml
+horizon.pid
+jspm_packages/
+nova-components/
+octane-state.json
+out/
+phpdoc/
+platform/
+public/
+public/hot/
+sess_*
+spark/
+storage/pail/
+storybook-static/
+telescope/
+test-output/
+test-reports/
+testng-results.xml
+tests/Browser/console/
+tests/Browser/screenshots/
+tests/Browser/source/
+tmp/
+uploads/
+var/
+var/sessions/*
+web_modules/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.nyc_output/
+coverage/
+htmlcov/
+junit.xml
+test-results/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use
+# 2. CUSTOMIZE: Adapt to your project's specific structure
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always protect sensitive data and credentials
+# 5. UPDATE: Review periodically as technology evolves
+
+# For comprehensive coverage, this template can be used standalone.
+# Optionally combine with IDE/OS templates if needed:
+
+# EXAMPLE USAGE FOR LARAVEL PROJECT:
+# cp frameworks/laravel.gitignore .gitignore

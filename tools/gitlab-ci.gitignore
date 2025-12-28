@@ -1,0 +1,71 @@
+# ============================================================================
+# Created by https://gitignores.com/
+# TOOL-SPECIFIC TEMPLATE for GitLab CI
+# Website: https://gitlab.com/
+# Repository: https://github.com/gitlabhq/gitlabhq
+# ============================================================================
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE OVERVIEW & USAGE NOTES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# • TEMPLATE TYPE: TOOL-SPECIFIC TEMPLATE
+# • PURPOSE: GitLab CI-specific patterns for cache, artifacts, and temporary files
+# • DESIGN PHILOSOPHY: Focus on CI/CD cache and artifact directories, not configuration files
+# • COMBINATION GUIDANCE: Combine with language templates for complete CI/CD workflow coverage
+# • SECURITY CONSIDERATIONS: Does not include security patterns - combine with common/security.gitignore
+# • BEST PRACTICES: Review patterns before use, test with your workflow, keep configuration files committed
+# • OFFICIAL SOURCES: GitLab CI documentation and community best practices
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# CACHE & TEMPORARY FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# GitLab CI cache directories and temporary files
+
+.gitlab/cache/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# ARTIFACTS & BUILD OUTPUTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Generated artifacts and build outputs
+
+.gitlab/artifacts/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TEMPORARY CI FILES
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# Temporary or generated CI files (not main configuration)
+
+.gitlab-ci.yml.bak
+.gitlab-ci.yml.tmp
+.gitlab/ci/
+.gitlab/runners/
+.gitlab/schedules/
+.gitlab/triggers/
+.gitlab/variables/
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# TEMPLATE CUSTOMIZATION & BEST PRACTICES
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. REVIEW: Examine all patterns before use - this template only ignores cache/artifact directories
+# 2. CUSTOMIZE: Add project-specific temporary file patterns as needed
+# 3. TEST: Use `git check-ignore` to verify patterns work correctly
+# 4. SECURE: Always combine with common/security.gitignore for credential protection
+# 5. UPDATE: Review periodically as GitLab CI features evolve
+
+# IMPORTANT: This template does NOT ignore configuration files that should be committed:
+# - .gitlab-ci.yml (main configuration file)
+# - .gitlab/CODEOWNERS, .gitlab/issue_templates/, .gitlab/merge_request_templates/
+# - .gitlab/security/ (security configuration)
+
+# Combine with language or framework templates as needed:
+
+# EXAMPLE COMBINATION FOR CI/CD PROJECTS:
+# cat common/security.gitignore \
+#     tools/gitlab-ci.gitignore \
+#     common/cache.gitignore > .gitignore
+#
+# For language-specific projects, combine with appropriate language template:
+# cat languages/javascript.gitignore \
+#     common/security.gitignore \
+#     tools/gitlab-ci.gitignore \
+#     common/cache.gitignore > .gitignore
